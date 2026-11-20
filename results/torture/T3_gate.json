@@ -1,0 +1,61 @@
+{
+  "input_sha256": {
+    "T3_clean": "26ce9b25b14fa0d41d7a6140400c4727a8918616101e682eac3a56975846dceb",
+    "T3_dirty": "e55e55f69f4b9040db4321c57d41ab983944d255fbd0ea431dd6a5f49dea8bd7",
+    "routed_gates_sha256": "00f9194a0004968ae724813db5cb73541577bddbc4da2393e9bad508d7f8f6ca"
+  },
+  "checked_clocks": 2688,
+  "complete_frames": [
+    20,
+    20
+  ],
+  "clean_codes": [
+    338,
+    -2291,
+    -3582,
+    -2775,
+    -344,
+    2289,
+    3579,
+    2774,
+    341,
+    -2293,
+    -3583,
+    -2778,
+    -342,
+    2289,
+    3579,
+    2774
+  ],
+  "dirty_codes": [
+    341,
+    -2294,
+    -3583,
+    -2776,
+    -343,
+    2289,
+    3580,
+    2773,
+    343,
+    -2294,
+    -3582,
+    -2777,
+    -345,
+    2292,
+    3578,
+    2776
+  ],
+  "clean_sndr_dB": 66.7141908795034,
+  "dirty_sndr_dB": 64.58312255988463,
+  "sample_offset_ns": 25,
+  "reset_release_tick": 5,
+  "oracle_errors": 0,
+  "first_wrap_flag_tick": [
+    12,
+    12
+  ],
+  "max_transition_count_after_tick_512": [
+    8,
+    8
+  ]
+}

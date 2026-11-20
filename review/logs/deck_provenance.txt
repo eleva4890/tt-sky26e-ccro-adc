@@ -1,0 +1,5 @@
+https://fossi-foundation.github.io/ciel-releases/sky130/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/manifest.json
+https://github.com/fossi-foundation/ciel-releases/releases/download/sky130-8afc8346a57fe1ab7934ba5a6056ea8b43078e71/common.tar.zst
+sky130A/libs.tech/netgen/sky130A_setup.tcl
+SHA-256 7a33f3f54fab57a9d9b0887ac7b7b64ce6c454110e8b7f01f3cfb90a1282dc94
+PASS byte-for-byte identical to installed comparison deck

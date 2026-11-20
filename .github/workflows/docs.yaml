@@ -1,0 +1,12 @@
+name: docs
+on: [push, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  docs:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: TinyTapeout/tt-gds-action/docs@ttsky26e
+        with:
+          tools-ref: 8f7b5060d7f6df73bfd2e0b8d8fa0fd1dca0a0b1

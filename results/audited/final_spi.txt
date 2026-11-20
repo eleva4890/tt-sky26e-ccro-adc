@@ -1,0 +1,10 @@
+frame 1 signed code 1255
+frame 2 signed code 2647
+frame 3 signed code 2647
+PASS: 544 sample clocks, 3 frames, sign 1
+verification/mixed_tb.v:43: $finish called at 17000000 (1ps)
+frame 1 signed code -1256
+frame 2 signed code -2649
+frame 3 signed code -2649
+PASS: 544 sample clocks, 3 frames, sign -1
+verification/mixed_tb.v:43: $finish called at 17000000 (1ps)

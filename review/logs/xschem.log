@@ -1,0 +1,14 @@
+open_pdks installation: using /tmp/sky26e-bgr-integration-pdk
+SKYWATER_MODELS: /tmp/sky26e-bgr-integration-pdk/sky130A/libs.tech/combined
+SKYWATER_STDCELLS: /tmp/sky26e-bgr-integration-pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice
+tcleval(): evaluation of script: xschem set format lvs_format failed
+         : Not available in this context. If using --tcl consider using --command
+setup_tcp_bespice: success : listening to TCP port: 2022
+
+open_pdks installation: using /tmp/sky26e-bgr-integration-pdk
+SKYWATER_MODELS: /tmp/sky26e-bgr-integration-pdk/sky130A/libs.tech/combined
+SKYWATER_STDCELLS: /tmp/sky26e-bgr-integration-pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice
+tcleval(): evaluation of script: xschem set format lvs_format failed
+         : Not available in this context. If using --tcl consider using --command
+setup_tcp_bespice: success : listening to TCP port: 2022
+

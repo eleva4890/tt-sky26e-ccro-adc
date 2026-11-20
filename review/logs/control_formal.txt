@@ -1,0 +1,6 @@
+Negative control: invert routed SDO at observable port
+Found 182 unproven $equiv cells (182 groups) in equivalent:
+Trying to prove $equiv for \sdo: failed.
+Proved 181 previously unproven $equiv cells.
+ERROR: Found 1 unproven $equiv cells in 'equiv_status -assert'.
+PASS: equiv_status -assert rejected defect.

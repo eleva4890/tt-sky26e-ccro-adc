@@ -1,0 +1,2 @@
+Documentation check passed successfully.
+SKY26e info.yaml and docs/info.md accepted by tt-support-tools

@@ -1,0 +1,477 @@
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/tt_um_eleva_ccro_adc.sch
+.subckt tt_um_eleva_ccro_adc VDPWR VGND clk ena rst_n ui_in[0] ui_in[1] ui_in[2] ui_in[3] ui_in[4]
++ ui_in[5] ui_in[6] ui_in[7] uo_out[0] uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7]
++ uio_in[0] uio_in[1] uio_in[2] uio_in[3] uio_in[4] uio_in[5] uio_in[6] uio_in[7] uio_out[0] uio_out[1]
++ uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7] uio_oe[0] uio_oe[1] uio_oe[2] uio_oe[3]
++ uio_oe[4] uio_oe[5] uio_oe[6] uio_oe[7] ua[0] ua[1] ua[2] ua[3] ua[4] ua[5] ua[6] ua[7]
+*.PININFO VDPWR:B VGND:B clk:B ena:B rst_n:B ui_in[0]:B ui_in[1]:B ui_in[2]:B ui_in[3]:B ui_in[4]:B
+*+ ui_in[5]:B ui_in[6]:B ui_in[7]:B uo_out[0]:B uo_out[1]:B uo_out[2]:B uo_out[3]:B uo_out[4]:B uo_out[5]:B
+*+ uo_out[6]:B uo_out[7]:B uio_in[0]:B uio_in[1]:B uio_in[2]:B uio_in[3]:B uio_in[4]:B uio_in[5]:B uio_in[6]:B
+*+ uio_in[7]:B uio_out[0]:B uio_out[1]:B uio_out[2]:B uio_out[3]:B uio_out[4]:B uio_out[5]:B uio_out[6]:B
+*+ uio_out[7]:B uio_oe[0]:B uio_oe[1]:B uio_oe[2]:B uio_oe[3]:B uio_oe[4]:B uio_oe[5]:B uio_oe[6]:B uio_oe[7]:B
+*+ ua[0]:B ua[1]:B ua[2]:B ua[3]:B ua[4]:B ua[5]:B ua[6]:B ua[7]:B
+Xana ua[0] ua[1] ui_in[3] ui_in[4] VDPWR VGND p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 n0
++ n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14 adc_analog
+Xdig VGND VDPWR clk uio_out[1] ui_in[1] ui_in[2] uo_out[0] uo_out[1] uo_out[2] uo_out[3] uo_out[4]
++ uo_out[5] uo_out[6] uo_out[7] ui_in[5] ui_in[0] rst_n uio_out[2] uio_out[0] n0 n10 n11 n12 n13 n14 n1 n2 n3
++ n4 n5 n6 n7 n8 n9 p0 p10 p11 p12 p13 p14 p1 p2 p3 p4 p5 p6 p7 p8 p9 uio_out[3] adc_readout
+Xconst0 VGND VGND VDPWR VDPWR uio_oe[0] uio_out[4] sky130_fd_sc_hd__conb_1
+Xconst1 VGND VGND VDPWR VDPWR uio_oe[1] uio_out[5] sky130_fd_sc_hd__conb_1
+Xconst2 VGND VGND VDPWR VDPWR uio_oe[2] uio_out[6] sky130_fd_sc_hd__conb_1
+Xconst3 VGND VGND VDPWR VDPWR uio_oe[3] uio_out[7] sky130_fd_sc_hd__conb_1
+Xconst4 VGND VGND VDPWR VDPWR unused_hi4 uio_oe[4] sky130_fd_sc_hd__conb_1
+Xconst5 VGND VGND VDPWR VDPWR unused_hi5 uio_oe[5] sky130_fd_sc_hd__conb_1
+Xconst6 VGND VGND VDPWR VDPWR unused_hi6 uio_oe[6] sky130_fd_sc_hd__conb_1
+Xconst7 VGND VGND VDPWR VDPWR unused_hi7 uio_oe[7] sky130_fd_sc_hd__conb_1
+XDprotect_b0 VGND ui_in[3] sky130_fd_pr__diode_pw2nd_05v5 area=4.347e+11 perim=2.64e+06
+XDprotect_b1 VGND ui_in[4] sky130_fd_pr__diode_pw2nd_05v5 area=4.347e+11 perim=2.64e+06
+.ends
+
+* expanding   symbol:  adc_analog.sym # of pins=36
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/adc_analog.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/adc_analog.sch
+.subckt adc_analog vinp vinn b0 b1 v g p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 n0 n1 n2 n3
++ n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14
+*.PININFO vinp:B vinn:B b0:B b1:B v:B g:B p0:B p1:B p2:B p3:B p4:B p5:B p6:B p7:B p8:B p9:B p10:B
+*+ p11:B p12:B p13:B p14:B n0:B n1:B n2:B n3:B n4:B n5:B n6:B n7:B n8:B n9:B n10:B n11:B n12:B n13:B n14:B
+Xf vinp vinn b0 b1 rp rn v g front
+Xd rp rn v g p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 n0 n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11
++ n12 n13 n14 dual
+.ends
+
+
+* expanding   symbol:  front.sym # of pins=8
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/front.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/front.sch
+.subckt front vinp vinn b0 b1 rp rn v g
+*.PININFO vinp:B vinn:B b0:B b1:B rp:B rn:B v:B g:B
+Xbias b0 b1 vb g4 g15 g20 v g bias
+Xtailp sp vb g4 g15 g20 v tail
+Xtailn sn vb g4 g15 g20 v tail
+XMinp0 rp vinn sp sp sky130_fd_pr__pfet_01v8_lvt L=1 W=6 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMinp1 rp vinn sp sp sky130_fd_pr__pfet_01v8_lvt L=1 W=6 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMinp2 rp vinn sp sp sky130_fd_pr__pfet_01v8_lvt L=1 W=6 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMinp3 rp vinn sp sp sky130_fd_pr__pfet_01v8_lvt L=1 W=6 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMinn0 rn vinp sn sn sky130_fd_pr__pfet_01v8_lvt L=1 W=6 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMinn1 rn vinp sn sn sky130_fd_pr__pfet_01v8_lvt L=1 W=6 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMinn2 rn vinp sn sn sky130_fd_pr__pfet_01v8_lvt L=1 W=6 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMinn3 rn vinp sn sn sky130_fd_pr__pfet_01v8_lvt L=1 W=6 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XRr0 sp mid g sky130_fd_pr__res_high_po_0p69 L=80 mult=1 m=1
+XRr1 mid sn g sky130_fd_pr__res_high_po_0p69 L=80 mult=1 m=1
+XCcapP rp g sky130_fd_pr__cap_mim_m3_1 W=21.8 L=21.8 MF=1 m=1
+XCcapN rn g sky130_fd_pr__cap_mim_m3_1 W=21.8 L=21.8 MF=1 m=1
+.ends
+
+
+* expanding   symbol:  dual.sym # of pins=34
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/dual.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/dual.sch
+.subckt dual rp rn v g p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 n0 n1 n2 n3 n4 n5 n6 n7 n8
++ n9 n10 n11 n12 n13 n14
+*.PININFO rp:B rn:B v:B g:B p0:B p1:B p2:B p3:B p4:B p5:B p6:B p7:B p8:B p9:B p10:B p11:B p12:B
+*+ p13:B p14:B n0:B n1:B n2:B n3:B n4:B n5:B n6:B n7:B n8:B n9:B n10:B n11:B n12:B n13:B n14:B
+Xp rp v g p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 ring
+Xn rn v g n0 n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14 ring
+.ends
+
+
+* expanding   symbol:  bias.sym # of pins=8
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/bias.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/bias.sch
+.subckt bias b0 b1 vb g4 g15 g20 v g
+*.PININFO b0:B b1:B vb:B g4:B g15:B g20:B v:B g:B
+Xreference vb v g beta_ref
+XMi0p nb0 b0 v v sky130_fd_pr__pfet_01v8 L=.15 W=.84 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMi0n nb0 b0 g g sky130_fd_pr__nfet_01v8 L=.15 W=.42 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMi1p nb1 b1 v v sky130_fd_pr__pfet_01v8 L=.15 W=.84 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMi1n nb1 b1 g g sky130_fd_pr__nfet_01v8 L=.15 W=.42 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+Xonlylow nb0 b1 off4 v g nor2
+XMi4p en4 off4 v v sky130_fd_pr__pfet_01v8 L=.15 W=.84 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMi4n en4 off4 g g sky130_fd_pr__nfet_01v8 L=.15 W=.42 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+Xboth nb0 nb1 en20 v g nor2
+Xzero b0 b1 zero v g nor2
+Xdiff zero en20 off15 v g nor2
+XMi15p en15 off15 v v sky130_fd_pr__pfet_01v8 L=.15 W=.84 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMi15n en15 off15 g g sky130_fd_pr__nfet_01v8 L=.15 W=.42 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMi20p off20 en20 v v sky130_fd_pr__pfet_01v8 L=.15 W=.84 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMi20n off20 en20 g g sky130_fd_pr__nfet_01v8 L=.15 W=.42 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+Xsw4 en4 off4 vb g4 v g tailgate
+Xsw15 en15 off15 vb g15 v g tailgate
+Xsw20 en20 off20 vb g20 v g tailgate
+.ends
+
+
+* expanding   symbol:  tail.sym # of pins=6
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/tail.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/tail.sch
+.subckt tail s vb g4 g15 g20 v
+*.PININFO s:B vb:B g4:B g15:B g20:B v:B
+XMone s vb v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29') as=expr('int((@nf + 2)/2) * @W / @nf * 0.29')
++ pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)') nrd=expr('0.29 / @W ')
++ nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+Xunits4 s g4 v units4
+Xunits15 s g15 v units15
+Xunits20 s g20 v units20
+.ends
+
+
+* expanding   symbol:  ring.sym # of pins=18
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/ring.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/ring.sch
+.subckt ring rail v g t0 t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11 t12 t13 t14
+*.PININFO rail:B v:B g:B t0:B t1:B t2:B t3:B t4:B t5:B t6:B t7:B t8:B t9:B t10:B t11:B t12:B t13:B
+*+ t14:B
+Xbank rail v g oa0 ob0 oa1 ob1 oa2 ob2 oa3 ob3 oa4 ob4 oa5 ob5 oa6 ob6 oa7 ob7 oa8 ob8 oa9 ob9 oa10
++ ob10 oa11 ob11 oa12 ob12 oa13 ob13 oa14 ob14 bank
+Xl0 oa0 ob0 t0 v g cvsl
+Xl1 oa1 ob1 t1 v g cvsl
+Xl2 oa2 ob2 t2 v g cvsl
+Xl3 oa3 ob3 t3 v g cvsl
+Xl4 oa4 ob4 t4 v g cvsl
+Xl5 oa5 ob5 t5 v g cvsl
+Xl6 oa6 ob6 t6 v g cvsl
+Xl7 oa7 ob7 t7 v g cvsl
+Xl8 oa8 ob8 t8 v g cvsl
+Xl9 oa9 ob9 t9 v g cvsl
+Xl10 oa10 ob10 t10 v g cvsl
+Xl11 oa11 ob11 t11 v g cvsl
+Xl12 oa12 ob12 t12 v g cvsl
+Xl13 oa13 ob13 t13 v g cvsl
+Xl14 oa14 ob14 t14 v g cvsl
+.ends
+
+
+* expanding   symbol:  beta_ref.sym # of pins=3
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/beta_ref.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/beta_ref.sch
+.subckt beta_ref vb v g
+*.PININFO vb:B v:B g:B
+XMp0 vb vb v v sky130_fd_pr__pfet_01v8 L=2 W=2 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29') as=expr('int((@nf + 2)/2) * @W / @nf * 0.29')
++ pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)') nrd=expr('0.29 / @W ')
++ nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMn0 vn vn g g sky130_fd_pr__nfet_01v8 L=2 W=2 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29') as=expr('int((@nf + 2)/2) * @W / @nf * 0.29')
++ pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)') nrd=expr('0.29 / @W ')
++ nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMp1 vn vb v v sky130_fd_pr__pfet_01v8 L=2 W=2 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29') as=expr('int((@nf + 2)/2) * @W / @nf * 0.29')
++ pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)') nrd=expr('0.29 / @W ')
++ nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMn1 vb vn rs g sky130_fd_pr__nfet_01v8 L=2 W=8 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29') as=expr('int((@nf + 2)/2) * @W / @nf * 0.29')
++ pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)') nrd=expr('0.29 / @W ')
++ nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XRref0 rs refmid g sky130_fd_pr__res_high_po_0p69 L=97.1 mult=1 m=1
+XRref1 refmid g g sky130_fd_pr__res_high_po_0p69 L=97.1 mult=1 m=1
+XMweak kick g v v sky130_fd_pr__pfet_01v8 L=12 W=.42 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMsense kick vn g g sky130_fd_pr__nfet_01v8_lvt L=.15 W=5 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMkick vb kick g g sky130_fd_pr__nfet_01v8 L=1 W=.5 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  nor2.sym # of pins=5
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/nor2.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/nor2.sch
+.subckt nor2 a b y v g
+*.PININFO a:B b:B y:B v:B g:B
+XMp0 mid a v v sky130_fd_pr__pfet_01v8 L=.15 W=.84 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMp1 y b mid v sky130_fd_pr__pfet_01v8 L=.15 W=.84 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMn0 y a g g sky130_fd_pr__nfet_01v8 L=.15 W=.42 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29') as=expr('int((@nf + 2)/2) * @W / @nf * 0.29')
++ pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)') nrd=expr('0.29 / @W ')
++ nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMn1 y b g g sky130_fd_pr__nfet_01v8 L=.15 W=.42 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29') as=expr('int((@nf + 2)/2) * @W / @nf * 0.29')
++ pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)') nrd=expr('0.29 / @W ')
++ nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  tailgate.sym # of pins=6
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/tailgate.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/tailgate.sch
+.subckt tailgate en enb vb out v g
+*.PININFO en:B enb:B vb:B out:B v:B g:B
+XMonp out enb vb v sky130_fd_pr__pfet_01v8 L=.15 W=.84 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMonn out en vb g sky130_fd_pr__nfet_01v8 L=.15 W=.42 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMoff out en v v sky130_fd_pr__pfet_01v8 L=.15 W=.84 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  units4.sym # of pins=3
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/units4.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/units4.sch
+.subckt units4 s control v
+*.PININFO s:B control:B v:B
+XMg4_1 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg4_2 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg4_3 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg4_4 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  units15.sym # of pins=3
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/units15.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/units15.sch
+.subckt units15 s control v
+*.PININFO s:B control:B v:B
+XMg15_1 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg15_2 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg15_3 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg15_4 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg15_5 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg15_6 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg15_7 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg15_8 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg15_9 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg15_10 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg15_11 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg15_12 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg15_13 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg15_14 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg15_15 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  units20.sym # of pins=3
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/units20.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/units20.sch
+.subckt units20 s control v
+*.PININFO s:B control:B v:B
+XMg20_1 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg20_2 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg20_3 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg20_4 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg20_5 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg20_6 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg20_7 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg20_8 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg20_9 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg20_10 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg20_11 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg20_12 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg20_13 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg20_14 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg20_15 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg20_16 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg20_17 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg20_18 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg20_19 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMg20_20 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  bank.sym # of pins=33
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/bank.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/bank.sch
+.subckt bank rail well g oa0 ob0 oa1 ob1 oa2 ob2 oa3 ob3 oa4 ob4 oa5 ob5 oa6 ob6 oa7 ob7 oa8 ob8 oa9
++ ob9 oa10 ob10 oa11 ob11 oa12 ob12 oa13 ob13 oa14 ob14
+*.PININFO rail:B well:B g:B oa0:B ob0:B oa1:B ob1:B oa2:B ob2:B oa3:B ob3:B oa4:B ob4:B oa5:B ob5:B
+*+ oa6:B ob6:B oa7:B ob7:B oa8:B ob8:B oa9:B ob9:B oa10:B ob10:B oa11:B ob11:B oa12:B ob12:B oa13:B ob13:B
+*+ oa14:B ob14:B
+X0 oa14 ob14 oa0 ob0 rail g well stage
+X1 oa0 ob0 oa1 ob1 rail g well stage
+X2 oa1 ob1 oa2 ob2 rail g well stage
+X3 oa2 ob2 oa3 ob3 rail g well stage
+X4 oa3 ob3 oa4 ob4 rail g well stage
+X5 oa4 ob4 oa5 ob5 rail g well stage
+X6 oa5 ob5 oa6 ob6 rail g well stage
+X7 oa6 ob6 oa7 ob7 rail g well stage
+X8 oa7 ob7 oa8 ob8 rail g well stage
+X9 oa8 ob8 oa9 ob9 rail g well stage
+X10 oa9 ob9 oa10 ob10 rail g well stage
+X11 oa10 ob10 oa11 ob11 rail g well stage
+X12 oa11 ob11 oa12 ob12 rail g well stage
+X13 oa12 ob12 oa13 ob13 rail g well stage
+X14 oa13 ob13 oa14 ob14 rail g well stage
+Xdummy well well dy dz g g well stage
+.ends
+
+
+* expanding   symbol:  cvsl.sym # of pins=5
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/cvsl.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/cvsl.sch
+.subckt cvsl a b out v g
+*.PININFO a:B b:B out:B v:B g:B
+XMn0 l a g g sky130_fd_pr__nfet_01v8_lvt L=.15 W=4 nf=1 ad=1.16 as=1.16 pd=8.58 ps=8.58 nrd=expr('0.29 / @W ')
++ nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMn1 r b g g sky130_fd_pr__nfet_01v8_lvt L=.15 W=4 nf=1 ad=1.16 as=1.16 pd=8.58 ps=8.58 nrd=expr('0.29 / @W ')
++ nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMp0 l r v v sky130_fd_pr__pfet_01v8 L=2.4 W=.42 nf=1 ad=.122 as=.122 pd=1.42 ps=1.42 nrd=expr('0.29 / @W ')
++ nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMp1 r l v v sky130_fd_pr__pfet_01v8 L=2.4 W=.42 nf=1 ad=.122 as=.122 pd=1.42 ps=1.42 nrd=expr('0.29 / @W ')
++ nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMbuf_p out l v v sky130_fd_pr__pfet_01v8 L=.15 W=.84 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMbuf_n out l g g sky130_fd_pr__nfet_01v8 L=.15 W=.42 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMdummy_p dummy r v v sky130_fd_pr__pfet_01v8 L=.15 W=.84 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMdummy_n dummy r g g sky130_fd_pr__nfet_01v8 L=.15 W=.42 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  stage.sym # of pins=7
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/stage.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/stage.sch
+.subckt stage a b y z rail g well
+*.PININFO a:B b:B y:B z:B rail:B g:B well:B
+XCca g y sky130_fd_pr__cap_mim_m3_1 W=4.5 L=4.5 MF=1 m=1
+XCcb g z sky130_fd_pr__cap_mim_m3_1 W=4.5 L=4.5 MF=1 m=1
+XMmainA_Xp y a rail well sky130_fd_pr__pfet_01v8_lvt L=.55 W=8.4 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMmainA_Xn y a g g sky130_fd_pr__nfet_01v8 L=.55 W=4.2 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMmainB_Xp z b rail well sky130_fd_pr__pfet_01v8_lvt L=.55 W=8.4 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMmainB_Xn z b g g sky130_fd_pr__nfet_01v8 L=.55 W=4.2 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMcrossA_Xp z y rail well sky130_fd_pr__pfet_01v8_lvt L=.55 W=1.68 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMcrossA_Xn z y g g sky130_fd_pr__nfet_01v8 L=.55 W=.84 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMcrossB_Xp y z rail well sky130_fd_pr__pfet_01v8_lvt L=.55 W=1.68 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+XMcrossB_Xn y z g g sky130_fd_pr__nfet_01v8 L=.55 W=.84 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
++ as=expr('int((@nf + 2)/2) * @W / @nf * 0.29') pd=expr('2*int((@nf + 1)/2) * (@W / @nf + 0.29)') ps=expr('2*int((@nf + 2)/2) * (@W / @nf + 0.29)')
++ nrd=expr('0.29 / @W ') nrs=expr('0.29 / @W ') sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+.end

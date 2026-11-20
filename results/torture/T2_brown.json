@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "before": {
+    "window_us": [
+      3,
+      6
+    ],
+    "fp_MHz": 3.7687581397933414,
+    "fn_MHz": 3.7690414574649385,
+    "min_tap_MHz": 3.7687573474235823,
+    "max_tap_MHz": 3.7690435870265238,
+    "min_swing_V": 1.8134457661761634,
+    "vb_V": 0.6826196084011363
+  },
+  "during": {
+    "window_us": [
+      8,
+      54
+    ],
+    "fp_MHz": 0.0,
+    "fn_MHz": 0.0,
+    "min_tap_MHz": 0.0,
+    "max_tap_MHz": 0.0,
+    "min_swing_V": 4.9577196525874e-07,
+    "vb_V": 9.993435288723668e-05
+  },
+  "after": {
+    "window_us": [
+      59,
+      63
+    ],
+    "fp_MHz": 3.7687331841290317,
+    "fn_MHz": 3.7687500843317214,
+    "min_tap_MHz": 3.7687189976779782,
+    "max_tap_MHz": 3.768778579180273,
+    "min_swing_V": 1.8115826734183222,
+    "vb_V": 0.6826214986253846
+  },
+  "case": "T2_brown",
+  "deck_sha256": "a62f271681aee2a080ded592f1479544708a72623b73584d1ba08f1c749c1d8e",
+  "pex_sha256": "ed36d6c519af4741a31c725f25a2e5b1c137f011aae624b7b618540125e7fe63",
+  "raw_sha256": "d094eaf894814c2ad308c9b4dc8bfc8a75dbec4781caec97dfdc844c5003fdbb",
+  "stored_points": 39224,
+  "actual_stop_us": 63.0
+}

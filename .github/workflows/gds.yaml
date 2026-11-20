@@ -1,0 +1,28 @@
+name: gds
+on: [push, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  gds:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Include third-party notices in the shuttle artifact
+        run: |
+          mkdir -p tt_submission
+          cp NOTICE LICENSE.third-party tt_submission/
+      - uses: TinyTapeout/tt-gds-action/custom_gds@ttsky26e
+        with:
+          top_module: tt_um_eleva_ccro_adc
+          gds_path: gds/tt_um_eleva_ccro_adc.gds
+          lef_path: lef/tt_um_eleva_ccro_adc.lef
+          verilog_path: src/project.v
+          pdk: sky130A
+          tools-ref: 8f7b5060d7f6df73bfd2e0b8d8fa0fd1dca0a0b1
+  precheck:
+    needs: gds
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: TinyTapeout/tt-gds-action/precheck@ttsky26e
+        with:
+          tools-ref: 8f7b5060d7f6df73bfd2e0b8d8fa0fd1dca0a0b1

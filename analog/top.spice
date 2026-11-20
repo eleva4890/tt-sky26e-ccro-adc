@@ -1,0 +1,16 @@
+* Schematic binding for final layout and LVS. Supply pin order is explicit.
+.subckt tt_um_eleva_ccro_adc VDPWR VGND clk ena rst_n ui_in[0] ui_in[1] ui_in[2] ui_in[3] ui_in[4] ui_in[5] ui_in[6] ui_in[7] uo_out[0] uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7] uio_in[0] uio_in[1] uio_in[2] uio_in[3] uio_in[4] uio_in[5] uio_in[6] uio_in[7] uio_out[0] uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7] uio_oe[0] uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5] uio_oe[6] uio_oe[7] ua[0] ua[1] ua[2] ua[3] ua[4] ua[5] ua[6] ua[7]
+Xana ua[0] ua[1] ui_in[3] ui_in[4] VDPWR VGND
++ p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 n0 n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14 adc_analog
+Xdig VGND VDPWR clk uio_out[1] ui_in[1] ui_in[2] uo_out[0] uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7] ui_in[5] ui_in[0] rst_n uio_out[2] uio_out[0] n0 n10 n11 n12 n13 n14 n1 n2 n3 n4 n5 n6 n7 n8 n9 p0 p10 p11 p12 p13 p14 p1 p2 p3 p4 p5 p6 p7 p8 p9 uio_out[3] adc_readout
+Xconst0 uio_out[4] uio_oe[0] VDPWR VGND VGND VDPWR sky130_fd_sc_hd__conb_1
+Xconst1 uio_out[5] uio_oe[1] VDPWR VGND VGND VDPWR sky130_fd_sc_hd__conb_1
+Xconst2 uio_out[6] uio_oe[2] VDPWR VGND VGND VDPWR sky130_fd_sc_hd__conb_1
+Xconst3 uio_out[7] uio_oe[3] VDPWR VGND VGND VDPWR sky130_fd_sc_hd__conb_1
+Xconst4 uio_oe[4] unused_hi4 VDPWR VGND VGND VDPWR sky130_fd_sc_hd__conb_1
+Xconst5 uio_oe[5] unused_hi5 VDPWR VGND VGND VDPWR sky130_fd_sc_hd__conb_1
+Xconst6 uio_oe[6] unused_hi6 VDPWR VGND VGND VDPWR sky130_fd_sc_hd__conb_1
+Xconst7 uio_oe[7] unused_hi7 VDPWR VGND VGND VDPWR sky130_fd_sc_hd__conb_1
+Xprotect_b0 VGND ui_in[3] sky130_fd_pr__diode_pw2nd_05v5 perim=2.64e+06 area=4.347e+11
+Xprotect_b1 VGND ui_in[4] sky130_fd_pr__diode_pw2nd_05v5 perim=2.64e+06 area=4.347e+11
+.ends tt_um_eleva_ccro_adc

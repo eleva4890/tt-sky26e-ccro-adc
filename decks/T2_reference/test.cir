@@ -1,0 +1,160 @@
+CCRO T2_reference
+.lib "/tmp/sky26e-bgr-integration-pdk/sky130A/libs.tech/ngspice/sky130.lib.spice" tt
+.include core.spice
+.option scale=1u method=gear reltol=.0005 klu
+.temp 27
+Vg vg 0 0
+Vs vdd 0 pwl(0 0 1u 1.8)
+
+Vinput diff 0 0
+Bp ep 0 v=(.63)*v(vdd,vg)/1.8+.5*v(diff)
+Bn en 0 v=(.63)*v(vdd,vg)/1.8-.5*v(diff)
+Eb0 b0 vg vdd vg 1
+Eb1 b1 vg vdd vg 0
+Rp ep vinp 1500
+Rn en vinn 1500
+Cp vinp 0 5.0p
+Cn vinn 0 5.0p
+Xadc vinp vinn b0 b1 vdd vg p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 n0 n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14 eleva_adc_analog
+Cl0 p0 vg 5f
+Cl1 p1 vg 5f
+Cl2 p2 vg 5f
+Cl3 p3 vg 5f
+Cl4 p4 vg 5f
+Cl5 p5 vg 5f
+Cl6 p6 vg 5f
+Cl7 p7 vg 5f
+Cl8 p8 vg 5f
+Cl9 p9 vg 5f
+Cl10 p10 vg 5f
+Cl11 p11 vg 5f
+Cl12 p12 vg 5f
+Cl13 p13 vg 5f
+Cl14 p14 vg 5f
+Cl15 n0 vg 5f
+Cl16 n1 vg 5f
+Cl17 n2 vg 5f
+Cl18 n3 vg 5f
+Cl19 n4 vg 5f
+Cl20 n5 vg 5f
+Cl21 n6 vg 5f
+Cl22 n7 vg 5f
+Cl23 n8 vg 5f
+Cl24 n9 vg 5f
+Cl25 n10 vg 5f
+Cl26 n11 vg 5f
+Cl27 n12 vg 5f
+Cl28 n13 vg 5f
+Cl29 n14 vg 5f
+* Final tile routing and receiver-metal capacitance, fF. Receiver transistor load is separate.
+Cio1 vg n0 7.8897260f
+Cio2 vg n1 4.0834922f
+Cio3 vg n10 4.7095940f
+Cio4 vg n11 3.6628756f
+Cio5 vg n12 6.5309507f
+Cio6 vg n13 6.9424546f
+Cio7 vg n14 6.3899220f
+Cio8 vg n2 3.3099947f
+Cio9 vg n3 4.7636081f
+Cio10 vg n4 3.2863675f
+Cio11 vg n5 3.5248606f
+Cio12 vg n6 2.6233916f
+Cio13 vg n7 3.9574533f
+Cio14 vg n8 4.6608680f
+Cio15 vg n9 3.3660238f
+Cio16 vg p0 6.1575778f
+Cio17 vg p1 2.8909669f
+Cio18 vg p10 4.7478781f
+Cio19 vg p11 4.4148917f
+Cio20 vg p12 3.9880956f
+Cio21 vg p13 3.1272176f
+Cio22 vg p14 3.1902062f
+Cio23 vg p2 3.7558629f
+Cio24 vg p3 2.8664477f
+Cio25 vg p4 3.9221383f
+Cio26 vg p5 3.8661440f
+Cio27 vg p6 2.7825919f
+Cio28 vg p7 4.2325765f
+Cio29 vg p8 3.8749305f
+Cio30 vg p9 3.7446268f
+Cio31 n0 n1 0.1292570f
+Cio32 n0 n2 0.0014424f
+Cio33 n0 p14 0.0894040f
+Cio34 n1 n2 0.2561130f
+Cio35 n1 n3 0.0123051f
+Cio36 n1 n4 0.0004043f
+Cio37 n1 p14 0.0244659f
+Cio38 n10 n11 0.3523240f
+Cio39 n10 n12 0.0636915f
+Cio40 n10 n13 0.0131241f
+Cio41 n10 n7 0.0006228f
+Cio42 n10 n8 0.0362392f
+Cio43 n10 n9 0.5169010f
+Cio44 n11 n12 0.2971710f
+Cio45 n11 n13 0.0427726f
+Cio46 n11 n14 0.0007019f
+Cio47 n11 n8 0.0009726f
+Cio48 n11 n9 0.0733118f
+Cio49 n12 n13 0.1843450f
+Cio50 n12 n14 0.0443660f
+Cio51 n12 n8 0.0000060f
+Cio52 n12 n9 0.0007509f
+Cio53 n13 n14 0.3212930f
+Cio54 n2 n3 0.1429030f
+Cio55 n2 n4 0.0098939f
+Cio56 n2 p14 0.0001649f
+Cio57 n3 n4 0.2478910f
+Cio58 n3 n5 0.1042790f
+Cio59 n3 n6 0.0004786f
+Cio60 n4 n5 0.2104190f
+Cio61 n4 n6 0.0186526f
+Cio62 n5 n6 0.2735340f
+Cio63 n5 n7 0.0174134f
+Cio64 n5 n8 0.0005487f
+Cio65 n6 n7 0.1570420f
+Cio66 n6 n8 0.0196784f
+Cio67 n7 n8 0.4950080f
+Cio68 n7 n9 0.0275411f
+Cio69 n8 n9 0.1720790f
+Cio70 p0 p1 0.2890370f
+Cio71 p0 p2 0.0174627f
+Cio72 p0 p3 0.0005218f
+Cio73 p1 p2 0.1785660f
+Cio74 p1 p3 0.0158915f
+Cio75 p10 p11 0.1164540f
+Cio76 p10 p12 0.0007964f
+Cio77 p10 p13 0.0033968f
+Cio78 p10 p8 0.0049421f
+Cio79 p10 p9 0.1236850f
+Cio80 p11 p12 0.1362080f
+Cio81 p11 p9 0.0000029f
+Cio82 p12 p13 0.1994630f
+Cio83 p12 p14 0.0002663f
+Cio84 p12 p9 0.0011456f
+Cio85 p13 p14 0.0946080f
+Cio86 p2 p3 0.2690180f
+Cio87 p2 p4 0.0125913f
+Cio88 p2 p5 0.0032056f
+Cio89 p3 p4 0.1272160f
+Cio90 p3 p5 0.0206119f
+Cio91 p4 p5 0.3160790f
+Cio92 p4 p6 0.0095762f
+Cio93 p4 p7 0.0013521f
+Cio94 p5 p6 0.1453050f
+Cio95 p5 p7 0.0092586f
+Cio96 p6 p7 0.2397830f
+Cio97 p6 p8 0.0089079f
+Cio98 p6 p9 0.0003911f
+Cio99 p7 p8 0.2256500f
+Cio100 p7 p9 0.0097597f
+Cio101 p8 p9 0.2602340f
+
+.control
+set num_threads=1
+set filetype=binary
+save v(vdd) v(vg) v(xadc.rp) v(xadc.rn) v(xadc.vb) v(p0) v(n0) v(p1) v(p2) v(p3) v(p4) v(p5) v(p6) v(p7) v(p8) v(p9) v(p10) v(p11) v(p12) v(p13) v(p14) v(n1) v(n2) v(n3) v(n4) v(n5) v(n6) v(n7) v(n8) v(n9) v(n10) v(n11) v(n12) v(n13) v(n14)
+tran 100n 100u 10u 100n
+write waves.raw all
+quit
+.endc
+.end

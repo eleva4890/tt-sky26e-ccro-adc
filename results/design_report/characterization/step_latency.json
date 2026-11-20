@@ -1,0 +1,58 @@
+[
+  {
+    "osr": 128,
+    "reset_delay_ticks": 0,
+    "final_code": 2121,
+    "settled_code": 2121,
+    "latency_us": 18.925000000000004
+  },
+  {
+    "osr": 128,
+    "reset_delay_ticks": 32,
+    "final_code": 2121,
+    "settled_code": 2121,
+    "latency_us": 20.525000000000006
+  },
+  {
+    "osr": 128,
+    "reset_delay_ticks": 64,
+    "final_code": 2121,
+    "settled_code": 2121,
+    "latency_us": 22.125000000000007
+  },
+  {
+    "osr": 128,
+    "reset_delay_ticks": 96,
+    "final_code": 2120,
+    "settled_code": 2116,
+    "latency_us": 17.325000000000003
+  },
+  {
+    "osr": 256,
+    "reset_delay_ticks": 0,
+    "final_code": 2121,
+    "settled_code": 2121,
+    "latency_us": 38.275
+  },
+  {
+    "osr": 256,
+    "reset_delay_ticks": 64,
+    "final_code": 2120,
+    "settled_code": 2120,
+    "latency_us": 41.475
+  },
+  {
+    "osr": 256,
+    "reset_delay_ticks": 128,
+    "final_code": 2121,
+    "settled_code": 2121,
+    "latency_us": 31.875000000000007
+  },
+  {
+    "osr": 256,
+    "reset_delay_ticks": 192,
+    "final_code": 2120,
+    "settled_code": 2121,
+    "latency_us": 35.07500000000001
+  }
+]

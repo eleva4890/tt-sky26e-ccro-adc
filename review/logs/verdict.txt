@@ -1,0 +1,6 @@
+PASS core LVS  eleva_adc_analog <-> adc_analog  devices 616/616, nets 214/214, pins 36/36, Property errors = 0
+PASS tile LVS  tile_mask <-> tt_um_eleva_ccro_adc  devices 10390/10390, nets 5137/5137, pins 53/53, Property errors = 0
+PASS RTL/routed equivalence  572/572 proven, 0 unproven; 239/239 state bits (235 FF + 4 latches)
+PASS GUI  17 Xschem sheets; KLayout final GDS and 17 markers
+PASS connectivity  64/64 signal connections; 0 shorted external-port groups
+PASS negative controls  W change and inverted SDO both detected

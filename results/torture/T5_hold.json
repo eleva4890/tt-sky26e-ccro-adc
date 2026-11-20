@@ -1,0 +1,22 @@
+{
+  "status": "MEASURED",
+  "window_us": [
+    18,
+    178
+  ],
+  "nominal_free_beat_cycles": 1.104,
+  "delta_kHz": 0.059578267863895,
+  "half_window_delta_kHz": [
+    0.011321807800791991,
+    -0.00016497206498500733
+  ],
+  "relative_phase_span_cycles": 0.008052344352876162,
+  "signed_phase_advance_cycles": 0.00628152164778939,
+  "lock_indicator": true,
+  "case": "T5_hold",
+  "deck_sha256": "bfebcb7d965c9d08717ea5d0dd7a9f909a4989b4f30870233da165dc1412985d",
+  "pex_sha256": "ed36d6c519af4741a31c725f25a2e5b1c137f011aae624b7b618540125e7fe63",
+  "raw_sha256": "a7a496b0e94781898ed1c603263fcfd4981870cf6435162930e731cad8e4cc35",
+  "stored_points": 202045,
+  "actual_stop_us": 179.99999999999997
+}

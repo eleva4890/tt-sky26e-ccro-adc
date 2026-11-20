@@ -1,0 +1,6 @@
+fill                         4649.459 um2
+other logic and buffers      3681.030 um2
+sequential                   5034.829 um2
+tap                           247.738 um2
+All non-filler area = 8963.597 um2
+Library comparison (um2) {'fa': 20.0192, 'ha': 12.512, 'maj3': 10.0096, 'xor3': 23.772800000000004, 'dfxtp': 20.0192, 'dfrtp': 25.024, 'sdfxtp': 26.2752}

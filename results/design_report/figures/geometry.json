@@ -1,0 +1,83 @@
+{
+  "gds_tile": {
+    "roi_um": [
+      0,
+      0,
+      161,
+      225.76
+    ],
+    "pixels_per_um": 10,
+    "drawn_shapes": {
+      "diff": 5109,
+      "poly": 8981,
+      "li1": 22481,
+      "met1": 22404,
+      "met2": 7496,
+      "met3": 2070,
+      "met4": 356
+    }
+  },
+  "gds_ring_detail": {
+    "roi_um": [
+      1,
+      86,
+      28,
+      114
+    ],
+    "pixels_per_um": 40,
+    "drawn_shapes": {
+      "diff": 30,
+      "poly": 96,
+      "li1": 615,
+      "met1": 680,
+      "met2": 271,
+      "met3": 107,
+      "met4": 4
+    }
+  },
+  "gds_sha256": "3d8a8502549ad4229debe27ae7c428059759af6e9657fcf2ff3c616e27a74d25",
+  "layers": [
+    {
+      "gds_layer": 65,
+      "datatype": 20,
+      "color": "#3d624e",
+      "name": "diff"
+    },
+    {
+      "gds_layer": 66,
+      "datatype": 20,
+      "color": "#d86f57",
+      "name": "poly"
+    },
+    {
+      "gds_layer": 67,
+      "datatype": 20,
+      "color": "#765987",
+      "name": "li1"
+    },
+    {
+      "gds_layer": 68,
+      "datatype": 20,
+      "color": "#307391",
+      "name": "met1"
+    },
+    {
+      "gds_layer": 69,
+      "datatype": 20,
+      "color": "#ddae56",
+      "name": "met2"
+    },
+    {
+      "gds_layer": 70,
+      "datatype": 20,
+      "color": "#57a794",
+      "name": "met3"
+    },
+    {
+      "gds_layer": 71,
+      "datatype": 20,
+      "color": "#9689ba",
+      "name": "met4"
+    }
+  ]
+}

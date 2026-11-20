@@ -1,0 +1,22 @@
+TT low-voltage resistor and MIM small-signal values from the SKY130A models
+.lib sky130.lib.spice tt
+.option scale=1u
+.temp 27
+Vr80 r80 0 1m
+Vr97 r97 0 1m
+Vc4 c4 0 dc 0 ac 1
+Vc21 c21 0 dc 0 ac 1
+X80 r80 0 0 sky130_fd_pr__res_high_po_0p69 l=80
+X97 r97 0 0 sky130_fd_pr__res_high_po_0p69 l=97.1
+X4 c4 0 sky130_fd_pr__cap_mim_m3_1 l=4.5 w=4.5
+X21 c21 0 sky130_fd_pr__cap_mim_m3_1 l=21.8 w=21.8
+.control
+op
+print -0.001/i(Vr80)
+print -0.001/i(Vr97)
+ac lin 1 1k 1k
+print -imag(i(Vc4))/(2*pi*1000)
+print -imag(i(Vc21))/(2*pi*1000)
+quit
+.endc
+.end

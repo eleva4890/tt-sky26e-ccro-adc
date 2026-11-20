@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Final mask review · SKY26e CCRO ADC</title>
+<style>body{font:16px/1.55 system-ui,sans-serif;color:#183238;background:#f8faf9;margin:0}main{max-width:900px;margin:auto;padding:36px 5vw 60px}a{color:#075e63}h1{line-height:1.18}table{border-collapse:collapse;width:100%;background:white}th,td{text-align:left;padding:10px;border-bottom:1px solid #cbd7d4}th{background:#e6efea}code{overflow-wrap:anywhere}img{width:100%;background:white}figure{margin:1em 0}</style></head>
+<body><main><h1>Final mask review</h1><p>SKY26e differential CCRO ADC · <code>tt_um_eleva_ccro_adc</code></p>
+<p>GDS SHA-256 <code>3d8a8502549ad4229debe27ae7c428059759af6e9657fcf2ff3c616e27a74d25</code></p>
+<table><thead><tr><th>Comparison</th><th>Result</th><th>Log</th></tr></thead><tbody>
+<tr><td>Analog macro LVS</td><td>616 devices, 214 nets, 36 pins matched. Zero property errors.</td><td><a href="logs/lvs_core.txt">Netgen</a></td></tr>
+<tr><td>Full tile LVS</td><td>10,390 devices, 5,137 nets, 53 pins matched. Zero property errors.</td><td><a href="logs/lvs_tile.txt">Netgen</a></td></tr>
+<tr><td>RTL vs. routed gates</td><td>239 state bits paired. All 572 checks proven.</td><td><a href="logs/formal_equivalence.log">Yosys</a></td></tr>
+<tr><td>Metal connectivity</td><td>64/64 connections. Central met4 stripe connects to VGND.</td><td><a href="logs/connectivity.log">KLayout</a></td></tr></tbody></table>
+<p><a href="logs/verdict.txt">Combined verdict</a> · <a href="logs/input_hashes.txt">Input hashes</a> · <a href="logs/deck_provenance.txt">Netgen deck provenance</a></p>
+<p>Magic recorded 2,160 terminal warnings inside decoupling cells and 54 boundary warnings at diode locations. <a href="logs/magic_warnings.txt">Warning breakdown and positions</a></p>
+<h2>Inspect the design</h2><p>In Xschem select <code>Xana</code> and press <kbd>e</kbd> to descend. Press <kbd>Ctrl+e</kbd> to return. In KLayout double-click a marker to locate the conductor.</p>
+<p><a href="klayout_checklist.md">Nets, layers and coordinates</a> · <a href="logs/gds_labels.tsv">Probe data</a> · <a href="SUMMARY.md">Review guide and proof conditions</a></p>
+<h2>Digital hierarchy</h2><figure><a href="digital/module_hierarchy.svg"><img src="digital/module_hierarchy.svg" alt="Module instances below the digital ADC readout"></a><figcaption>Counts are per parent instance. <a href="digital/pop15.svg">Wiring inside the 15-input popcount</a></figcaption></figure>
+<h2>Negative controls</h2><p>Increasing one PMOS width from 8.4 to 12.6 µm produced an LVS property error. Inverting routed SDO left an unproven output. <a href="logs/control_lvs.txt">Netgen control</a> · <a href="logs/control_formal.txt">Yosys control</a></p></main></body></html>

@@ -1,0 +1,101 @@
+* Split-tail differential transconductor, beta multiplier, static bias decoder.
+* P-bank frequency rises with VINP: the PMOS input gates are crossed at the banks.
+.subckt nor2 a b y v g
+Xp0 mid a v v sky130_fd_pr__pfet_01v8 w=.84 l=.15
+Xp1 y b mid v sky130_fd_pr__pfet_01v8 w=.84 l=.15
+Xn0 y a g g sky130_fd_pr__nfet_01v8 w=.42 l=.15
+Xn1 y b g g sky130_fd_pr__nfet_01v8 w=.42 l=.15
+.ends
+.subckt tailgate en enb vb out v g
+Xonp out enb vb v sky130_fd_pr__pfet_01v8 w=.84 l=.15
+Xonn out en vb g sky130_fd_pr__nfet_01v8 w=.42 l=.15
+Xoff out en v v sky130_fd_pr__pfet_01v8 w=.84 l=.15
+.ends
+.subckt bias b0 b1 vb g4 g15 g20 v g
+* N width ratio 1:4 and matched P mirrors. Left arm sets the unit gate voltage.
+Xp0 vb vb v v sky130_fd_pr__pfet_01v8 w=2 l=2
+Xn0 vn vn g g sky130_fd_pr__nfet_01v8 w=2 l=2
+Xp1 vn vb v v sky130_fd_pr__pfet_01v8 w=2 l=2
+Xn1 vb vn rs g sky130_fd_pr__nfet_01v8 w=8 l=2
+Xref rs g g sky130_fd_pr__res_high_po_0p69 l=175
+* Pull vb down while vn is zero. After startup the LVT detector discharges kick.
+Xweak kick g v v sky130_fd_pr__pfet_01v8 w=.42 l=12
+Xsense kick vn g g sky130_fd_pr__nfet_01v8_lvt w=5 l=.15
+Xkick vb kick g g sky130_fd_pr__nfet_01v8 w=.5 l=1
+Xi0 b0 nb0 v g cinv wp=.84 wn=.42 lp=.15 nlength=.15
+Xi1 b1 nb1 v g cinv wp=.84 wn=.42 lp=.15 nlength=.15
+Xonlylow nb0 b1 off4 v g nor2
+Xi4 off4 en4 v g cinv wp=.84 wn=.42 lp=.15 nlength=.15
+Xboth nb0 nb1 en20 v g nor2
+Xzero b0 b1 zero v g nor2
+Xdiff zero en20 off15 v g nor2
+Xi15 off15 en15 v g cinv wp=.84 wn=.42 lp=.15 nlength=.15
+Xi20 en20 off20 v g cinv wp=.84 wn=.42 lp=.15 nlength=.15
+Xsw4 en4 off4 vb g4 v g tailgate
+Xsw15 en15 off15 vb g15 v g tailgate
+Xsw20 en20 off20 vb g20 v g tailgate
+.ends
+.subckt tail s vb g4 g15 g20 v
+Xone s vb v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg4_1 s g4 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg4_2 s g4 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg4_3 s g4 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg4_4 s g4 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg15_1 s g15 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg15_2 s g15 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg15_3 s g15 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg15_4 s g15 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg15_5 s g15 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg15_6 s g15 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg15_7 s g15 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg15_8 s g15 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg15_9 s g15 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg15_10 s g15 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg15_11 s g15 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg15_12 s g15 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg15_13 s g15 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg15_14 s g15 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg15_15 s g15 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg20_1 s g20 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg20_2 s g20 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg20_3 s g20 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg20_4 s g20 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg20_5 s g20 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg20_6 s g20 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg20_7 s g20 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg20_8 s g20 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg20_9 s g20 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg20_10 s g20 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg20_11 s g20 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg20_12 s g20 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg20_13 s g20 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg20_14 s g20 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg20_15 s g20 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg20_16 s g20 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg20_17 s g20 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg20_18 s g20 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg20_19 s g20 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+Xg20_20 s g20 v v sky130_fd_pr__pfet_01v8 w=1 l=2
+.ends
+.subckt front vinp vinn b0 b1 rp rn v g
+Xbias b0 b1 vb g4 g15 g20 v g bias
+Xtailp sp vb g4 g15 g20 v tail
+Xtailn sn vb g4 g15 g20 v tail
+Xinp0 rp vinn sp sp sky130_fd_pr__pfet_01v8_lvt w=6 l=1
+Xinp1 rp vinn sp sp sky130_fd_pr__pfet_01v8_lvt w=6 l=1
+Xinp2 rp vinn sp sp sky130_fd_pr__pfet_01v8_lvt w=6 l=1
+Xinp3 rp vinn sp sp sky130_fd_pr__pfet_01v8_lvt w=6 l=1
+Xinn0 rn vinp sn sn sky130_fd_pr__pfet_01v8_lvt w=6 l=1
+Xinn1 rn vinp sn sn sky130_fd_pr__pfet_01v8_lvt w=6 l=1
+Xinn2 rn vinp sn sn sky130_fd_pr__pfet_01v8_lvt w=6 l=1
+Xinn3 rn vinp sn sn sky130_fd_pr__pfet_01v8_lvt w=6 l=1
+Xr0 sp mid g sky130_fd_pr__res_high_po_0p69 l=60
+Xr1 mid sn g sky130_fd_pr__res_high_po_0p69 l=60
+.ends
+.subckt adc_analog vinp vinn b0 b1 v g p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 n0 n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14
+Xfront vinp vinn b0 b1 rp rn v g front
+XcapP rp g sky130_fd_pr__cap_mim_m3_1 w=21.8 l=21.8
+XcapN rn g sky130_fd_pr__cap_mim_m3_1 w=21.8 l=21.8
+Xrp rp v g p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 ring
+Xrn rn v g n0 n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14 ring
+.ends

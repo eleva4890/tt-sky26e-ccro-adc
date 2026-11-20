@@ -1,0 +1,416 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="https://github.com/nturley/netlistsvg" width="884" height="568" viewBox="-40 -20 884 568">
+  <rect x="-40" y="-20" width="884" height="568" fill="white" stroke="none"/>
+
+  <style>svg {
+    stroke:#000;
+    fill:none;
+  }
+  text {
+    fill:#000;
+    stroke:none;
+    font-size:10px;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+  }
+  .nodelabel {
+    text-anchor: middle;
+  }
+  .inputPortLabel {
+    text-anchor: end;
+  }
+  .splitjoinBody {
+    fill:#000;
+  }</style>
+  <g s:type="generic" transform="translate(158,44)" s:width="30" s:height="40" id="cell_column[0].fa">
+    <text x="15" y="-4" class="nodelabel cell_column[0].fa" s:attribute="ref">adc_fa</text>
+    <rect width="30" height="60" s:generic="body" class="cell_column[0].fa"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_column[0].fa~a">
+      <text x="-3" y="-4" class="inputPortLabel cell_column[0].fa">a</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0" id="port_column[0].fa~b">
+      <text x="-3" y="-4" class="inputPortLabel cell_column[0].fa">b</text>
+    </g>
+    <g transform="translate(0,50)" s:x="0" s:y="10" s:pid="in0" id="port_column[0].fa~ci">
+      <text x="-3" y="-4" class="inputPortLabel cell_column[0].fa">ci</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_column[0].fa~co">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_column[0].fa">co</text>
+    </g>
+    <g transform="translate(30,30)" s:x="30" s:y="10" s:pid="out0" id="port_column[0].fa~sum">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_column[0].fa">sum</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(158,183)" s:width="30" s:height="40" id="cell_column[1].fa">
+    <text x="15" y="-4" class="nodelabel cell_column[1].fa" s:attribute="ref">adc_fa</text>
+    <rect width="30" height="60" s:generic="body" class="cell_column[1].fa"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_column[1].fa~a">
+      <text x="-3" y="-4" class="inputPortLabel cell_column[1].fa">a</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0" id="port_column[1].fa~b">
+      <text x="-3" y="-4" class="inputPortLabel cell_column[1].fa">b</text>
+    </g>
+    <g transform="translate(0,50)" s:x="0" s:y="10" s:pid="in0" id="port_column[1].fa~ci">
+      <text x="-3" y="-4" class="inputPortLabel cell_column[1].fa">ci</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_column[1].fa~co">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_column[1].fa">co</text>
+    </g>
+    <g transform="translate(30,30)" s:x="30" s:y="10" s:pid="out0" id="port_column[1].fa~sum">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_column[1].fa">sum</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(158,291)" s:width="30" s:height="40" id="cell_column[2].fa">
+    <text x="15" y="-4" class="nodelabel cell_column[2].fa" s:attribute="ref">adc_fa</text>
+    <rect width="30" height="60" s:generic="body" class="cell_column[2].fa"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_column[2].fa~a">
+      <text x="-3" y="-4" class="inputPortLabel cell_column[2].fa">a</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0" id="port_column[2].fa~b">
+      <text x="-3" y="-4" class="inputPortLabel cell_column[2].fa">b</text>
+    </g>
+    <g transform="translate(0,50)" s:x="0" s:y="10" s:pid="in0" id="port_column[2].fa~ci">
+      <text x="-3" y="-4" class="inputPortLabel cell_column[2].fa">ci</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_column[2].fa~co">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_column[2].fa">co</text>
+    </g>
+    <g transform="translate(30,30)" s:x="30" s:y="10" s:pid="out0" id="port_column[2].fa~sum">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_column[2].fa">sum</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(283,345)" s:width="30" s:height="40" id="cell_column[3].fa">
+    <text x="15" y="-4" class="nodelabel cell_column[3].fa" s:attribute="ref">adc_fa</text>
+    <rect width="30" height="60" s:generic="body" class="cell_column[3].fa"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_column[3].fa~a">
+      <text x="-3" y="-4" class="inputPortLabel cell_column[3].fa">a</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0" id="port_column[3].fa~b">
+      <text x="-3" y="-4" class="inputPortLabel cell_column[3].fa">b</text>
+    </g>
+    <g transform="translate(0,50)" s:x="0" s:y="10" s:pid="in0" id="port_column[3].fa~ci">
+      <text x="-3" y="-4" class="inputPortLabel cell_column[3].fa">ci</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_column[3].fa~co">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_column[3].fa">co</text>
+    </g>
+    <g transform="translate(30,30)" s:x="30" s:y="10" s:pid="out0" id="port_column[3].fa~sum">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_column[3].fa">sum</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(283,453)" s:width="30" s:height="40" id="cell_column[4].fa">
+    <text x="15" y="-4" class="nodelabel cell_column[4].fa" s:attribute="ref">adc_fa</text>
+    <rect width="30" height="60" s:generic="body" class="cell_column[4].fa"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_column[4].fa~a">
+      <text x="-3" y="-4" class="inputPortLabel cell_column[4].fa">a</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0" id="port_column[4].fa~b">
+      <text x="-3" y="-4" class="inputPortLabel cell_column[4].fa">b</text>
+    </g>
+    <g transform="translate(0,50)" s:x="0" s:y="10" s:pid="in0" id="port_column[4].fa~ci">
+      <text x="-3" y="-4" class="inputPortLabel cell_column[4].fa">ci</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_column[4].fa~co">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_column[4].fa">co</text>
+    </g>
+    <g transform="translate(30,30)" s:x="30" s:y="10" s:pid="out0" id="port_column[4].fa~sum">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_column[4].fa">sum</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(294.6,183)" s:width="30" s:height="40" id="cell_f0">
+    <text x="15" y="-4" class="nodelabel cell_f0" s:attribute="ref">adc_fa</text>
+    <rect width="30" height="60" s:generic="body" class="cell_f0"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_f0~a">
+      <text x="-3" y="-4" class="inputPortLabel cell_f0">a</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0" id="port_f0~b">
+      <text x="-3" y="-4" class="inputPortLabel cell_f0">b</text>
+    </g>
+    <g transform="translate(0,50)" s:x="0" s:y="10" s:pid="in0" id="port_f0~ci">
+      <text x="-3" y="-4" class="inputPortLabel cell_f0">ci</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_f0~co">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_f0">co</text>
+    </g>
+    <g transform="translate(30,30)" s:x="30" s:y="10" s:pid="out0" id="port_f0~sum">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_f0">sum</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(428,365)" s:width="30" s:height="40" id="cell_f1">
+    <text x="15" y="-4" class="nodelabel cell_f1" s:attribute="ref">adc_fa</text>
+    <rect width="30" height="60" s:generic="body" class="cell_f1"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_f1~a">
+      <text x="-3" y="-4" class="inputPortLabel cell_f1">a</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0" id="port_f1~b">
+      <text x="-3" y="-4" class="inputPortLabel cell_f1">b</text>
+    </g>
+    <g transform="translate(0,50)" s:x="0" s:y="10" s:pid="in0" id="port_f1~ci">
+      <text x="-3" y="-4" class="inputPortLabel cell_f1">ci</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_f1~co">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_f1">co</text>
+    </g>
+    <g transform="translate(30,30)" s:x="30" s:y="10" s:pid="out0" id="port_f1~sum">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_f1">sum</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(428,35)" s:width="30" s:height="40" id="cell_f2">
+    <text x="15" y="-4" class="nodelabel cell_f2" s:attribute="ref">adc_fa</text>
+    <rect width="30" height="60" s:generic="body" class="cell_f2"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_f2~a">
+      <text x="-3" y="-4" class="inputPortLabel cell_f2">a</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0" id="port_f2~b">
+      <text x="-3" y="-4" class="inputPortLabel cell_f2">b</text>
+    </g>
+    <g transform="translate(0,50)" s:x="0" s:y="10" s:pid="in0" id="port_f2~ci">
+      <text x="-3" y="-4" class="inputPortLabel cell_f2">ci</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_f2~co">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_f2">co</text>
+    </g>
+    <g transform="translate(30,30)" s:x="30" s:y="10" s:pid="out0" id="port_f2~sum">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_f2">sum</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(428,143)" s:width="30" s:height="40" id="cell_f3">
+    <text x="15" y="-4" class="nodelabel cell_f3" s:attribute="ref">adc_fa</text>
+    <rect width="30" height="60" s:generic="body" class="cell_f3"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_f3~a">
+      <text x="-3" y="-4" class="inputPortLabel cell_f3">a</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0" id="port_f3~b">
+      <text x="-3" y="-4" class="inputPortLabel cell_f3">b</text>
+    </g>
+    <g transform="translate(0,50)" s:x="0" s:y="10" s:pid="in0" id="port_f3~ci">
+      <text x="-3" y="-4" class="inputPortLabel cell_f3">ci</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_f3~co">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_f3">co</text>
+    </g>
+    <g transform="translate(30,30)" s:x="30" s:y="10" s:pid="out0" id="port_f3~sum">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_f3">sum</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(526,143)" s:width="30" s:height="40" id="cell_f4">
+    <text x="15" y="-4" class="nodelabel cell_f4" s:attribute="ref">adc_fa</text>
+    <rect width="30" height="60" s:generic="body" class="cell_f4"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_f4~a">
+      <text x="-3" y="-4" class="inputPortLabel cell_f4">a</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0" id="port_f4~b">
+      <text x="-3" y="-4" class="inputPortLabel cell_f4">b</text>
+    </g>
+    <g transform="translate(0,50)" s:x="0" s:y="10" s:pid="in0" id="port_f4~ci">
+      <text x="-3" y="-4" class="inputPortLabel cell_f4">ci</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_f4~co">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_f4">co</text>
+    </g>
+    <g transform="translate(30,30)" s:x="30" s:y="10" s:pid="out0" id="port_f4~sum">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_f4">sum</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(624,91.5)" s:width="30" s:height="40" id="cell_f5">
+    <text x="15" y="-4" class="nodelabel cell_f5" s:attribute="ref">adc_fa</text>
+    <rect width="30" height="60" s:generic="body" class="cell_f5"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_f5~a">
+      <text x="-3" y="-4" class="inputPortLabel cell_f5">a</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0" id="port_f5~b">
+      <text x="-3" y="-4" class="inputPortLabel cell_f5">b</text>
+    </g>
+    <g transform="translate(0,50)" s:x="0" s:y="10" s:pid="in0" id="port_f5~ci">
+      <text x="-3" y="-4" class="inputPortLabel cell_f5">ci</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_f5~co">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_f5">co</text>
+    </g>
+    <g transform="translate(30,30)" s:x="30" s:y="10" s:pid="out0" id="port_f5~sum">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_f5">sum</text>
+    </g>
+  </g>
+  <g s:type="inputExt" transform="translate(12,151.5)" s:width="30" s:height="20" id="cell_x">
+    <text x="15" y="-4" class="nodelabel cell_x" s:attribute="ref">x</text>
+    <s:alias val="$_inputExt_"/>
+    <path d="M0,0 L0,20 L15,20 L30,10 L15,0 Z" class="cell_x"/>
+    <g s:x="28" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="outputExt" transform="translate(762,22.5)" s:width="30" s:height="20" id="cell_count">
+    <text x="15" y="-4" class="nodelabel cell_count" s:attribute="ref">count</text>
+    <s:alias val="$_outputExt_"/>
+    <path d="M30,0 L30,20 L15,20 L0,10 L15,0 Z" class="cell_count"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+  </g>
+  <g s:type="join" transform="translate(721,12)" s:width="4" s:height="40" id="cell_$join$,17,18,19,20,">
+    <rect width="5" height="80" class="splitjoinBody" s:generic="body"/>
+    <s:alias val="$_join_"/>
+    <g s:x="5" s:y="20" s:pid="out"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0">
+      <text x="-3" y="-4" class="inputPortLabel">0</text>
+    </g>
+    <g transform="translate(0,30)" s:x="0" s:y="10" s:pid="in0">
+      <text x="-3" y="-4" class="inputPortLabel">1</text>
+    </g>
+    <g transform="translate(0,50)" s:x="0" s:y="10" s:pid="in0">
+      <text x="-3" y="-4" class="inputPortLabel">2</text>
+    </g>
+    <g transform="translate(0,70)" s:x="0" s:y="10" s:pid="in0">
+      <text x="-3" y="-4" class="inputPortLabel">3</text>
+    </g>
+  </g>
+  <g s:type="split" transform="translate(80,173.5)" s:width="5" s:height="40" id="cell_$split$,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,">
+    <rect width="5" height="300" class="splitjoinBody" s:generic="body"/>
+    <s:alias val="$_split_"/>
+    <g s:x="0" s:y="20" s:pid="in"/>
+    <g transform="translate(4,10)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">0</text>
+    </g>
+    <g transform="translate(4,30)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">1</text>
+    </g>
+    <g transform="translate(4,50)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">2</text>
+    </g>
+    <g transform="translate(4,70)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">3</text>
+    </g>
+    <g transform="translate(4,90)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">4</text>
+    </g>
+    <g transform="translate(4,110)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">5</text>
+    </g>
+    <g transform="translate(4,130)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">6</text>
+    </g>
+    <g transform="translate(4,150)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">7</text>
+    </g>
+    <g transform="translate(4,170)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">8</text>
+    </g>
+    <g transform="translate(4,190)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">9</text>
+    </g>
+    <g transform="translate(4,210)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">10</text>
+    </g>
+    <g transform="translate(4,230)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">11</text>
+    </g>
+    <g transform="translate(4,250)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">12</text>
+    </g>
+    <g transform="translate(4,270)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">13</text>
+    </g>
+    <g transform="translate(4,290)" s:x="4" s:y="10" s:pid="out0">
+      <text x="5" y="-4">14</text>
+    </g>
+  </g>
+  <line x1="84.5" x2="84.5" y1="183.5" y2="54.5" class="net_2"/>
+  <line x1="84.5" x2="158" y1="54.5" y2="54.5" class="net_2"/>
+  <line x1="85" x2="95" y1="204" y2="204" class="net_3"/>
+  <line x1="95" x2="95" y1="204" y2="74.5" class="net_3"/>
+  <line x1="95" x2="158" y1="74.5" y2="74.5" class="net_3"/>
+  <line x1="85" x2="105" y1="224" y2="224" class="net_4"/>
+  <line x1="105" x2="105" y1="224" y2="94.5" class="net_4"/>
+  <line x1="105" x2="158" y1="94.5" y2="94.5" class="net_4"/>
+  <line x1="85" x2="115" y1="244" y2="244" class="net_5"/>
+  <line x1="115" x2="115" y1="244" y2="193.5" class="net_5"/>
+  <line x1="115" x2="158" y1="193.5" y2="193.5" class="net_5"/>
+  <line x1="85" x2="125" y1="264" y2="264" class="net_6"/>
+  <line x1="125" x2="125" y1="264" y2="213.5" class="net_6"/>
+  <line x1="125" x2="158" y1="213.5" y2="213.5" class="net_6"/>
+  <line x1="85" x2="135" y1="284" y2="284" class="net_7"/>
+  <line x1="135" x2="135" y1="284" y2="233.5" class="net_7"/>
+  <line x1="135" x2="158" y1="233.5" y2="233.5" class="net_7"/>
+  <line x1="85" x2="95" y1="304" y2="304" class="net_8"/>
+  <line x1="95" x2="95" y1="304" y2="301.5" class="net_8"/>
+  <line x1="95" x2="158" y1="301.5" y2="301.5" class="net_8"/>
+  <line x1="85" x2="95" y1="324" y2="324" class="net_9"/>
+  <line x1="95" x2="95" y1="324" y2="321.5" class="net_9"/>
+  <line x1="95" x2="158" y1="321.5" y2="321.5" class="net_9"/>
+  <line x1="85" x2="95" y1="344" y2="344" class="net_10"/>
+  <line x1="95" x2="95" y1="344" y2="341.5" class="net_10"/>
+  <line x1="95" x2="158" y1="341.5" y2="341.5" class="net_10"/>
+  <line x1="85" x2="240" y1="364" y2="364" class="net_11"/>
+  <line x1="240" x2="240" y1="364" y2="355.5" class="net_11"/>
+  <line x1="240" x2="283" y1="355.5" y2="355.5" class="net_11"/>
+  <line x1="85" x2="95" y1="384" y2="384" class="net_12"/>
+  <line x1="95" x2="95" y1="384" y2="375.5" class="net_12"/>
+  <line x1="95" x2="283" y1="375.5" y2="375.5" class="net_12"/>
+  <line x1="85" x2="240" y1="404" y2="404" class="net_13"/>
+  <line x1="240" x2="240" y1="404" y2="395.5" class="net_13"/>
+  <line x1="240" x2="283" y1="395.5" y2="395.5" class="net_13"/>
+  <line x1="85" x2="240" y1="424" y2="424" class="net_14"/>
+  <line x1="240" x2="240" y1="424" y2="463.5" class="net_14"/>
+  <line x1="240" x2="283" y1="463.5" y2="463.5" class="net_14"/>
+  <line x1="84.5" x2="84.5" y1="444.5" y2="483.5" class="net_15"/>
+  <line x1="84.5" x2="283" y1="483.5" y2="483.5" class="net_15"/>
+  <line x1="84.5" x2="84.5" y1="464.5" y2="503.5" class="net_16"/>
+  <line x1="84.5" x2="283" y1="503.5" y2="503.5" class="net_16"/>
+  <line x1="189" x2="260" y1="74.5" y2="74.5" class="net_22"/>
+  <line x1="260" x2="260" y1="74.5" y2="193.5" class="net_22"/>
+  <line x1="260" x2="294.6" y1="193.5" y2="193.5" class="net_22"/>
+  <line x1="189" x2="294.6" y1="213.5" y2="213.5" class="net_24"/>
+  <line x1="189" x2="260" y1="321.5" y2="321.5" class="net_26"/>
+  <line x1="260" x2="260" y1="321.5" y2="233.5" class="net_26"/>
+  <line x1="260" x2="294.6" y1="233.5" y2="233.5" class="net_26"/>
+  <line x1="314" x2="428" y1="375.5" y2="375.5" class="net_28"/>
+  <line x1="314" x2="395" y1="483.5" y2="483.5" class="net_30"/>
+  <line x1="395" x2="395" y1="483.5" y2="395.5" class="net_30"/>
+  <line x1="395" x2="428" y1="395.5" y2="395.5" class="net_30"/>
+  <line x1="325.6" x2="405" y1="213.5" y2="213.5" class="net_32"/>
+  <line x1="405" x2="405" y1="213.5" y2="415.5" class="net_32"/>
+  <line x1="405" x2="428" y1="415.5" y2="415.5" class="net_32"/>
+  <line x1="189" x2="365" y1="54.5" y2="54.5" class="net_21"/>
+  <line x1="365" x2="365" y1="54.5" y2="45.5" class="net_21"/>
+  <line x1="365" x2="428" y1="45.5" y2="45.5" class="net_21"/>
+  <line x1="189" x2="240" y1="193.5" y2="193.5" class="net_23"/>
+  <line x1="240" x2="240" y1="193.5" y2="65.5" class="net_23"/>
+  <line x1="240" x2="428" y1="65.5" y2="65.5" class="net_23"/>
+  <line x1="189" x2="250" y1="301.5" y2="301.5" class="net_25"/>
+  <line x1="250" x2="250" y1="301.5" y2="162" class="net_25"/>
+  <line x1="250" x2="365" y1="162" y2="162" class="net_25"/>
+  <line x1="365" x2="365" y1="162" y2="85.5" class="net_25"/>
+  <line x1="365" x2="428" y1="85.5" y2="85.5" class="net_25"/>
+  <line x1="314" x2="375" y1="355.5" y2="355.5" class="net_27"/>
+  <line x1="375" x2="375" y1="355.5" y2="153.5" class="net_27"/>
+  <line x1="375" x2="428" y1="153.5" y2="153.5" class="net_27"/>
+  <line x1="314" x2="385" y1="463.5" y2="463.5" class="net_29"/>
+  <line x1="385" x2="385" y1="463.5" y2="173.5" class="net_29"/>
+  <line x1="385" x2="428" y1="173.5" y2="173.5" class="net_29"/>
+  <line x1="325.6" x2="428" y1="193.5" y2="193.5" class="net_31"/>
+  <line x1="459" x2="498" y1="65.5" y2="65.5" class="net_35"/>
+  <line x1="498" x2="498" y1="65.5" y2="153.5" class="net_35"/>
+  <line x1="498" x2="526" y1="153.5" y2="153.5" class="net_35"/>
+  <line x1="459" x2="526" y1="173.5" y2="173.5" class="net_37"/>
+  <line x1="459" x2="488" y1="375.5" y2="375.5" class="net_33"/>
+  <line x1="488" x2="488" y1="375.5" y2="193.5" class="net_33"/>
+  <line x1="488" x2="526" y1="193.5" y2="193.5" class="net_33"/>
+  <line x1="459" x2="586" y1="45.5" y2="45.5" class="net_34"/>
+  <line x1="586" x2="586" y1="45.5" y2="102" class="net_34"/>
+  <line x1="586" x2="624" y1="102" y2="102" class="net_34"/>
+  <line x1="459" x2="488" y1="153.5" y2="153.5" class="net_36"/>
+  <line x1="488" x2="488" y1="153.5" y2="122" class="net_36"/>
+  <line x1="488" x2="624" y1="122" y2="122" class="net_36"/>
+  <line x1="557" x2="586" y1="153.5" y2="153.5" class="net_38"/>
+  <line x1="586" x2="586" y1="153.5" y2="142" class="net_38"/>
+  <line x1="586" x2="624" y1="142" y2="142" class="net_38"/>
+  <line x1="727" x2="762" y1="32.5" y2="32.5" class="net_17,18,19,20"/>
+  <line x1="459" x2="684" y1="395.5" y2="395.5" class="net_17"/>
+  <line x1="684" x2="684" y1="395.5" y2="22.5" class="net_17"/>
+  <line x1="684" x2="721" y1="22.5" y2="22.5" class="net_17"/>
+  <line x1="557" x2="694" y1="173.5" y2="173.5" class="net_18"/>
+  <line x1="694" x2="694" y1="173.5" y2="42.5" class="net_18"/>
+  <line x1="694" x2="721" y1="42.5" y2="42.5" class="net_18"/>
+  <line x1="655" x2="704" y1="122" y2="122" class="net_19"/>
+  <line x1="704" x2="704" y1="122" y2="62.5" class="net_19"/>
+  <line x1="704" x2="721" y1="62.5" y2="62.5" class="net_19"/>
+  <line x1="655" x2="721.5" y1="102" y2="102" class="net_20"/>
+  <line x1="721.5" x2="721.5" y1="102" y2="83" class="net_20"/>
+  <line x1="40" x2="80.5" y1="161.5" y2="161.5" class="net_2,3,4,5,6,7,8,9,10,11,12,13,14,15,16"/>
+  <line x1="80.5" x2="80.5" y1="161.5" y2="193.5" class="net_2,3,4,5,6,7,8,9,10,11,12,13,14,15,16"/>
+</svg>

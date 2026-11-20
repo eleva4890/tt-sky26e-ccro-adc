@@ -1,0 +1,21 @@
+{
+  "status": "MEASURED",
+  "added_fF": 1.0,
+  "total_direct_fF": 5.1989,
+  "mid_side_um": 0,
+  "delta_kHz": 6.077058662461443,
+  "half_window_delta_kHz": [
+    6.466746176238658,
+    5.894130155798205
+  ],
+  "reference_response_kHz": 6.9,
+  "phase_fit_kHz": 5.529319949723967,
+  "relative_phase_span_cycles": 0.06673531988138426,
+  "lock_indicator": false,
+  "case": "T5_0_1",
+  "deck_sha256": "26ad15aaaba2e8e3f38a9824e41220a199c75201a307d8c5d852819c457e5f44",
+  "pex_sha256": "ed36d6c519af4741a31c725f25a2e5b1c137f011aae624b7b618540125e7fe63",
+  "raw_sha256": "1aadba99e0b4af73c3686ae4bd166e3b01a0e6b70655a6d7ab271041fdd891f4",
+  "stored_points": 37655,
+  "actual_stop_us": 24.999999999999996
+}

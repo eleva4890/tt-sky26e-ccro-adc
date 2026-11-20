@@ -1,0 +1,22 @@
+open_pdks installation: using /tmp/sky26e-bgr-integration-pdk
+SKYWATER_MODELS: /tmp/sky26e-bgr-integration-pdk/sky130A/libs.tech/combined
+SKYWATER_STDCELLS: /tmp/sky26e-bgr-integration-pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice
+setup_tcp_bespice: success : listening to TCP port: 2022
+OPEN adc_analog.sch 80 objects
+OPEN analog_review.sch 73 objects
+OPEN bank.sch 161 objects
+OPEN beta_ref.sch 43 objects
+OPEN bias.sch 97 objects
+OPEN cvsl.sch 39 objects
+OPEN dual.sch 72 objects
+OPEN front.sch 85 objects
+OPEN nor2.sch 25 objects
+OPEN ring.sch 142 objects
+OPEN stage.sch 45 objects
+OPEN tail.sch 23 objects
+OPEN tailgate.sch 21 objects
+OPEN tt_um_eleva_ccro_adc.sch 171 objects
+OPEN units15.sch 78 objects
+OPEN units20.sch 103 objects
+OPEN units4.sch 23 objects
+

@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="https://github.com/nturley/netlistsvg" width="699" height="301" viewBox="-40 -20 699 301">
+  <rect x="-40" y="-20" width="699" height="301" fill="white" stroke="none"/>
+
+  <style>svg {
+    stroke:#000;
+    fill:none;
+  }
+  text {
+    fill:#000;
+    stroke:none;
+    font-size:10px;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+  }
+  .nodelabel {
+    text-anchor: middle;
+  }
+  .inputPortLabel {
+    text-anchor: end;
+  }
+  .splitjoinBody {
+    fill:#000;
+  }</style>
+  <g s:type="generic" transform="translate(403,22)" s:width="30" s:height="40" id="cell_adc_readout / adc_add21 / adc_fa">
+    <text x="15" y="-4" class="nodelabel cell_adc_readout / adc_add21 / adc_fa" s:attribute="ref">adc_fa</text>
+    <rect width="30" height="20" s:generic="body" class="cell_adc_readout / adc_add21 / adc_fa"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_adc_readout / adc_add21 / adc_fa~parent">
+      <text x="-3" y="-4" class="inputPortLabel cell_adc_readout / adc_add21 / adc_fa">parent</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(193,22)" s:width="30" s:height="40" id="cell_adc_readout / adc_add21">
+    <text x="15" y="-4" class="nodelabel cell_adc_readout / adc_add21" s:attribute="ref">adc_add21</text>
+    <rect width="30" height="20" s:generic="body" class="cell_adc_readout / adc_add21"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_adc_readout / adc_add21~parent">
+      <text x="-3" y="-4" class="inputPortLabel cell_adc_readout / adc_add21">parent</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_adc_readout / adc_add21~adc_fa x21">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_adc_readout / adc_add21">adc_fa x21</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(403,90)" s:width="30" s:height="40" id="cell_adc_readout / adc_div64 / adc_gate">
+    <text x="15" y="-4" class="nodelabel cell_adc_readout / adc_div64 / adc_gate" s:attribute="ref">adc_gate</text>
+    <rect width="30" height="20" s:generic="body" class="cell_adc_readout / adc_div64 / adc_gate"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_adc_readout / adc_div64 / adc_gate~parent">
+      <text x="-3" y="-4" class="inputPortLabel cell_adc_readout / adc_div64 / adc_gate">parent</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(193,90)" s:width="30" s:height="40" id="cell_adc_readout / adc_div64">
+    <text x="15" y="-4" class="nodelabel cell_adc_readout / adc_div64" s:attribute="ref">adc_div64</text>
+    <rect width="30" height="20" s:generic="body" class="cell_adc_readout / adc_div64"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_adc_readout / adc_div64~parent">
+      <text x="-3" y="-4" class="inputPortLabel cell_adc_readout / adc_div64">parent</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_adc_readout / adc_div64~adc_gate x1">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_adc_readout / adc_div64">adc_gate x1</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(403,158)" s:width="30" s:height="40" id="cell_adc_readout / adc_gate">
+    <text x="15" y="-4" class="nodelabel cell_adc_readout / adc_gate" s:attribute="ref">adc_gate</text>
+    <rect width="30" height="20" s:generic="body" class="cell_adc_readout / adc_gate"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_adc_readout / adc_gate~parent">
+      <text x="-3" y="-4" class="inputPortLabel cell_adc_readout / adc_gate">parent</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(403,226)" s:width="30" s:height="40" id="cell_adc_readout / pop15 / adc_fa">
+    <text x="15" y="-4" class="nodelabel cell_adc_readout / pop15 / adc_fa" s:attribute="ref">adc_fa</text>
+    <rect width="30" height="20" s:generic="body" class="cell_adc_readout / pop15 / adc_fa"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_adc_readout / pop15 / adc_fa~parent">
+      <text x="-3" y="-4" class="inputPortLabel cell_adc_readout / pop15 / adc_fa">parent</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(217,226)" s:width="30" s:height="40" id="cell_adc_readout / pop15">
+    <text x="15" y="-4" class="nodelabel cell_adc_readout / pop15" s:attribute="ref">pop15</text>
+    <rect width="30" height="20" s:generic="body" class="cell_adc_readout / pop15"/>
+    <g transform="translate(0,10)" s:x="0" s:y="10" s:pid="in0" id="port_adc_readout / pop15~parent">
+      <text x="-3" y="-4" class="inputPortLabel cell_adc_readout / pop15">parent</text>
+    </g>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_adc_readout / pop15~adc_fa x11">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_adc_readout / pop15">adc_fa x11</text>
+    </g>
+  </g>
+  <g s:type="generic" transform="translate(12,22)" s:width="30" s:height="40" id="cell_adc_readout">
+    <text x="15" y="-4" class="nodelabel cell_adc_readout" s:attribute="ref">adc_readout</text>
+    <rect width="30" height="80" s:generic="body" class="cell_adc_readout"/>
+    <g transform="translate(30,10)" s:x="30" s:y="10" s:pid="out0" id="port_adc_readout~adc_add21 x2">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_adc_readout">adc_add21 x2</text>
+    </g>
+    <g transform="translate(30,30)" s:x="30" s:y="10" s:pid="out0" id="port_adc_readout~adc_div64 x2">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_adc_readout">adc_div64 x2</text>
+    </g>
+    <g transform="translate(30,50)" s:x="30" s:y="10" s:pid="out0" id="port_adc_readout~adc_gate x2">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_adc_readout">adc_gate x2</text>
+    </g>
+    <g transform="translate(30,70)" s:x="30" s:y="10" s:pid="out0" id="port_adc_readout~pop15 x2">
+      <text x="5" y="-4" style="fill:#000; stroke:none" class="cell_adc_readout">pop15 x2</text>
+    </g>
+  </g>
+  <line x1="224" x2="403" y1="32.5" y2="32.5" class="net_12"/>
+  <line x1="43" x2="193" y1="32.5" y2="32.5" class="net_11"/>
+  <line x1="224" x2="403" y1="100.5" y2="100.5" class="net_14"/>
+  <line x1="43" x2="146" y1="52.5" y2="52.5" class="net_13"/>
+  <line x1="146" x2="146" y1="52.5" y2="100.5" class="net_13"/>
+  <line x1="146" x2="193" y1="100.5" y2="100.5" class="net_13"/>
+  <line x1="43" x2="136" y1="72.5" y2="72.5" class="net_15"/>
+  <line x1="136" x2="136" y1="72.5" y2="168.5" class="net_15"/>
+  <line x1="136" x2="403" y1="168.5" y2="168.5" class="net_15"/>
+  <line x1="248" x2="403" y1="236.5" y2="236.5" class="net_17"/>
+  <line x1="43" x2="126" y1="92.5" y2="92.5" class="net_16"/>
+  <line x1="126" x2="126" y1="92.5" y2="236.5" class="net_16"/>
+  <line x1="126" x2="217" y1="236.5" y2="236.5" class="net_16"/>
+</svg>

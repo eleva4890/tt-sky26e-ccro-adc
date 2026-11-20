@@ -1,0 +1,57 @@
+* Dimensions in um with .option scale=1u, estimated 0.29 um diffusion.
+.subckt cinv a y v g params: wp=4.2 wn=2.1 lp=0.55 nlength=0.55
+Xp y a v v sky130_fd_pr__pfet_01v8 w={wp} l={lp} ad={wp*.29} as={wp*.29} pd={2*(wp+.29)} ps={2*(wp+.29)}
+Xn y a g g sky130_fd_pr__nfet_01v8 w={wn} l={nlength} ad={wn*.29} as={wn*.29} pd={2*(wn+.29)} ps={2*(wn+.29)}
+.ends
+.subckt rinv a y v g well params: wp=8.4 wn=4.2
+Xp y a v well sky130_fd_pr__pfet_01v8_lvt w={wp} l=.55 ad={wp*.29} as={wp*.29} pd={2*(wp+.29)} ps={2*(wp+.29)}
+Xn y a g g sky130_fd_pr__nfet_01v8 w={wn} l=.55 ad={wn*.29} as={wn*.29} pd={2*(wn+.29)} ps={2*(wn+.29)}
+.ends
+.subckt stage a b y z rail g well
+Xca g y sky130_fd_pr__cap_mim_m3_1 w=4.5 l=4.5
+Xcb g z sky130_fd_pr__cap_mim_m3_1 w=4.5 l=4.5
+XmainA a y rail g well rinv
+XmainB b z rail g well rinv
+XcrossA y z rail g well rinv wp=1.68 wn=.84
+XcrossB z y rail g well rinv wp=1.68 wn=.84
+.ends
+.subckt cvsl a b out v g
+Xn0 l a g g sky130_fd_pr__nfet_01v8_lvt w=4 l=.15 ad=1.16 as=1.16 pd=8.58 ps=8.58
+Xn1 r b g g sky130_fd_pr__nfet_01v8_lvt w=4 l=.15 ad=1.16 as=1.16 pd=8.58 ps=8.58
+Xp0 l r v v sky130_fd_pr__pfet_01v8 w=.42 l=2.4 ad=.122 as=.122 pd=1.42 ps=1.42
+Xp1 r l v v sky130_fd_pr__pfet_01v8 w=.42 l=2.4 ad=.122 as=.122 pd=1.42 ps=1.42
+Xbuf l out v g cinv wp=.84 wn=.42 lp=.15 nlength=.15
+Xdummy r dummy v g cinv wp=.84 wn=.42 lp=.15 nlength=.15
+.ends
+.subckt ring rail v g t0 t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11 t12 t13 t14
+Xs0 a14 b14 a0 b0 rail g v stage
+Xl0 a0 b0 t0 v g cvsl
+Xs1 a0 b0 a1 b1 rail g v stage
+Xl1 a1 b1 t1 v g cvsl
+Xs2 a1 b1 a2 b2 rail g v stage
+Xl2 a2 b2 t2 v g cvsl
+Xs3 a2 b2 a3 b3 rail g v stage
+Xl3 a3 b3 t3 v g cvsl
+Xs4 a3 b3 a4 b4 rail g v stage
+Xl4 a4 b4 t4 v g cvsl
+Xs5 a4 b4 a5 b5 rail g v stage
+Xl5 a5 b5 t5 v g cvsl
+Xs6 a5 b5 a6 b6 rail g v stage
+Xl6 a6 b6 t6 v g cvsl
+Xs7 a6 b6 a7 b7 rail g v stage
+Xl7 a7 b7 t7 v g cvsl
+Xs8 a7 b7 a8 b8 rail g v stage
+Xl8 a8 b8 t8 v g cvsl
+Xs9 a8 b8 a9 b9 rail g v stage
+Xl9 a9 b9 t9 v g cvsl
+Xs10 a9 b9 a10 b10 rail g v stage
+Xl10 a10 b10 t10 v g cvsl
+Xs11 a10 b10 a11 b11 rail g v stage
+Xl11 a11 b11 t11 v g cvsl
+Xs12 a11 b11 a12 b12 rail g v stage
+Xl12 a12 b12 t12 v g cvsl
+Xs13 a12 b12 a13 b13 rail g v stage
+Xl13 a13 b13 t13 v g cvsl
+Xs14 a13 b13 a14 b14 rail g v stage
+Xl14 a14 b14 t14 v g cvsl
+.ends

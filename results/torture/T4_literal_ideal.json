@@ -1,0 +1,11 @@
+{
+  "status": "MEASURED",
+  "hd3_dBc": -63.84077050804937,
+  "phase_residual_cycles": 0.0009455749019652293,
+  "case": "T4_literal_ideal",
+  "deck_sha256": "e4b87a50a7bb20c4481dd4091c3d575397ea15dcb0aa4072a1dd4b3b7918e53c",
+  "pex_sha256": "ed36d6c519af4741a31c725f25a2e5b1c137f011aae624b7b618540125e7fe63",
+  "raw_sha256": "2b61e050b52e1bee77196d10ed05831f36f3e7b3d1bdd2954f3e5509c1508fdb",
+  "stored_points": 146105,
+  "actual_stop_us": 53.0
+}

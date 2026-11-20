@@ -1,0 +1,8 @@
+# Reproduce the exact bytes used by the submission and review SHA-256 ledgers,
+# including on Git for Windows with core.autocrlf enabled.
+* -text
+*.gds binary
+*.pdf binary
+*.png binary
+*.gz binary
+*.zip binary

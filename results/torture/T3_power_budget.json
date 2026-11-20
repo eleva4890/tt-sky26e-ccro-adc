@@ -1,0 +1,95 @@
+{
+  "target_dB": 54,
+  "maximum_allowed_loss_dB": 3,
+  "bins_excluded": [
+    0,
+    2
+  ],
+  "records_per_condition": 16,
+  "reference_assumption": "Disturbance in paired code differences adds in power to the nominal 54-dB noise and distortion budget.",
+  "phases": [
+    {
+      "offset_ns": 0.0,
+      "quiet_dB": 63.43785595040621,
+      "injected_dB": 67.19790189413901,
+      "quiet_to_injected_loss_dB": -3.7600459437327984,
+      "difference_to_tone_power_ratio": 4.86711418089225e-07,
+      "loss_from_54_dB": 0.5009208331123387,
+      "projected_sndr_dB": 53.49907916688766
+    },
+    {
+      "offset_ns": 6.25,
+      "quiet_dB": 68.19947932558595,
+      "injected_dB": 64.93249645322558,
+      "quiet_to_injected_loss_dB": 3.266982872360373,
+      "difference_to_tone_power_ratio": 4.602494916682841e-07,
+      "loss_from_54_dB": 0.4751218256992293,
+      "projected_sndr_dB": 53.524878174300774
+    },
+    {
+      "offset_ns": 12.5,
+      "quiet_dB": 69.09280620071084,
+      "injected_dB": 66.62889526151966,
+      "quiet_to_injected_loss_dB": 2.46391093919118,
+      "difference_to_tone_power_ratio": 2.992185098897278e-07,
+      "loss_from_54_dB": 0.31473216369368423,
+      "projected_sndr_dB": 53.685267836306316
+    },
+    {
+      "offset_ns": 18.750000000000004,
+      "quiet_dB": 64.64454885637643,
+      "injected_dB": 67.49689235118906,
+      "quiet_to_injected_loss_dB": -2.8523434948126294,
+      "difference_to_tone_power_ratio": 1.5183913486302802e-07,
+      "loss_from_54_dB": 0.16256036314656358,
+      "projected_sndr_dB": 53.83743963685344
+    },
+    {
+      "offset_ns": 25.0,
+      "quiet_dB": 65.70770592718534,
+      "injected_dB": 64.87316490993445,
+      "quiet_to_injected_loss_dB": 0.8345410172508991,
+      "difference_to_tone_power_ratio": 4.874148487789642e-07,
+      "loss_from_54_dB": 0.5016045547962092,
+      "projected_sndr_dB": 53.49839544520379
+    },
+    {
+      "offset_ns": 31.25,
+      "quiet_dB": 65.46888753493229,
+      "injected_dB": 65.47831862457672,
+      "quiet_to_injected_loss_dB": -0.009431089644422741,
+      "difference_to_tone_power_ratio": 5.097149017099403e-07,
+      "loss_from_54_dB": 0.523224187906495,
+      "projected_sndr_dB": 53.47677581209351
+    },
+    {
+      "offset_ns": 37.50000000000001,
+      "quiet_dB": 68.27597910506196,
+      "injected_dB": 65.7532166551299,
+      "quiet_to_injected_loss_dB": 2.52276244993206,
+      "difference_to_tone_power_ratio": 2.161152633946438e-07,
+      "loss_from_54_dB": 0.22958315831891513,
+      "projected_sndr_dB": 53.77041684168108
+    },
+    {
+      "offset_ns": 43.75000000000001,
+      "quiet_dB": 66.19354711437398,
+      "injected_dB": 64.26495138287827,
+      "quiet_to_injected_loss_dB": 1.9285957314957187,
+      "difference_to_tone_power_ratio": 5.2282413110845e-07,
+      "loss_from_54_dB": 0.5358833786147648,
+      "projected_sndr_dB": 53.46411662138524
+    }
+  ],
+  "routed_gate": {
+    "quiet_dB": 66.7141908795034,
+    "injected_dB": 64.58312255988463,
+    "quiet_to_injected_loss_dB": 2.1310683196187767,
+    "difference_to_tone_power_ratio": 4.5841900461138773e-07,
+    "loss_from_54_dB": 0.47333151542679763,
+    "projected_sndr_dB": 53.5266684845732
+  },
+  "max_loss_from_target_dB": 0.5358833786147648,
+  "max_loss_from_measured_quiet_dB": 3.266982872360373,
+  "min_measured_injected_dB": 64.26495138287827
+}

@@ -1,0 +1,4 @@
+state cells Counter({'$_DFF_P_': 153, '$_DFF_PN0_': 73, '$_DFFE_PN0P_': 7, '$_DLATCH_N_': 4, '$_DFF_PN1_': 1, '$_DFF_NN0_': 1}) Counter({'$_DFF_P_': 153, '$_DFF_PN0_': 80, '$_DLATCH_N_': 4, '$_DFF_PN1_': 1, '$_DFF_NN0_': 1})
+matched 239 of 239 239
+Paired state bits 239 including 4 latches
+All non-state standard-cell logic retained; all state update events and observable bits are proof outputs.

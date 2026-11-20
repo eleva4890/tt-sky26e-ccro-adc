@@ -1,0 +1,30 @@
+v {xschem version=3.4.4 file_version=1.2}
+G {}
+K {type=subcircuit format="@name @pinlist @symname" template="name=X1"}
+V {}
+S {}
+E {}
+L 4 -100 -25 100 -25 {}
+L 4 -100 80 100 80 {}
+L 4 -100 -25 -100 80 {}
+L 4 100 -25 100 80 {}
+T {tailgate} -98 -64 0 0 0.38 0.38 {}
+T {@name} -98 -42 0 0 0.23 0.23 {layer=13}
+L 4 -120 0 -100 0 {}
+B 5 -122 -2 -118 2 {name=en dir=inout}
+T {en} -90 -8 0 0 0.25 0.25 {}
+L 4 -120 30 -100 30 {}
+B 5 -122 28 -118 32 {name=enb dir=inout}
+T {enb} -90 22 0 0 0.25 0.25 {}
+L 4 -120 60 -100 60 {}
+B 5 -122 58 -118 62 {name=vb dir=inout}
+T {vb} -90 52 0 0 0.25 0.25 {}
+L 4 100 0 120 0 {}
+B 5 118 -2 122 2 {name=out dir=inout}
+T {out} 90 -8 0 1 0.25 0.25 {}
+L 4 100 30 120 30 {}
+B 5 118 28 122 32 {name=v dir=inout}
+T {v} 90 22 0 1 0.25 0.25 {}
+L 4 100 60 120 60 {}
+B 5 118 58 122 62 {name=g dir=inout}
+T {g} 90 52 0 1 0.25 0.25 {}

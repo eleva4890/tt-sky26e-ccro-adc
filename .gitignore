@@ -1,0 +1,17 @@
+# Local Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# EDA scratch and raw transient traces
+/tmp/
+*.raw
+*.vcd
+/results/design_report/waveforms/*.csv.gz
+
+# Editor and OS files
+*~
+*.swp
+.DS_Store
+Thumbs.db

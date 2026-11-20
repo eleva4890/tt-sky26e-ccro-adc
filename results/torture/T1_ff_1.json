@@ -1,0 +1,236 @@
+{
+  "status": "PASS",
+  "banks": {
+    "p": {
+      "ic_error_V": 2.220446049250313e-16,
+      "stages": [
+        {
+          "stage": 0,
+          "period_us": 3.55609920960093,
+          "confirmed_cycles": 3.040164611325674,
+          "final_phase_deg": 179.89177751650962,
+          "pass_stage": true
+        },
+        {
+          "stage": 1,
+          "period_us": 3.556148574010095,
+          "confirmed_cycles": 2.573686440321264,
+          "final_phase_deg": 179.8153819318111,
+          "pass_stage": true
+        },
+        {
+          "stage": 2,
+          "period_us": 3.556189990680849,
+          "confirmed_cycles": 2.1064144760475236,
+          "final_phase_deg": 179.77893953978923,
+          "pass_stage": true
+        },
+        {
+          "stage": 3,
+          "period_us": 3.556131589037008,
+          "confirmed_cycles": 2.639832380103543,
+          "final_phase_deg": 179.7786831424197,
+          "pass_stage": true
+        },
+        {
+          "stage": 4,
+          "period_us": 3.5564654009757675,
+          "confirmed_cycles": 2.1726857298917253,
+          "final_phase_deg": 179.68693538339653,
+          "pass_stage": true
+        },
+        {
+          "stage": 5,
+          "period_us": 3.5561151822267902,
+          "confirmed_cycles": 2.70601144497207,
+          "final_phase_deg": 179.79007419208648,
+          "pass_stage": true
+        },
+        {
+          "stage": 6,
+          "period_us": 3.5561674046763017,
+          "confirmed_cycles": 2.2392340143174354,
+          "final_phase_deg": 179.65764345733476,
+          "pass_stage": true
+        },
+        {
+          "stage": 7,
+          "period_us": 3.5561014711881995,
+          "confirmed_cycles": 2.772018281193062,
+          "final_phase_deg": 179.89091843174373,
+          "pass_stage": true
+        },
+        {
+          "stage": 8,
+          "period_us": 3.556173588188827,
+          "confirmed_cycles": 2.3054975841363436,
+          "final_phase_deg": 179.6237725153266,
+          "pass_stage": true
+        },
+        {
+          "stage": 9,
+          "period_us": 3.556075909719624,
+          "confirmed_cycles": 2.8380686106949304,
+          "final_phase_deg": 179.93420443551028,
+          "pass_stage": true
+        },
+        {
+          "stage": 10,
+          "period_us": 3.5561684326139726,
+          "confirmed_cycles": 2.371672345751336,
+          "final_phase_deg": 179.60008990591248,
+          "pass_stage": true
+        },
+        {
+          "stage": 11,
+          "period_us": 3.556097156725741,
+          "confirmed_cycles": 2.904080905897529,
+          "final_phase_deg": 179.9746738497552,
+          "pass_stage": true
+        },
+        {
+          "stage": 12,
+          "period_us": 3.556139931092602,
+          "confirmed_cycles": 2.437666278807411,
+          "final_phase_deg": 179.614859475735,
+          "pass_stage": true
+        },
+        {
+          "stage": 13,
+          "period_us": 3.556085021604659,
+          "confirmed_cycles": 2.970114635773886,
+          "final_phase_deg": 179.9408123968926,
+          "pass_stage": true
+        },
+        {
+          "stage": 14,
+          "period_us": 3.556147334138686,
+          "confirmed_cycles": 2.5053802472385946,
+          "final_phase_deg": 179.6025360955494,
+          "pass_stage": true
+        }
+      ],
+      "success": true
+    },
+    "n": {
+      "ic_error_V": 5.551115123125783e-17,
+      "stages": [
+        {
+          "stage": 0,
+          "period_us": 3.5560395650720693,
+          "confirmed_cycles": 3.0411183510726407,
+          "final_phase_deg": 179.8138115131938,
+          "pass_stage": true
+        },
+        {
+          "stage": 1,
+          "period_us": 3.5560892527967667,
+          "confirmed_cycles": 2.5745916635994828,
+          "final_phase_deg": 179.7730358299906,
+          "pass_stage": true
+        },
+        {
+          "stage": 2,
+          "period_us": 3.5560557482002793,
+          "confirmed_cycles": 2.1072978065390795,
+          "final_phase_deg": 179.80982833763198,
+          "pass_stage": true
+        },
+        {
+          "stage": 3,
+          "period_us": 3.5560774643185056,
+          "confirmed_cycles": 2.6406111230670546,
+          "final_phase_deg": 179.74346468075288,
+          "pass_stage": true
+        },
+        {
+          "stage": 4,
+          "period_us": 3.556373631489251,
+          "confirmed_cycles": 2.1734872525285014,
+          "final_phase_deg": 179.73190917335097,
+          "pass_stage": true
+        },
+        {
+          "stage": 5,
+          "period_us": 3.5560668473130193,
+          "confirmed_cycles": 2.7068161860479156,
+          "final_phase_deg": 179.73310789926796,
+          "pass_stage": true
+        },
+        {
+          "stage": 6,
+          "period_us": 3.5562702499411074,
+          "confirmed_cycles": 2.2398956856278476,
+          "final_phase_deg": 179.72493227611935,
+          "pass_stage": true
+        },
+        {
+          "stage": 7,
+          "period_us": 3.5560497455964537,
+          "confirmed_cycles": 2.7728372460540816,
+          "final_phase_deg": 179.84292665930153,
+          "pass_stage": true
+        },
+        {
+          "stage": 8,
+          "period_us": 3.55602361696468,
+          "confirmed_cycles": 2.306280659509981,
+          "final_phase_deg": 179.6805700339085,
+          "pass_stage": true
+        },
+        {
+          "stage": 9,
+          "period_us": 3.556034449978611,
+          "confirmed_cycles": 2.8388858768531335,
+          "final_phase_deg": 179.88274499690561,
+          "pass_stage": true
+        },
+        {
+          "stage": 10,
+          "period_us": 3.5561297923692763,
+          "confirmed_cycles": 2.3723860158461516,
+          "final_phase_deg": 179.64953308562107,
+          "pass_stage": true
+        },
+        {
+          "stage": 11,
+          "period_us": 3.5560449461592896,
+          "confirmed_cycles": 2.904897606182286,
+          "final_phase_deg": 179.9267712924732,
+          "pass_stage": true
+        },
+        {
+          "stage": 12,
+          "period_us": 3.5560957493022443,
+          "confirmed_cycles": 2.4383919731737493,
+          "final_phase_deg": 179.65693555716544,
+          "pass_stage": true
+        },
+        {
+          "stage": 13,
+          "period_us": 3.55603038733436,
+          "confirmed_cycles": 2.970934428471797,
+          "final_phase_deg": 179.8961271798194,
+          "pass_stage": true
+        },
+        {
+          "stage": 14,
+          "period_us": 3.556074348718596,
+          "confirmed_cycles": 2.5062374830681473,
+          "final_phase_deg": 179.58995569122263,
+          "pass_stage": true
+        }
+      ],
+      "success": true
+    }
+  },
+  "initial_saved_us": 0.0,
+  "phase_tolerance_deg": 15,
+  "confirmed_periods": 2,
+  "case": "T1_ff_1",
+  "deck_sha256": "101dc5da2e4eac85dc9bba906f354b10df41f2e83cff3a119bef31424ccffa49",
+  "pex_sha256": "ed36d6c519af4741a31c725f25a2e5b1c137f011aae624b7b618540125e7fe63",
+  "raw_sha256": "dc3091767ba0d1dd4b15c8a1263f532a2e41af3918e70ccb12fd03f141fc84ac",
+  "stored_points": 65995,
+  "actual_stop_us": 175.0
+}

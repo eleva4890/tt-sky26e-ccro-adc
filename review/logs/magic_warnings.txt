@@ -1,0 +1,18 @@
+Magic extraction feedback: 2214
+54 Could not determine device boundary
+2160 device missing 1 terminal; connecting remainder
+
+Count | message | routed standard-cell master at marker center
+2160 | device missing 1 terminal; connecting remainder | sky130_fd_sc_hd__decap_3
+32 | Could not determine device boundary | sky130_fd_sc_hd__diode_2
+5 | Could not determine device boundary | sky130_fd_sc_hd__dfxtp_1/sky130_fd_sc_hd__diode_2
+4 | Could not determine device boundary | sky130_fd_sc_hd__diode_2/sky130_fd_sc_hd__fill_2
+3 | Could not determine device boundary | sky130_fd_sc_hd__decap_3/sky130_fd_sc_hd__diode_2
+3 | Could not determine device boundary | sky130_fd_sc_hd__dfrtp_2/sky130_fd_sc_hd__diode_2
+2 | Could not determine device boundary | (outside standard-cell boxes)
+2 | Could not determine device boundary | sky130_fd_sc_hd__dfrtp_1/sky130_fd_sc_hd__diode_2
+1 | Could not determine device boundary | sky130_fd_sc_hd__diode_2/sky130_fd_sc_hd__dlclkp_1
+1 | Could not determine device boundary | sky130_fd_sc_hd__diode_2/sky130_fd_sc_hd__fa_1
+1 | Could not determine device boundary | sky130_fd_sc_hd__dfrtp_4/sky130_fd_sc_hd__diode_2
+Top-level marker center (89.500, 122.600) um; LI1 probed to ['ui_in[4]']
+Top-level marker center (91.500, 127.350) um; LI1 probed to ['ui_in[3]']

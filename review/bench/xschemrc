@@ -1,0 +1,38 @@
+# Use SPICE simulation formatting for the existing review hierarchy.
+set bench_dir [file dirname [file normalize [info script]]]
+source [file join $env(PDK_ROOT) sky130A libs.tech xschem xschemrc]
+set XSCHEM_LIBRARY_PATH "[file join $bench_dir .. xschem]:$XSCHEM_SHAREDIR/xschem_library:$XSCHEM_LIBRARY_PATH"
+set lvs_netlist 0
+set top_is_subckt 0
+set spiceprefix 1
+set netlist_type spice
+if {[info exists env(CCRO_RUN_DIR)]} {
+    set netlist_dir $env(CCRO_RUN_DIR)
+} else {
+    set netlist_dir [exec mktemp -d /tmp/ccro-adc.XXXXXXXX]
+}
+set model_dir [file normalize [file join $env(PDK_ROOT) sky130A libs.tech ngspice]]
+# The relative model path also works for PDK installations with spaces.
+file link -symbolic [file join $netlist_dir models] $model_dir
+file copy [file join $model_dir spinit] [file join $netlist_dir .spiceinit]
+set SKYWATER_MODELS ./models
+set ccro_runner [file join $bench_dir simulate.py]
+after idle {
+    set_sim_defaults
+    set sim(spice,default) 1
+    set sim(spice,1,fg) 0
+    set sim(spice,1,st) 1
+    set sim(spice,1,cmd) {python3 "$::ccro_runner" "$N"}
+}
+puts "CCRO waveform directory: $netlist_dir"
+
+proc ccro_load_traces {} {
+    global netlist_dir
+    set raw [file join $netlist_dir tb_ccro.raw]
+    if {![file isfile $raw]} {
+        tk_messageBox -message "Finish the simulation first. See tb_ccro.log in $netlist_dir"
+        return
+    }
+    xschem raw_read
+    xschem raw_read $raw tran
+}

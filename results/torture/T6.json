@@ -1,0 +1,454 @@
+{
+  "rtl": {
+    "ticks": 27200,
+    "frames": 151,
+    "oracle_mismatched_ticks": 0,
+    "first_mismatches": [],
+    "malformed": [],
+    "malformed_count": 0,
+    "different_frame_words": 16,
+    "quiet_recovered_frames": 26,
+    "persistent_bad_frames": [],
+    "max_age_of_affected_frame_at_CS_clocks": 284,
+    "peak_internal_acc1_difference_counts": 3,
+    "internal_acc1_difference_after_last_burst": 2,
+    "directed_acc1_difference": {
+      "7379": 0,
+      "7399": 2,
+      "7780": 2
+    },
+    "directed_acc2_difference": {
+      "7379": 4480,
+      "7399": 4513,
+      "7780": 5275
+    },
+    "bubble_count": 53,
+    "mode_changes": [
+      {
+        "tick": 7982,
+        "osr": 256,
+        "spi_start_clocks": 347,
+        "spi_complete_clocks": 411,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 8658,
+        "osr": 128,
+        "spi_start_clocks": 409,
+        "spi_complete_clocks": 473,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 9309,
+        "osr": 256,
+        "spi_start_clocks": 368,
+        "spi_complete_clocks": 432,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 10001,
+        "osr": 128,
+        "spi_start_clocks": 414,
+        "spi_complete_clocks": 478,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 10630,
+        "osr": 256,
+        "spi_start_clocks": 395,
+        "spi_complete_clocks": 459,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 11351,
+        "osr": 128,
+        "spi_start_clocks": 412,
+        "spi_complete_clocks": 476,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 13237,
+        "osr": 256,
+        "spi_start_clocks": 315,
+        "spi_complete_clocks": 379,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 13875,
+        "osr": 128,
+        "spi_start_clocks": 415,
+        "spi_complete_clocks": 479,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 14565,
+        "osr": 256,
+        "spi_start_clocks": 335,
+        "spi_complete_clocks": 399,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 15234,
+        "osr": 128,
+        "spi_start_clocks": 404,
+        "spi_complete_clocks": 468,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 16731,
+        "osr": 256,
+        "spi_start_clocks": 306,
+        "spi_complete_clocks": 370,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 17367,
+        "osr": 128,
+        "spi_start_clocks": 408,
+        "spi_complete_clocks": 472,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 18036,
+        "osr": 256,
+        "spi_start_clocks": 349,
+        "spi_complete_clocks": 413,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 19628,
+        "osr": 128,
+        "spi_start_clocks": 413,
+        "spi_complete_clocks": 477,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 20294,
+        "osr": 256,
+        "spi_start_clocks": 357,
+        "spi_complete_clocks": 421,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 20985,
+        "osr": 128,
+        "spi_start_clocks": 404,
+        "spi_complete_clocks": 468,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 21708,
+        "osr": 256,
+        "spi_start_clocks": 291,
+        "spi_complete_clocks": 355,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 22323,
+        "osr": 128,
+        "spi_start_clocks": 414,
+        "spi_complete_clocks": 478,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 23033,
+        "osr": 256,
+        "spi_start_clocks": 314,
+        "spi_complete_clocks": 378,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 23687,
+        "osr": 128,
+        "spi_start_clocks": 398,
+        "spi_complete_clocks": 462,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 24357,
+        "osr": 256,
+        "spi_start_clocks": 338,
+        "spi_complete_clocks": 402,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 25034,
+        "osr": 128,
+        "spi_start_clocks": 399,
+        "spi_complete_clocks": 463,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 25756,
+        "osr": 256,
+        "spi_start_clocks": 415,
+        "spi_complete_clocks": 479,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 26451,
+        "osr": 128,
+        "spi_start_clocks": 202,
+        "spi_complete_clocks": 266,
+        "limit_clocks": 256
+      }
+    ],
+    "reset_events": [
+      {
+        "tick": 5,
+        "osr": 128,
+        "spi_start_clocks": 162,
+        "spi_complete_clocks": 226,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 12524,
+        "osr": 128,
+        "spi_start_clocks": 162,
+        "spi_complete_clocks": 226,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 16009,
+        "osr": 128,
+        "spi_start_clocks": 162,
+        "spi_complete_clocks": 226,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 19010,
+        "osr": 256,
+        "spi_start_clocks": 293,
+        "spi_complete_clocks": 357,
+        "limit_clocks": 512
+      }
+    ],
+    "dbg_transitions": 1022,
+    "bubble_pass": true,
+    "reset_pass": true,
+    "mode_pass": false
+  },
+  "gates": {
+    "ticks": 27200,
+    "frames": 151,
+    "oracle_mismatched_ticks": 0,
+    "first_mismatches": [],
+    "malformed": [],
+    "malformed_count": 0,
+    "different_frame_words": 16,
+    "quiet_recovered_frames": 26,
+    "persistent_bad_frames": [],
+    "max_age_of_affected_frame_at_CS_clocks": 284,
+    "peak_internal_acc1_difference_counts": null,
+    "internal_acc1_difference_after_last_burst": null,
+    "directed_acc1_difference": {},
+    "directed_acc2_difference": {},
+    "bubble_count": 53,
+    "mode_changes": [
+      {
+        "tick": 7982,
+        "osr": 256,
+        "spi_start_clocks": 347,
+        "spi_complete_clocks": 411,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 8658,
+        "osr": 128,
+        "spi_start_clocks": 409,
+        "spi_complete_clocks": 473,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 9309,
+        "osr": 256,
+        "spi_start_clocks": 368,
+        "spi_complete_clocks": 432,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 10001,
+        "osr": 128,
+        "spi_start_clocks": 414,
+        "spi_complete_clocks": 478,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 10630,
+        "osr": 256,
+        "spi_start_clocks": 395,
+        "spi_complete_clocks": 459,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 11351,
+        "osr": 128,
+        "spi_start_clocks": 412,
+        "spi_complete_clocks": 476,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 13237,
+        "osr": 256,
+        "spi_start_clocks": 315,
+        "spi_complete_clocks": 379,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 13875,
+        "osr": 128,
+        "spi_start_clocks": 415,
+        "spi_complete_clocks": 479,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 14565,
+        "osr": 256,
+        "spi_start_clocks": 335,
+        "spi_complete_clocks": 399,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 15234,
+        "osr": 128,
+        "spi_start_clocks": 404,
+        "spi_complete_clocks": 468,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 16731,
+        "osr": 256,
+        "spi_start_clocks": 306,
+        "spi_complete_clocks": 370,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 17367,
+        "osr": 128,
+        "spi_start_clocks": 408,
+        "spi_complete_clocks": 472,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 18036,
+        "osr": 256,
+        "spi_start_clocks": 349,
+        "spi_complete_clocks": 413,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 19628,
+        "osr": 128,
+        "spi_start_clocks": 413,
+        "spi_complete_clocks": 477,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 20294,
+        "osr": 256,
+        "spi_start_clocks": 357,
+        "spi_complete_clocks": 421,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 20985,
+        "osr": 128,
+        "spi_start_clocks": 404,
+        "spi_complete_clocks": 468,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 21708,
+        "osr": 256,
+        "spi_start_clocks": 291,
+        "spi_complete_clocks": 355,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 22323,
+        "osr": 128,
+        "spi_start_clocks": 414,
+        "spi_complete_clocks": 478,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 23033,
+        "osr": 256,
+        "spi_start_clocks": 314,
+        "spi_complete_clocks": 378,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 23687,
+        "osr": 128,
+        "spi_start_clocks": 398,
+        "spi_complete_clocks": 462,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 24357,
+        "osr": 256,
+        "spi_start_clocks": 338,
+        "spi_complete_clocks": 402,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 25034,
+        "osr": 128,
+        "spi_start_clocks": 399,
+        "spi_complete_clocks": 463,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 25756,
+        "osr": 256,
+        "spi_start_clocks": 415,
+        "spi_complete_clocks": 479,
+        "limit_clocks": 512
+      },
+      {
+        "tick": 26451,
+        "osr": 128,
+        "spi_start_clocks": 202,
+        "spi_complete_clocks": 266,
+        "limit_clocks": 256
+      }
+    ],
+    "reset_events": [
+      {
+        "tick": 5,
+        "osr": 128,
+        "spi_start_clocks": 162,
+        "spi_complete_clocks": 226,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 12524,
+        "osr": 128,
+        "spi_start_clocks": 162,
+        "spi_complete_clocks": 226,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 16009,
+        "osr": 128,
+        "spi_start_clocks": 162,
+        "spi_complete_clocks": 226,
+        "limit_clocks": 256
+      },
+      {
+        "tick": 19010,
+        "osr": 256,
+        "spi_start_clocks": 293,
+        "spi_complete_clocks": 357,
+        "limit_clocks": 512
+      }
+    ],
+    "dbg_transitions": 1022,
+    "bubble_pass": true,
+    "reset_pass": true,
+    "mode_pass": false
+  },
+  "seed": 260611,
+  "status": "FAIL"
+}

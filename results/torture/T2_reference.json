@@ -1,0 +1,21 @@
+{
+  "status": "MEASURED",
+  "tail": {
+    "window_us": [
+      20,
+      100
+    ],
+    "fp_MHz": 0.24644764626128465,
+    "fn_MHz": 0.24643628174650364,
+    "min_tap_MHz": 0.24643411500069115,
+    "max_tap_MHz": 0.2464528045927851,
+    "min_swing_V": 1.803598710449984,
+    "vb_V": 0.6826143672139776
+  },
+  "case": "T2_reference",
+  "deck_sha256": "25d4361b3ecc3076ccc53e7edac170b974720dcc92d4d3d903538c720b7debaa",
+  "pex_sha256": "ed36d6c519af4741a31c725f25a2e5b1c137f011aae624b7b618540125e7fe63",
+  "raw_sha256": "3830e4e01180ea2d7c532cc958521c444e4b3755e5d3fc786d04a0376ca2fff3",
+  "stored_points": 67578,
+  "actual_stop_us": 99.99999999999999
+}

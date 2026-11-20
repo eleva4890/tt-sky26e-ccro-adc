@@ -1,0 +1,1059 @@
+
+-- Executing script file `review/digital/equivalence.ys' --
+
+1. Executing JSON frontend.
+Importing module gate from JSON tree.
+Importing module gold from JSON tree.
+
+2. Executing EQUIV_MAKE pass (creating equiv checking module).
+Presumably equivalent wires: update_238_gold (\update_238_gold), update_238_gate (\update_238_gate) -> update_238
+Presumably equivalent wires: reset_238_gold (\prior_168_gold), reset_238_gate (\prior_168_gate) -> reset_238
+Presumably equivalent wires: clock_238_gold (\clk_gold), clock_238_gate (\clk_gate) -> clock_238
+Presumably equivalent wires: prior_238_gold (\prior_238_gold), prior_238_gate (\prior_238_gate) -> prior_238
+Presumably equivalent wires: update_237_gold (\update_237_gold), update_237_gate (\update_237_gate) -> update_237
+Presumably equivalent wires: reset_237_gold (\rst_n_gold), reset_237_gate (\rst_n_gate) -> reset_237
+Presumably equivalent wires: clock_237_gold (\clock_93_gold), clock_237_gate (\clock_93_gate) -> clock_237
+Presumably equivalent wires: prior_237_gold (\prior_237_gold), prior_237_gate (\prior_237_gate) -> prior_237
+Presumably equivalent wires: update_236_gold (\update_236_gold), update_236_gate (\update_236_gate) -> update_236
+Presumably equivalent wires: reset_236_gold (\rst_n_gold), reset_236_gate (\rst_n_gate) -> reset_236
+Presumably equivalent wires: clock_236_gold (\clock_93_gold), clock_236_gate (\clock_93_gate) -> clock_236
+Presumably equivalent wires: prior_236_gold (\prior_236_gold), prior_236_gate (\prior_236_gate) -> prior_236
+Presumably equivalent wires: update_235_gold (\update_235_gold), update_235_gate (\update_235_gate) -> update_235
+Presumably equivalent wires: reset_235_gold (\rst_n_gold), reset_235_gate (\rst_n_gate) -> reset_235
+Presumably equivalent wires: clock_235_gold (\clock_93_gold), clock_235_gate (\clock_93_gate) -> clock_235
+Presumably equivalent wires: prior_235_gold (\prior_235_gold), prior_235_gate (\prior_235_gate) -> prior_235
+Presumably equivalent wires: update_234_gold (\update_234_gold), update_234_gate (\update_234_gate) -> update_234
+Presumably equivalent wires: reset_234_gold (\rst_n_gold), reset_234_gate (\rst_n_gate) -> reset_234
+Presumably equivalent wires: clock_234_gold (\clock_93_gold), clock_234_gate (\clock_93_gate) -> clock_234
+Presumably equivalent wires: prior_234_gold (\prior_234_gold), prior_234_gate (\prior_234_gate) -> prior_234
+Presumably equivalent wires: update_233_gold (\update_233_gold), update_233_gate (\update_233_gate) -> update_233
+Presumably equivalent wires: reset_233_gold (\rst_n_gold), reset_233_gate (\rst_n_gate) -> reset_233
+Presumably equivalent wires: clock_233_gold (\clock_93_gold), clock_233_gate (\clock_93_gate) -> clock_233
+Presumably equivalent wires: prior_233_gold (\prior_233_gold), prior_233_gate (\prior_233_gate) -> prior_233
+Presumably equivalent wires: update_232_gold (\update_226_gold), update_232_gate (\update_226_gate) -> update_232
+Presumably equivalent wires: low_latch_gate_232_gold (\tap_p_gold [0]), low_latch_gate_232_gate (\tap_p_gate [0]) -> low_latch_gate_232
+Presumably equivalent wires: prior_232_gold (\prior_232_gold), prior_232_gate (\prior_232_gate) -> prior_232
+Presumably equivalent wires: update_231_gold (\update_231_gold), update_231_gate (\update_231_gate) -> update_231
+Presumably equivalent wires: reset_231_gold (\rst_n_gold), reset_231_gate (\rst_n_gate) -> reset_231
+Presumably equivalent wires: clock_231_gold (\clock_92_gold), clock_231_gate (\clock_92_gate) -> clock_231
+Presumably equivalent wires: prior_231_gold (\prior_231_gold), prior_231_gate (\prior_231_gate) -> prior_231
+Presumably equivalent wires: update_230_gold (\update_230_gold), update_230_gate (\update_230_gate) -> update_230
+Presumably equivalent wires: reset_230_gold (\rst_n_gold), reset_230_gate (\rst_n_gate) -> reset_230
+Presumably equivalent wires: clock_230_gold (\clock_92_gold), clock_230_gate (\clock_92_gate) -> clock_230
+Presumably equivalent wires: prior_230_gold (\prior_230_gold), prior_230_gate (\prior_230_gate) -> prior_230
+Presumably equivalent wires: update_229_gold (\update_229_gold), update_229_gate (\update_229_gate) -> update_229
+Presumably equivalent wires: reset_229_gold (\rst_n_gold), reset_229_gate (\rst_n_gate) -> reset_229
+Presumably equivalent wires: clock_229_gold (\clock_92_gold), clock_229_gate (\clock_92_gate) -> clock_229
+Presumably equivalent wires: prior_229_gold (\prior_229_gold), prior_229_gate (\prior_229_gate) -> prior_229
+Presumably equivalent wires: update_228_gold (\update_228_gold), update_228_gate (\update_228_gate) -> update_228
+Presumably equivalent wires: reset_228_gold (\rst_n_gold), reset_228_gate (\rst_n_gate) -> reset_228
+Presumably equivalent wires: clock_228_gold (\clock_92_gold), clock_228_gate (\clock_92_gate) -> clock_228
+Presumably equivalent wires: prior_228_gold (\prior_228_gold), prior_228_gate (\prior_228_gate) -> prior_228
+Presumably equivalent wires: update_227_gold (\update_227_gold), update_227_gate (\update_227_gate) -> update_227
+Presumably equivalent wires: reset_227_gold (\rst_n_gold), reset_227_gate (\rst_n_gate) -> reset_227
+Presumably equivalent wires: clock_227_gold (\clock_92_gold), clock_227_gate (\clock_92_gate) -> clock_227
+Presumably equivalent wires: prior_227_gold (\prior_227_gold), prior_227_gate (\prior_227_gate) -> prior_227
+Presumably equivalent wires: update_226_gold (\update_226_gold), update_226_gate (\update_226_gate) -> update_226
+Presumably equivalent wires: low_latch_gate_226_gold (\tap_n_gold [0]), low_latch_gate_226_gate (\tap_n_gate [0]) -> low_latch_gate_226
+Presumably equivalent wires: prior_226_gold (\prior_226_gold), prior_226_gate (\prior_226_gate) -> prior_226
+Presumably equivalent wires: update_225_gold (\prior_224_gold), update_225_gate (\prior_224_gate) -> update_225
+Presumably equivalent wires: reset_225_gold (\prior_168_gold), reset_225_gate (\prior_168_gate) -> reset_225
+Presumably equivalent wires: clock_225_gold (\clk_gold), clock_225_gate (\clk_gate) -> clock_225
+Presumably equivalent wires: prior_225_gold (\prior_225_gold), prior_225_gate (\prior_225_gate) -> prior_225
+Presumably equivalent wires: update_224_gold (\prior_223_gold), update_224_gate (\prior_223_gate) -> update_224
+Presumably equivalent wires: reset_224_gold (\prior_168_gold), reset_224_gate (\prior_168_gate) -> reset_224
+Presumably equivalent wires: clock_224_gold (\clk_gold), clock_224_gate (\clk_gate) -> clock_224
+Presumably equivalent wires: prior_224_gold (\prior_224_gold), prior_224_gate (\prior_224_gate) -> prior_224
+Presumably equivalent wires: update_223_gold (\prior_222_gold), update_223_gate (\prior_222_gate) -> update_223
+Presumably equivalent wires: reset_223_gold (\prior_168_gold), reset_223_gate (\prior_168_gate) -> reset_223
+Presumably equivalent wires: clock_223_gold (\clk_gold), clock_223_gate (\clk_gate) -> clock_223
+Presumably equivalent wires: prior_223_gold (\prior_223_gold), prior_223_gate (\prior_223_gate) -> prior_223
+Presumably equivalent wires: update_222_gold (1'1), update_222_gate (1'1) -> update_222
+Presumably equivalent wires: reset_222_gold (\prior_168_gold), reset_222_gate (\prior_168_gate) -> reset_222
+Presumably equivalent wires: clock_222_gold (\clk_gold), clock_222_gate (\clk_gate) -> clock_222
+Presumably equivalent wires: prior_222_gold (\prior_222_gold), prior_222_gate (\prior_222_gate) -> prior_222
+Presumably equivalent wires: update_221_gold (\prior_126_gold), update_221_gate (\prior_126_gate) -> update_221
+Presumably equivalent wires: clock_221_gold (\clk_gold), clock_221_gate (\clk_gate) -> clock_221
+Presumably equivalent wires: prior_221_gold (\prior_221_gold), prior_221_gate (\prior_221_gate) -> prior_221
+Presumably equivalent wires: update_220_gold (\prior_125_gold), update_220_gate (\prior_125_gate) -> update_220
+Presumably equivalent wires: clock_220_gold (\clk_gold), clock_220_gate (\clk_gate) -> clock_220
+Presumably equivalent wires: prior_220_gold (\prior_220_gold), prior_220_gate (\prior_220_gate) -> prior_220
+Presumably equivalent wires: update_219_gold (\prior_124_gold), update_219_gate (\prior_124_gate) -> update_219
+Presumably equivalent wires: clock_219_gold (\clk_gold), clock_219_gate (\clk_gate) -> clock_219
+Presumably equivalent wires: prior_219_gold (\prior_219_gold), prior_219_gate (\prior_219_gate) -> prior_219
+Presumably equivalent wires: update_218_gold (\prior_123_gold), update_218_gate (\prior_123_gate) -> update_218
+Presumably equivalent wires: clock_218_gold (\clk_gold), clock_218_gate (\clk_gate) -> clock_218
+Presumably equivalent wires: prior_218_gold (\prior_218_gold), prior_218_gate (\prior_218_gate) -> prior_218
+Presumably equivalent wires: update_217_gold (\prior_122_gold), update_217_gate (\prior_122_gate) -> update_217
+Presumably equivalent wires: clock_217_gold (\clk_gold), clock_217_gate (\clk_gate) -> clock_217
+Presumably equivalent wires: prior_217_gold (\prior_217_gold), prior_217_gate (\prior_217_gate) -> prior_217
+Presumably equivalent wires: update_216_gold (\prior_121_gold), update_216_gate (\prior_121_gate) -> update_216
+Presumably equivalent wires: clock_216_gold (\clk_gold), clock_216_gate (\clk_gate) -> clock_216
+Presumably equivalent wires: prior_216_gold (\prior_216_gold), prior_216_gate (\prior_216_gate) -> prior_216
+Presumably equivalent wires: update_215_gold (\prior_120_gold), update_215_gate (\prior_120_gate) -> update_215
+Presumably equivalent wires: clock_215_gold (\clk_gold), clock_215_gate (\clk_gate) -> clock_215
+Presumably equivalent wires: prior_215_gold (\prior_215_gold), prior_215_gate (\prior_215_gate) -> prior_215
+Presumably equivalent wires: update_214_gold (\prior_119_gold), update_214_gate (\prior_119_gate) -> update_214
+Presumably equivalent wires: clock_214_gold (\clk_gold), clock_214_gate (\clk_gate) -> clock_214
+Presumably equivalent wires: prior_214_gold (\prior_214_gold), prior_214_gate (\prior_214_gate) -> prior_214
+Presumably equivalent wires: update_213_gold (\prior_118_gold), update_213_gate (\prior_118_gate) -> update_213
+Presumably equivalent wires: clock_213_gold (\clk_gold), clock_213_gate (\clk_gate) -> clock_213
+Presumably equivalent wires: prior_213_gold (\prior_213_gold), prior_213_gate (\prior_213_gate) -> prior_213
+Presumably equivalent wires: update_212_gold (\prior_117_gold), update_212_gate (\prior_117_gate) -> update_212
+Presumably equivalent wires: clock_212_gold (\clk_gold), clock_212_gate (\clk_gate) -> clock_212
+Presumably equivalent wires: prior_212_gold (\prior_212_gold), prior_212_gate (\prior_212_gate) -> prior_212
+Presumably equivalent wires: update_211_gold (\prior_116_gold), update_211_gate (\prior_116_gate) -> update_211
+Presumably equivalent wires: clock_211_gold (\clk_gold), clock_211_gate (\clk_gate) -> clock_211
+Presumably equivalent wires: prior_211_gold (\prior_211_gold), prior_211_gate (\prior_211_gate) -> prior_211
+Presumably equivalent wires: update_210_gold (\prior_115_gold), update_210_gate (\prior_115_gate) -> update_210
+Presumably equivalent wires: clock_210_gold (\clk_gold), clock_210_gate (\clk_gate) -> clock_210
+Presumably equivalent wires: prior_210_gold (\prior_210_gold), prior_210_gate (\prior_210_gate) -> prior_210
+Presumably equivalent wires: update_209_gold (\prior_114_gold), update_209_gate (\prior_114_gate) -> update_209
+Presumably equivalent wires: clock_209_gold (\clk_gold), clock_209_gate (\clk_gate) -> clock_209
+Presumably equivalent wires: prior_209_gold (\prior_209_gold), prior_209_gate (\prior_209_gate) -> prior_209
+Presumably equivalent wires: update_208_gold (\prior_113_gold), update_208_gate (\prior_113_gate) -> update_208
+Presumably equivalent wires: clock_208_gold (\clk_gold), clock_208_gate (\clk_gate) -> clock_208
+Presumably equivalent wires: prior_208_gold (\prior_208_gold), prior_208_gate (\prior_208_gate) -> prior_208
+Presumably equivalent wires: update_207_gold (\prior_112_gold), update_207_gate (\prior_112_gate) -> update_207
+Presumably equivalent wires: clock_207_gold (\clk_gold), clock_207_gate (\clk_gate) -> clock_207
+Presumably equivalent wires: prior_207_gold (\prior_207_gold), prior_207_gate (\prior_207_gate) -> prior_207
+Presumably equivalent wires: update_206_gold (\prior_111_gold), update_206_gate (\prior_111_gate) -> update_206
+Presumably equivalent wires: clock_206_gold (\clk_gold), clock_206_gate (\clk_gate) -> clock_206
+Presumably equivalent wires: prior_206_gold (\prior_206_gold), prior_206_gate (\prior_206_gate) -> prior_206
+Presumably equivalent wires: update_205_gold (\prior_110_gold), update_205_gate (\prior_110_gate) -> update_205
+Presumably equivalent wires: clock_205_gold (\clk_gold), clock_205_gate (\clk_gate) -> clock_205
+Presumably equivalent wires: prior_205_gold (\prior_205_gold), prior_205_gate (\prior_205_gate) -> prior_205
+Presumably equivalent wires: update_204_gold (\prior_109_gold), update_204_gate (\prior_109_gate) -> update_204
+Presumably equivalent wires: clock_204_gold (\clk_gold), clock_204_gate (\clk_gate) -> clock_204
+Presumably equivalent wires: prior_204_gold (\prior_204_gold), prior_204_gate (\prior_204_gate) -> prior_204
+Presumably equivalent wires: update_203_gold (\prior_108_gold), update_203_gate (\prior_108_gate) -> update_203
+Presumably equivalent wires: clock_203_gold (\clk_gold), clock_203_gate (\clk_gate) -> clock_203
+Presumably equivalent wires: prior_203_gold (\prior_203_gold), prior_203_gate (\prior_203_gate) -> prior_203
+Presumably equivalent wires: update_202_gold (\prior_107_gold), update_202_gate (\prior_107_gate) -> update_202
+Presumably equivalent wires: clock_202_gold (\clk_gold), clock_202_gate (\clk_gate) -> clock_202
+Presumably equivalent wires: prior_202_gold (\prior_202_gold), prior_202_gate (\prior_202_gate) -> prior_202
+Presumably equivalent wires: update_201_gold (\prior_106_gold), update_201_gate (\prior_106_gate) -> update_201
+Presumably equivalent wires: clock_201_gold (\clk_gold), clock_201_gate (\clk_gate) -> clock_201
+Presumably equivalent wires: prior_201_gold (\prior_201_gold), prior_201_gate (\prior_201_gate) -> prior_201
+Presumably equivalent wires: update_200_gold (\prior_105_gold), update_200_gate (\prior_105_gate) -> update_200
+Presumably equivalent wires: clock_200_gold (\clk_gold), clock_200_gate (\clk_gate) -> clock_200
+Presumably equivalent wires: prior_200_gold (\prior_200_gold), prior_200_gate (\prior_200_gate) -> prior_200
+Presumably equivalent wires: update_199_gold (\prior_104_gold), update_199_gate (\prior_104_gate) -> update_199
+Presumably equivalent wires: clock_199_gold (\clk_gold), clock_199_gate (\clk_gate) -> clock_199
+Presumably equivalent wires: prior_199_gold (\prior_199_gold), prior_199_gate (\prior_199_gate) -> prior_199
+Presumably equivalent wires: update_198_gold (\prior_103_gold), update_198_gate (\prior_103_gate) -> update_198
+Presumably equivalent wires: clock_198_gold (\clk_gold), clock_198_gate (\clk_gate) -> clock_198
+Presumably equivalent wires: prior_198_gold (\prior_198_gold), prior_198_gate (\prior_198_gate) -> prior_198
+Presumably equivalent wires: update_197_gold (\prior_102_gold), update_197_gate (\prior_102_gate) -> update_197
+Presumably equivalent wires: clock_197_gold (\clk_gold), clock_197_gate (\clk_gate) -> clock_197
+Presumably equivalent wires: prior_197_gold (\prior_197_gold), prior_197_gate (\prior_197_gate) -> prior_197
+Presumably equivalent wires: update_196_gold (\prior_101_gold), update_196_gate (\prior_101_gate) -> update_196
+Presumably equivalent wires: clock_196_gold (\clk_gold), clock_196_gate (\clk_gate) -> clock_196
+Presumably equivalent wires: prior_196_gold (\prior_196_gold), prior_196_gate (\prior_196_gate) -> prior_196
+Presumably equivalent wires: update_195_gold (\prior_100_gold), update_195_gate (\prior_100_gate) -> update_195
+Presumably equivalent wires: clock_195_gold (\clk_gold), clock_195_gate (\clk_gate) -> clock_195
+Presumably equivalent wires: prior_195_gold (\prior_195_gold), prior_195_gate (\prior_195_gate) -> prior_195
+Presumably equivalent wires: update_194_gold (\prior_99_gold), update_194_gate (\prior_99_gate) -> update_194
+Presumably equivalent wires: clock_194_gold (\clk_gold), clock_194_gate (\clk_gate) -> clock_194
+Presumably equivalent wires: prior_194_gold (\prior_194_gold), prior_194_gate (\prior_194_gate) -> prior_194
+Presumably equivalent wires: update_193_gold (\prior_98_gold), update_193_gate (\prior_98_gate) -> update_193
+Presumably equivalent wires: clock_193_gold (\clk_gold), clock_193_gate (\clk_gate) -> clock_193
+Presumably equivalent wires: prior_193_gold (\prior_193_gold), prior_193_gate (\prior_193_gate) -> prior_193
+Presumably equivalent wires: update_192_gold (\prior_97_gold), update_192_gate (\prior_97_gate) -> update_192
+Presumably equivalent wires: clock_192_gold (\clk_gold), clock_192_gate (\clk_gate) -> clock_192
+Presumably equivalent wires: prior_192_gold (\prior_192_gold), prior_192_gate (\prior_192_gate) -> prior_192
+Presumably equivalent wires: update_191_gold (\update_191_gold), update_191_gate (\update_191_gate) -> update_191
+Presumably equivalent wires: clock_191_gold (\clock_0_gold), clock_191_gate (\clock_0_gate) -> clock_191
+Presumably equivalent wires: prior_191_gold (\prior_191_gold), prior_191_gate (\prior_191_gate) -> prior_191
+Presumably equivalent wires: update_190_gold (\update_190_gold), update_190_gate (\update_190_gate) -> update_190
+Presumably equivalent wires: clock_190_gold (\clock_0_gold), clock_190_gate (\clock_0_gate) -> clock_190
+Presumably equivalent wires: prior_190_gold (\prior_190_gold), prior_190_gate (\prior_190_gate) -> prior_190
+Presumably equivalent wires: update_189_gold (\update_189_gold), update_189_gate (\update_189_gate) -> update_189
+Presumably equivalent wires: clock_189_gold (\clock_0_gold), clock_189_gate (\clock_0_gate) -> clock_189
+Presumably equivalent wires: prior_189_gold (\prior_189_gold), prior_189_gate (\prior_189_gate) -> prior_189
+Presumably equivalent wires: update_188_gold (\update_188_gold), update_188_gate (\update_188_gate) -> update_188
+Presumably equivalent wires: clock_188_gold (\clock_0_gold), clock_188_gate (\clock_0_gate) -> clock_188
+Presumably equivalent wires: prior_188_gold (\prior_188_gold), prior_188_gate (\prior_188_gate) -> prior_188
+Presumably equivalent wires: update_187_gold (\update_187_gold), update_187_gate (\update_187_gate) -> update_187
+Presumably equivalent wires: clock_187_gold (\clock_0_gold), clock_187_gate (\clock_0_gate) -> clock_187
+Presumably equivalent wires: prior_187_gold (\prior_187_gold), prior_187_gate (\prior_187_gate) -> prior_187
+Presumably equivalent wires: update_186_gold (\update_186_gold), update_186_gate (\update_186_gate) -> update_186
+Presumably equivalent wires: clock_186_gold (\clock_0_gold), clock_186_gate (\clock_0_gate) -> clock_186
+Presumably equivalent wires: prior_186_gold (\prior_186_gold), prior_186_gate (\prior_186_gate) -> prior_186
+Presumably equivalent wires: update_185_gold (\update_185_gold), update_185_gate (\update_185_gate) -> update_185
+Presumably equivalent wires: clock_185_gold (\clock_0_gold), clock_185_gate (\clock_0_gate) -> clock_185
+Presumably equivalent wires: prior_185_gold (\prior_185_gold), prior_185_gate (\prior_185_gate) -> prior_185
+Presumably equivalent wires: update_184_gold (\update_184_gold), update_184_gate (\update_184_gate) -> update_184
+Presumably equivalent wires: clock_184_gold (\clock_0_gold), clock_184_gate (\clock_0_gate) -> clock_184
+Presumably equivalent wires: prior_184_gold (\prior_184_gold), prior_184_gate (\prior_184_gate) -> prior_184
+Presumably equivalent wires: update_183_gold (\update_183_gold), update_183_gate (\update_183_gate) -> update_183
+Presumably equivalent wires: clock_183_gold (\clock_0_gold), clock_183_gate (\clock_0_gate) -> clock_183
+Presumably equivalent wires: prior_183_gold (\prior_183_gold), prior_183_gate (\prior_183_gate) -> prior_183
+Presumably equivalent wires: update_182_gold (\update_182_gold), update_182_gate (\update_182_gate) -> update_182
+Presumably equivalent wires: clock_182_gold (\clock_0_gold), clock_182_gate (\clock_0_gate) -> clock_182
+Presumably equivalent wires: prior_182_gold (\prior_182_gold), prior_182_gate (\prior_182_gate) -> prior_182
+Presumably equivalent wires: update_181_gold (\update_181_gold), update_181_gate (\update_181_gate) -> update_181
+Presumably equivalent wires: clock_181_gold (\clock_0_gold), clock_181_gate (\clock_0_gate) -> clock_181
+Presumably equivalent wires: prior_181_gold (\prior_181_gold), prior_181_gate (\prior_181_gate) -> prior_181
+Presumably equivalent wires: update_180_gold (\update_180_gold), update_180_gate (\update_180_gate) -> update_180
+Presumably equivalent wires: clock_180_gold (\clock_0_gold), clock_180_gate (\clock_0_gate) -> clock_180
+Presumably equivalent wires: prior_180_gold (\prior_180_gold), prior_180_gate (\prior_180_gate) -> prior_180
+Presumably equivalent wires: update_179_gold (\update_179_gold), update_179_gate (\update_179_gate) -> update_179
+Presumably equivalent wires: clock_179_gold (\clock_0_gold), clock_179_gate (\clock_0_gate) -> clock_179
+Presumably equivalent wires: prior_179_gold (\prior_179_gold), prior_179_gate (\prior_179_gate) -> prior_179
+Presumably equivalent wires: update_178_gold (\update_178_gold), update_178_gate (\update_178_gate) -> update_178
+Presumably equivalent wires: clock_178_gold (\clock_0_gold), clock_178_gate (\clock_0_gate) -> clock_178
+Presumably equivalent wires: prior_178_gold (\prior_178_gold), prior_178_gate (\prior_178_gate) -> prior_178
+Presumably equivalent wires: update_177_gold (\update_177_gold), update_177_gate (\update_177_gate) -> update_177
+Presumably equivalent wires: clock_177_gold (\clock_0_gold), clock_177_gate (\clock_0_gate) -> clock_177
+Presumably equivalent wires: prior_177_gold (\prior_177_gold), prior_177_gate (\prior_177_gate) -> prior_177
+Presumably equivalent wires: update_176_gold (\update_176_gold), update_176_gate (\update_176_gate) -> update_176
+Presumably equivalent wires: clock_176_gold (\clock_0_gold), clock_176_gate (\clock_0_gate) -> clock_176
+Presumably equivalent wires: prior_176_gold (\prior_176_gold), prior_176_gate (\prior_176_gate) -> prior_176
+Presumably equivalent wires: update_175_gold (\update_175_gold), update_175_gate (\update_175_gate) -> update_175
+Presumably equivalent wires: clock_175_gold (\clock_0_gold), clock_175_gate (\clock_0_gate) -> clock_175
+Presumably equivalent wires: prior_175_gold (\prior_175_gold), prior_175_gate (\prior_175_gate) -> prior_175
+Presumably equivalent wires: update_174_gold (\update_174_gold), update_174_gate (\update_174_gate) -> update_174
+Presumably equivalent wires: clock_174_gold (\clock_0_gold), clock_174_gate (\clock_0_gate) -> clock_174
+Presumably equivalent wires: prior_174_gold (\prior_174_gold), prior_174_gate (\prior_174_gate) -> prior_174
+Presumably equivalent wires: update_173_gold (\update_173_gold), update_173_gate (\update_173_gate) -> update_173
+Presumably equivalent wires: clock_173_gold (\clock_0_gold), clock_173_gate (\clock_0_gate) -> clock_173
+Presumably equivalent wires: prior_173_gold (\prior_173_gold), prior_173_gate (\prior_173_gate) -> prior_173
+Presumably equivalent wires: update_172_gold (\update_172_gold), update_172_gate (\update_172_gate) -> update_172
+Presumably equivalent wires: clock_172_gold (\clock_0_gold), clock_172_gate (\clock_0_gate) -> clock_172
+Presumably equivalent wires: prior_172_gold (\prior_172_gold), prior_172_gate (\prior_172_gate) -> prior_172
+Presumably equivalent wires: update_171_gold (\update_171_gold), update_171_gate (\update_171_gate) -> update_171
+Presumably equivalent wires: reset_171_gold (\prior_168_gold), reset_171_gate (\prior_168_gate) -> reset_171
+Presumably equivalent wires: clock_171_gold (\clk_gold), clock_171_gate (\clk_gate) -> clock_171
+Presumably equivalent wires: prior_171_gold (\prior_171_gold), prior_171_gate (\prior_171_gate) -> prior_171
+Presumably equivalent wires: update_170_gold (\update_170_gold), update_170_gate (\update_170_gate) -> update_170
+Presumably equivalent wires: reset_170_gold (\prior_168_gold), reset_170_gate (\prior_168_gate) -> reset_170
+Presumably equivalent wires: clock_170_gold (\clk_gold), clock_170_gate (\clk_gate) -> clock_170
+Presumably equivalent wires: prior_170_gold (\prior_170_gold), prior_170_gate (\prior_170_gate) -> prior_170
+Presumably equivalent wires: update_169_gold (\update_169_gold), update_169_gate (\update_169_gate) -> update_169
+Presumably equivalent wires: reset_169_gold (\prior_168_gold), reset_169_gate (\prior_168_gate) -> reset_169
+Presumably equivalent wires: clock_169_gold (\clk_gold), clock_169_gate (\clk_gate) -> clock_169
+Presumably equivalent wires: prior_169_gold (\prior_169_gold), prior_169_gate (\prior_169_gate) -> prior_169
+Presumably equivalent wires: update_168_gold (\prior_167_gold), update_168_gate (\prior_167_gate) -> update_168
+Presumably equivalent wires: reset_168_gold (\rst_n_gold), reset_168_gate (\rst_n_gate) -> reset_168
+Presumably equivalent wires: clock_168_gold (\clk_gold), clock_168_gate (\clk_gate) -> clock_168
+Presumably equivalent wires: prior_168_gold (\prior_168_gold), prior_168_gate (\prior_168_gate) -> prior_168
+Presumably equivalent wires: update_167_gold (1'1), update_167_gate (1'1) -> update_167
+Presumably equivalent wires: reset_167_gold (\rst_n_gold), reset_167_gate (\rst_n_gate) -> reset_167
+Presumably equivalent wires: clock_167_gold (\clk_gold), clock_167_gate (\clk_gate) -> clock_167
+Presumably equivalent wires: prior_167_gold (\prior_167_gold), prior_167_gate (\prior_167_gate) -> prior_167
+Presumably equivalent wires: update_166_gold (\prior_165_gold), update_166_gate (\prior_165_gate) -> update_166
+Presumably equivalent wires: reset_166_gold (\prior_168_gold), reset_166_gate (\prior_168_gate) -> reset_166
+Presumably equivalent wires: clock_166_gold (\clk_gold), clock_166_gate (\clk_gate) -> clock_166
+Presumably equivalent wires: prior_166_gold (\prior_166_gold), prior_166_gate (\prior_166_gate) -> prior_166
+Presumably equivalent wires: update_165_gold (\osr_sel_gold), update_165_gate (\osr_sel_gate) -> update_165
+Presumably equivalent wires: reset_165_gold (\prior_168_gold), reset_165_gate (\prior_168_gate) -> reset_165
+Presumably equivalent wires: clock_165_gold (\clk_gold), clock_165_gate (\clk_gate) -> clock_165
+Presumably equivalent wires: prior_165_gold (\prior_165_gold), prior_165_gate (\prior_165_gate) -> prior_165
+Presumably equivalent wires: update_164_gold (\update_164_gold), update_164_gate (\update_164_gate) -> update_164
+Presumably equivalent wires: reset_164_gold (\prior_168_gold), reset_164_gate (\prior_168_gate) -> reset_164
+Presumably equivalent wires: clock_164_gold (\clk_gold), clock_164_gate (\clk_gate) -> clock_164
+Presumably equivalent wires: prior_164_gold (\prior_164_gold), prior_164_gate (\prior_164_gate) -> prior_164
+Presumably equivalent wires: update_163_gold (\prior_221_gold), update_163_gate (\prior_221_gate) -> update_163
+Presumably equivalent wires: clock_163_gold (\clk_gold), clock_163_gate (\clk_gate) -> clock_163
+Presumably equivalent wires: prior_163_gold (\prior_163_gold), prior_163_gate (\prior_163_gate) -> prior_163
+Presumably equivalent wires: update_162_gold (\prior_220_gold), update_162_gate (\prior_220_gate) -> update_162
+Presumably equivalent wires: clock_162_gold (\clk_gold), clock_162_gate (\clk_gate) -> clock_162
+Presumably equivalent wires: prior_162_gold (\prior_162_gold), prior_162_gate (\prior_162_gate) -> prior_162
+Presumably equivalent wires: update_161_gold (\prior_219_gold), update_161_gate (\prior_219_gate) -> update_161
+Presumably equivalent wires: clock_161_gold (\clk_gold), clock_161_gate (\clk_gate) -> clock_161
+Presumably equivalent wires: prior_161_gold (\prior_161_gold), prior_161_gate (\prior_161_gate) -> prior_161
+Presumably equivalent wires: update_160_gold (\prior_218_gold), update_160_gate (\prior_218_gate) -> update_160
+Presumably equivalent wires: clock_160_gold (\clk_gold), clock_160_gate (\clk_gate) -> clock_160
+Presumably equivalent wires: prior_160_gold (\prior_160_gold), prior_160_gate (\prior_160_gate) -> prior_160
+Presumably equivalent wires: update_159_gold (\prior_217_gold), update_159_gate (\prior_217_gate) -> update_159
+Presumably equivalent wires: clock_159_gold (\clk_gold), clock_159_gate (\clk_gate) -> clock_159
+Presumably equivalent wires: prior_159_gold (\prior_159_gold), prior_159_gate (\prior_159_gate) -> prior_159
+Presumably equivalent wires: update_158_gold (\prior_216_gold), update_158_gate (\prior_216_gate) -> update_158
+Presumably equivalent wires: clock_158_gold (\clk_gold), clock_158_gate (\clk_gate) -> clock_158
+Presumably equivalent wires: prior_158_gold (\prior_158_gold), prior_158_gate (\prior_158_gate) -> prior_158
+Presumably equivalent wires: update_157_gold (\prior_215_gold), update_157_gate (\prior_215_gate) -> update_157
+Presumably equivalent wires: clock_157_gold (\clk_gold), clock_157_gate (\clk_gate) -> clock_157
+Presumably equivalent wires: prior_157_gold (\prior_157_gold), prior_157_gate (\prior_157_gate) -> prior_157
+Presumably equivalent wires: update_156_gold (\prior_214_gold), update_156_gate (\prior_214_gate) -> update_156
+Presumably equivalent wires: clock_156_gold (\clk_gold), clock_156_gate (\clk_gate) -> clock_156
+Presumably equivalent wires: prior_156_gold (\prior_156_gold), prior_156_gate (\prior_156_gate) -> prior_156
+Presumably equivalent wires: update_155_gold (\prior_213_gold), update_155_gate (\prior_213_gate) -> update_155
+Presumably equivalent wires: clock_155_gold (\clk_gold), clock_155_gate (\clk_gate) -> clock_155
+Presumably equivalent wires: prior_155_gold (\prior_155_gold), prior_155_gate (\prior_155_gate) -> prior_155
+Presumably equivalent wires: update_154_gold (\prior_212_gold), update_154_gate (\prior_212_gate) -> update_154
+Presumably equivalent wires: clock_154_gold (\clk_gold), clock_154_gate (\clk_gate) -> clock_154
+Presumably equivalent wires: prior_154_gold (\prior_154_gold), prior_154_gate (\prior_154_gate) -> prior_154
+Presumably equivalent wires: update_153_gold (\prior_211_gold), update_153_gate (\prior_211_gate) -> update_153
+Presumably equivalent wires: clock_153_gold (\clk_gold), clock_153_gate (\clk_gate) -> clock_153
+Presumably equivalent wires: prior_153_gold (\prior_153_gold), prior_153_gate (\prior_153_gate) -> prior_153
+Presumably equivalent wires: update_152_gold (\prior_210_gold), update_152_gate (\prior_210_gate) -> update_152
+Presumably equivalent wires: clock_152_gold (\clk_gold), clock_152_gate (\clk_gate) -> clock_152
+Presumably equivalent wires: prior_152_gold (\prior_152_gold), prior_152_gate (\prior_152_gate) -> prior_152
+Presumably equivalent wires: update_151_gold (\prior_209_gold), update_151_gate (\prior_209_gate) -> update_151
+Presumably equivalent wires: clock_151_gold (\clk_gold), clock_151_gate (\clk_gate) -> clock_151
+Presumably equivalent wires: prior_151_gold (\prior_151_gold), prior_151_gate (\prior_151_gate) -> prior_151
+Presumably equivalent wires: update_150_gold (\prior_208_gold), update_150_gate (\prior_208_gate) -> update_150
+Presumably equivalent wires: clock_150_gold (\clk_gold), clock_150_gate (\clk_gate) -> clock_150
+Presumably equivalent wires: prior_150_gold (\prior_150_gold), prior_150_gate (\prior_150_gate) -> prior_150
+Presumably equivalent wires: update_149_gold (\prior_207_gold), update_149_gate (\prior_207_gate) -> update_149
+Presumably equivalent wires: clock_149_gold (\clk_gold), clock_149_gate (\clk_gate) -> clock_149
+Presumably equivalent wires: prior_149_gold (\prior_149_gold), prior_149_gate (\prior_149_gate) -> prior_149
+Presumably equivalent wires: update_148_gold (\prior_206_gold), update_148_gate (\prior_206_gate) -> update_148
+Presumably equivalent wires: clock_148_gold (\clk_gold), clock_148_gate (\clk_gate) -> clock_148
+Presumably equivalent wires: prior_148_gold (\prior_148_gold), prior_148_gate (\prior_148_gate) -> prior_148
+Presumably equivalent wires: update_147_gold (\prior_205_gold), update_147_gate (\prior_205_gate) -> update_147
+Presumably equivalent wires: clock_147_gold (\clk_gold), clock_147_gate (\clk_gate) -> clock_147
+Presumably equivalent wires: prior_147_gold (\prior_147_gold), prior_147_gate (\prior_147_gate) -> prior_147
+Presumably equivalent wires: update_146_gold (\prior_204_gold), update_146_gate (\prior_204_gate) -> update_146
+Presumably equivalent wires: clock_146_gold (\clk_gold), clock_146_gate (\clk_gate) -> clock_146
+Presumably equivalent wires: prior_146_gold (\prior_146_gold), prior_146_gate (\prior_146_gate) -> prior_146
+Presumably equivalent wires: update_145_gold (\prior_203_gold), update_145_gate (\prior_203_gate) -> update_145
+Presumably equivalent wires: clock_145_gold (\clk_gold), clock_145_gate (\clk_gate) -> clock_145
+Presumably equivalent wires: prior_145_gold (\prior_145_gold), prior_145_gate (\prior_145_gate) -> prior_145
+Presumably equivalent wires: update_144_gold (\prior_202_gold), update_144_gate (\prior_202_gate) -> update_144
+Presumably equivalent wires: clock_144_gold (\clk_gold), clock_144_gate (\clk_gate) -> clock_144
+Presumably equivalent wires: prior_144_gold (\prior_144_gold), prior_144_gate (\prior_144_gate) -> prior_144
+Presumably equivalent wires: update_143_gold (\prior_201_gold), update_143_gate (\prior_201_gate) -> update_143
+Presumably equivalent wires: clock_143_gold (\clk_gold), clock_143_gate (\clk_gate) -> clock_143
+Presumably equivalent wires: prior_143_gold (\prior_143_gold), prior_143_gate (\prior_143_gate) -> prior_143
+Presumably equivalent wires: update_142_gold (\prior_200_gold), update_142_gate (\prior_200_gate) -> update_142
+Presumably equivalent wires: clock_142_gold (\clk_gold), clock_142_gate (\clk_gate) -> clock_142
+Presumably equivalent wires: prior_142_gold (\prior_142_gold), prior_142_gate (\prior_142_gate) -> prior_142
+Presumably equivalent wires: update_141_gold (\prior_199_gold), update_141_gate (\prior_199_gate) -> update_141
+Presumably equivalent wires: clock_141_gold (\clk_gold), clock_141_gate (\clk_gate) -> clock_141
+Presumably equivalent wires: prior_141_gold (\prior_141_gold), prior_141_gate (\prior_141_gate) -> prior_141
+Presumably equivalent wires: update_140_gold (\prior_198_gold), update_140_gate (\prior_198_gate) -> update_140
+Presumably equivalent wires: clock_140_gold (\clk_gold), clock_140_gate (\clk_gate) -> clock_140
+Presumably equivalent wires: prior_140_gold (\prior_140_gold), prior_140_gate (\prior_140_gate) -> prior_140
+Presumably equivalent wires: update_139_gold (\prior_197_gold), update_139_gate (\prior_197_gate) -> update_139
+Presumably equivalent wires: clock_139_gold (\clk_gold), clock_139_gate (\clk_gate) -> clock_139
+Presumably equivalent wires: prior_139_gold (\prior_139_gold), prior_139_gate (\prior_139_gate) -> prior_139
+Presumably equivalent wires: update_138_gold (\prior_196_gold), update_138_gate (\prior_196_gate) -> update_138
+Presumably equivalent wires: clock_138_gold (\clk_gold), clock_138_gate (\clk_gate) -> clock_138
+Presumably equivalent wires: prior_138_gold (\prior_138_gold), prior_138_gate (\prior_138_gate) -> prior_138
+Presumably equivalent wires: update_137_gold (\prior_195_gold), update_137_gate (\prior_195_gate) -> update_137
+Presumably equivalent wires: clock_137_gold (\clk_gold), clock_137_gate (\clk_gate) -> clock_137
+Presumably equivalent wires: prior_137_gold (\prior_137_gold), prior_137_gate (\prior_137_gate) -> prior_137
+Presumably equivalent wires: update_136_gold (\prior_194_gold), update_136_gate (\prior_194_gate) -> update_136
+Presumably equivalent wires: clock_136_gold (\clk_gold), clock_136_gate (\clk_gate) -> clock_136
+Presumably equivalent wires: prior_136_gold (\prior_136_gold), prior_136_gate (\prior_136_gate) -> prior_136
+Presumably equivalent wires: update_135_gold (\prior_193_gold), update_135_gate (\prior_193_gate) -> update_135
+Presumably equivalent wires: clock_135_gold (\clk_gold), clock_135_gate (\clk_gate) -> clock_135
+Presumably equivalent wires: prior_135_gold (\prior_135_gold), prior_135_gate (\prior_135_gate) -> prior_135
+Presumably equivalent wires: update_134_gold (\prior_192_gold), update_134_gate (\prior_192_gate) -> update_134
+Presumably equivalent wires: clock_134_gold (\clk_gold), clock_134_gate (\clk_gate) -> clock_134
+Presumably equivalent wires: prior_134_gold (\prior_134_gold), prior_134_gate (\prior_134_gate) -> prior_134
+Presumably equivalent wires: update_133_gold (\update_133_gold), update_133_gate (\update_133_gate) -> update_133
+Presumably equivalent wires: reset_133_gold (\prior_168_gold), reset_133_gate (\prior_168_gate) -> reset_133
+Presumably equivalent wires: clock_133_gold (\clk_gold), clock_133_gate (\clk_gate) -> clock_133
+Presumably equivalent wires: prior_133_gold (\prior_133_gold), prior_133_gate (\prior_133_gate) -> prior_133
+Presumably equivalent wires: update_132_gold (\update_132_gold), update_132_gate (\update_132_gate) -> update_132
+Presumably equivalent wires: reset_132_gold (\prior_168_gold), reset_132_gate (\prior_168_gate) -> reset_132
+Presumably equivalent wires: clock_132_gold (\clk_gold), clock_132_gate (\clk_gate) -> clock_132
+Presumably equivalent wires: prior_132_gold (\prior_132_gold), prior_132_gate (\prior_132_gate) -> prior_132
+Presumably equivalent wires: update_131_gold (\update_131_gold), update_131_gate (\update_131_gate) -> update_131
+Presumably equivalent wires: reset_131_gold (\prior_168_gold), reset_131_gate (\prior_168_gate) -> reset_131
+Presumably equivalent wires: clock_131_gold (\clk_gold), clock_131_gate (\clk_gate) -> clock_131
+Presumably equivalent wires: prior_131_gold (\prior_131_gold), prior_131_gate (\prior_131_gate) -> prior_131
+Presumably equivalent wires: update_130_gold (\update_130_gold), update_130_gate (\update_130_gate) -> update_130
+Presumably equivalent wires: reset_130_gold (\prior_168_gold), reset_130_gate (\prior_168_gate) -> reset_130
+Presumably equivalent wires: clock_130_gold (\clk_gold), clock_130_gate (\clk_gate) -> clock_130
+Presumably equivalent wires: prior_130_gold (\prior_130_gold), prior_130_gate (\prior_130_gate) -> prior_130
+Presumably equivalent wires: update_129_gold (\update_129_gold), update_129_gate (\update_129_gate) -> update_129
+Presumably equivalent wires: reset_129_gold (\prior_168_gold), reset_129_gate (\prior_168_gate) -> reset_129
+Presumably equivalent wires: clock_129_gold (\clk_gold), clock_129_gate (\clk_gate) -> clock_129
+Presumably equivalent wires: prior_129_gold (\prior_129_gold), prior_129_gate (\prior_129_gate) -> prior_129
+Presumably equivalent wires: update_128_gold (\update_128_gold), update_128_gate (\update_128_gate) -> update_128
+Presumably equivalent wires: reset_128_gold (\prior_168_gold), reset_128_gate (\prior_168_gate) -> reset_128
+Presumably equivalent wires: clock_128_gold (\clk_gold), clock_128_gate (\clk_gate) -> clock_128
+Presumably equivalent wires: prior_128_gold (\prior_128_gold), prior_128_gate (\prior_128_gate) -> prior_128
+Presumably equivalent wires: update_127_gold (\update_127_gold), update_127_gate (\update_127_gate) -> update_127
+Presumably equivalent wires: reset_127_gold (\prior_168_gold), reset_127_gate (\prior_168_gate) -> reset_127
+Presumably equivalent wires: clock_127_gold (\clk_gold), clock_127_gate (\clk_gate) -> clock_127
+Presumably equivalent wires: prior_127_gold (\prior_127_gold), prior_127_gate (\prior_127_gate) -> prior_127
+Presumably equivalent wires: update_126_gold (\tap_p_gold [14]), update_126_gate (\tap_p_gate [14]) -> update_126
+Presumably equivalent wires: clock_126_gold (\clk_gold), clock_126_gate (\clk_gate) -> clock_126
+Presumably equivalent wires: prior_126_gold (\prior_126_gold), prior_126_gate (\prior_126_gate) -> prior_126
+Presumably equivalent wires: update_125_gold (\tap_p_gold [13]), update_125_gate (\tap_p_gate [13]) -> update_125
+Presumably equivalent wires: clock_125_gold (\clk_gold), clock_125_gate (\clk_gate) -> clock_125
+Presumably equivalent wires: prior_125_gold (\prior_125_gold), prior_125_gate (\prior_125_gate) -> prior_125
+Presumably equivalent wires: update_124_gold (\tap_p_gold [12]), update_124_gate (\tap_p_gate [12]) -> update_124
+Presumably equivalent wires: clock_124_gold (\clk_gold), clock_124_gate (\clk_gate) -> clock_124
+Presumably equivalent wires: prior_124_gold (\prior_124_gold), prior_124_gate (\prior_124_gate) -> prior_124
+Presumably equivalent wires: update_123_gold (\tap_p_gold [11]), update_123_gate (\tap_p_gate [11]) -> update_123
+Presumably equivalent wires: clock_123_gold (\clk_gold), clock_123_gate (\clk_gate) -> clock_123
+Presumably equivalent wires: prior_123_gold (\prior_123_gold), prior_123_gate (\prior_123_gate) -> prior_123
+Presumably equivalent wires: update_122_gold (\tap_p_gold [10]), update_122_gate (\tap_p_gate [10]) -> update_122
+Presumably equivalent wires: clock_122_gold (\clk_gold), clock_122_gate (\clk_gate) -> clock_122
+Presumably equivalent wires: prior_122_gold (\prior_122_gold), prior_122_gate (\prior_122_gate) -> prior_122
+Presumably equivalent wires: update_121_gold (\tap_p_gold [9]), update_121_gate (\tap_p_gate [9]) -> update_121
+Presumably equivalent wires: clock_121_gold (\clk_gold), clock_121_gate (\clk_gate) -> clock_121
+Presumably equivalent wires: prior_121_gold (\prior_121_gold), prior_121_gate (\prior_121_gate) -> prior_121
+Presumably equivalent wires: update_120_gold (\tap_p_gold [8]), update_120_gate (\tap_p_gate [8]) -> update_120
+Presumably equivalent wires: clock_120_gold (\clk_gold), clock_120_gate (\clk_gate) -> clock_120
+Presumably equivalent wires: prior_120_gold (\prior_120_gold), prior_120_gate (\prior_120_gate) -> prior_120
+Presumably equivalent wires: update_119_gold (\tap_p_gold [7]), update_119_gate (\tap_p_gate [7]) -> update_119
+Presumably equivalent wires: clock_119_gold (\clk_gold), clock_119_gate (\clk_gate) -> clock_119
+Presumably equivalent wires: prior_119_gold (\prior_119_gold), prior_119_gate (\prior_119_gate) -> prior_119
+Presumably equivalent wires: update_118_gold (\tap_p_gold [6]), update_118_gate (\tap_p_gate [6]) -> update_118
+Presumably equivalent wires: clock_118_gold (\clk_gold), clock_118_gate (\clk_gate) -> clock_118
+Presumably equivalent wires: prior_118_gold (\prior_118_gold), prior_118_gate (\prior_118_gate) -> prior_118
+Presumably equivalent wires: update_117_gold (\tap_p_gold [5]), update_117_gate (\tap_p_gate [5]) -> update_117
+Presumably equivalent wires: clock_117_gold (\clk_gold), clock_117_gate (\clk_gate) -> clock_117
+Presumably equivalent wires: prior_117_gold (\prior_117_gold), prior_117_gate (\prior_117_gate) -> prior_117
+Presumably equivalent wires: update_116_gold (\tap_p_gold [4]), update_116_gate (\tap_p_gate [4]) -> update_116
+Presumably equivalent wires: clock_116_gold (\clk_gold), clock_116_gate (\clk_gate) -> clock_116
+Presumably equivalent wires: prior_116_gold (\prior_116_gold), prior_116_gate (\prior_116_gate) -> prior_116
+Presumably equivalent wires: update_115_gold (\tap_p_gold [3]), update_115_gate (\tap_p_gate [3]) -> update_115
+Presumably equivalent wires: clock_115_gold (\clk_gold), clock_115_gate (\clk_gate) -> clock_115
+Presumably equivalent wires: prior_115_gold (\prior_115_gold), prior_115_gate (\prior_115_gate) -> prior_115
+Presumably equivalent wires: update_114_gold (\tap_p_gold [2]), update_114_gate (\tap_p_gate [2]) -> update_114
+Presumably equivalent wires: clock_114_gold (\clk_gold), clock_114_gate (\clk_gate) -> clock_114
+Presumably equivalent wires: prior_114_gold (\prior_114_gold), prior_114_gate (\prior_114_gate) -> prior_114
+Presumably equivalent wires: update_113_gold (\tap_p_gold [1]), update_113_gate (\tap_p_gate [1]) -> update_113
+Presumably equivalent wires: clock_113_gold (\clk_gold), clock_113_gate (\clk_gate) -> clock_113
+Presumably equivalent wires: prior_113_gold (\prior_113_gold), prior_113_gate (\prior_113_gate) -> prior_113
+Presumably equivalent wires: update_112_gold (\tap_p_gold [0]), update_112_gate (\tap_p_gate [0]) -> update_112
+Presumably equivalent wires: clock_112_gold (\clk_gold), clock_112_gate (\clk_gate) -> clock_112
+Presumably equivalent wires: prior_112_gold (\prior_112_gold), prior_112_gate (\prior_112_gate) -> prior_112
+Presumably equivalent wires: update_111_gold (\tap_n_gold [14]), update_111_gate (\tap_n_gate [14]) -> update_111
+Presumably equivalent wires: clock_111_gold (\clk_gold), clock_111_gate (\clk_gate) -> clock_111
+Presumably equivalent wires: prior_111_gold (\prior_111_gold), prior_111_gate (\prior_111_gate) -> prior_111
+Presumably equivalent wires: update_110_gold (\tap_n_gold [13]), update_110_gate (\tap_n_gate [13]) -> update_110
+Presumably equivalent wires: clock_110_gold (\clk_gold), clock_110_gate (\clk_gate) -> clock_110
+Presumably equivalent wires: prior_110_gold (\prior_110_gold), prior_110_gate (\prior_110_gate) -> prior_110
+Presumably equivalent wires: update_109_gold (\tap_n_gold [12]), update_109_gate (\tap_n_gate [12]) -> update_109
+Presumably equivalent wires: clock_109_gold (\clk_gold), clock_109_gate (\clk_gate) -> clock_109
+Presumably equivalent wires: prior_109_gold (\prior_109_gold), prior_109_gate (\prior_109_gate) -> prior_109
+Presumably equivalent wires: update_108_gold (\tap_n_gold [11]), update_108_gate (\tap_n_gate [11]) -> update_108
+Presumably equivalent wires: clock_108_gold (\clk_gold), clock_108_gate (\clk_gate) -> clock_108
+Presumably equivalent wires: prior_108_gold (\prior_108_gold), prior_108_gate (\prior_108_gate) -> prior_108
+Presumably equivalent wires: update_107_gold (\tap_n_gold [10]), update_107_gate (\tap_n_gate [10]) -> update_107
+Presumably equivalent wires: clock_107_gold (\clk_gold), clock_107_gate (\clk_gate) -> clock_107
+Presumably equivalent wires: prior_107_gold (\prior_107_gold), prior_107_gate (\prior_107_gate) -> prior_107
+Presumably equivalent wires: update_106_gold (\tap_n_gold [9]), update_106_gate (\tap_n_gate [9]) -> update_106
+Presumably equivalent wires: clock_106_gold (\clk_gold), clock_106_gate (\clk_gate) -> clock_106
+Presumably equivalent wires: prior_106_gold (\prior_106_gold), prior_106_gate (\prior_106_gate) -> prior_106
+Presumably equivalent wires: update_105_gold (\tap_n_gold [8]), update_105_gate (\tap_n_gate [8]) -> update_105
+Presumably equivalent wires: clock_105_gold (\clk_gold), clock_105_gate (\clk_gate) -> clock_105
+Presumably equivalent wires: prior_105_gold (\prior_105_gold), prior_105_gate (\prior_105_gate) -> prior_105
+Presumably equivalent wires: update_104_gold (\tap_n_gold [7]), update_104_gate (\tap_n_gate [7]) -> update_104
+Presumably equivalent wires: clock_104_gold (\clk_gold), clock_104_gate (\clk_gate) -> clock_104
+Presumably equivalent wires: prior_104_gold (\prior_104_gold), prior_104_gate (\prior_104_gate) -> prior_104
+Presumably equivalent wires: update_103_gold (\tap_n_gold [6]), update_103_gate (\tap_n_gate [6]) -> update_103
+Presumably equivalent wires: clock_103_gold (\clk_gold), clock_103_gate (\clk_gate) -> clock_103
+Presumably equivalent wires: prior_103_gold (\prior_103_gold), prior_103_gate (\prior_103_gate) -> prior_103
+Presumably equivalent wires: update_102_gold (\tap_n_gold [5]), update_102_gate (\tap_n_gate [5]) -> update_102
+Presumably equivalent wires: clock_102_gold (\clk_gold), clock_102_gate (\clk_gate) -> clock_102
+Presumably equivalent wires: prior_102_gold (\prior_102_gold), prior_102_gate (\prior_102_gate) -> prior_102
+Presumably equivalent wires: update_101_gold (\tap_n_gold [4]), update_101_gate (\tap_n_gate [4]) -> update_101
+Presumably equivalent wires: clock_101_gold (\clk_gold), clock_101_gate (\clk_gate) -> clock_101
+Presumably equivalent wires: prior_101_gold (\prior_101_gold), prior_101_gate (\prior_101_gate) -> prior_101
+Presumably equivalent wires: update_100_gold (\tap_n_gold [3]), update_100_gate (\tap_n_gate [3]) -> update_100
+Presumably equivalent wires: clock_100_gold (\clk_gold), clock_100_gate (\clk_gate) -> clock_100
+Presumably equivalent wires: prior_100_gold (\prior_100_gold), prior_100_gate (\prior_100_gate) -> prior_100
+Presumably equivalent wires: update_99_gold (\tap_n_gold [2]), update_99_gate (\tap_n_gate [2]) -> update_99
+Presumably equivalent wires: clock_99_gold (\clk_gold), clock_99_gate (\clk_gate) -> clock_99
+Presumably equivalent wires: prior_99_gold (\prior_99_gold), prior_99_gate (\prior_99_gate) -> prior_99
+Presumably equivalent wires: update_98_gold (\tap_n_gold [1]), update_98_gate (\tap_n_gate [1]) -> update_98
+Presumably equivalent wires: clock_98_gold (\clk_gold), clock_98_gate (\clk_gate) -> clock_98
+Presumably equivalent wires: prior_98_gold (\prior_98_gold), prior_98_gate (\prior_98_gate) -> prior_98
+Presumably equivalent wires: update_97_gold (\tap_n_gold [0]), update_97_gate (\tap_n_gate [0]) -> update_97
+Presumably equivalent wires: clock_97_gold (\clk_gold), clock_97_gate (\clk_gate) -> clock_97
+Presumably equivalent wires: prior_97_gold (\prior_97_gold), prior_97_gate (\prior_97_gate) -> prior_97
+Presumably equivalent wires: update_96_gold (\update_96_gold), update_96_gate (\update_96_gate) -> update_96
+Presumably equivalent wires: reset_96_gold (\prior_168_gold), reset_96_gate (\prior_168_gate) -> reset_96
+Presumably equivalent wires: clock_96_gold (\clk_gold), clock_96_gate (\clk_gate) -> clock_96
+Presumably equivalent wires: prior_96_gold (\prior_96_gold), prior_96_gate (\prior_96_gate) -> prior_96
+Presumably equivalent wires: update_95_gold (\update_95_gold), update_95_gate (\update_95_gate) -> update_95
+Presumably equivalent wires: low_latch_gate_95_gold (\clk_gold), low_latch_gate_95_gate (\clk_gate) -> low_latch_gate_95
+Presumably equivalent wires: prior_95_gold (\prior_95_gold), prior_95_gate (\prior_95_gate) -> prior_95
+Presumably equivalent wires: update_94_gold (\update_94_gold), update_94_gate (\update_94_gate) -> update_94
+Presumably equivalent wires: low_latch_gate_94_gold (\clk_gold), low_latch_gate_94_gate (\clk_gate) -> low_latch_gate_94
+Presumably equivalent wires: prior_94_gold (\prior_94_gold), prior_94_gate (\prior_94_gate) -> prior_94
+Presumably equivalent wires: update_93_gold (\update_93_gold), update_93_gate (\update_93_gate) -> update_93
+Presumably equivalent wires: reset_93_gold (\rst_n_gold), reset_93_gate (\rst_n_gate) -> reset_93
+Presumably equivalent wires: clock_93_gold (\clock_93_gold), clock_93_gate (\clock_93_gate) -> clock_93
+Presumably equivalent wires: prior_93_gold (\prior_93_gold), prior_93_gate (\prior_93_gate) -> prior_93
+Presumably equivalent wires: update_92_gold (\update_92_gold), update_92_gate (\update_92_gate) -> update_92
+Presumably equivalent wires: reset_92_gold (\rst_n_gold), reset_92_gate (\rst_n_gate) -> reset_92
+Presumably equivalent wires: clock_92_gold (\clock_92_gold), clock_92_gate (\clock_92_gate) -> clock_92
+Presumably equivalent wires: prior_92_gold (\prior_92_gold), prior_92_gate (\prior_92_gate) -> prior_92
+Presumably equivalent wires: update_91_gold (\update_91_gold), update_91_gate (\update_91_gate) -> update_91
+Presumably equivalent wires: clock_91_gold (\clock_50_gold), clock_91_gate (\clock_50_gate) -> clock_91
+Presumably equivalent wires: prior_91_gold (\prior_91_gold), prior_91_gate (\prior_91_gate) -> prior_91
+Presumably equivalent wires: update_90_gold (\prior_91_gold), update_90_gate (\prior_91_gate) -> update_90
+Presumably equivalent wires: clock_90_gold (\clock_50_gold), clock_90_gate (\clock_50_gate) -> clock_90
+Presumably equivalent wires: prior_90_gold (\prior_90_gold), prior_90_gate (\prior_90_gate) -> prior_90
+Presumably equivalent wires: update_89_gold (\prior_90_gold), update_89_gate (\prior_90_gate) -> update_89
+Presumably equivalent wires: clock_89_gold (\clock_50_gold), clock_89_gate (\clock_50_gate) -> clock_89
+Presumably equivalent wires: prior_89_gold (\prior_89_gold), prior_89_gate (\prior_89_gate) -> prior_89
+Presumably equivalent wires: update_88_gold (\prior_89_gold), update_88_gate (\prior_89_gate) -> update_88
+Presumably equivalent wires: clock_88_gold (\clock_50_gold), clock_88_gate (\clock_50_gate) -> clock_88
+Presumably equivalent wires: prior_88_gold (\prior_88_gold), prior_88_gate (\prior_88_gate) -> prior_88
+Presumably equivalent wires: update_87_gold (\prior_88_gold), update_87_gate (\prior_88_gate) -> update_87
+Presumably equivalent wires: clock_87_gold (\clock_50_gold), clock_87_gate (\clock_50_gate) -> clock_87
+Presumably equivalent wires: prior_87_gold (\prior_87_gold), prior_87_gate (\prior_87_gate) -> prior_87
+Presumably equivalent wires: update_86_gold (\prior_87_gold), update_86_gate (\prior_87_gate) -> update_86
+Presumably equivalent wires: clock_86_gold (\clock_50_gold), clock_86_gate (\clock_50_gate) -> clock_86
+Presumably equivalent wires: prior_86_gold (\prior_86_gold), prior_86_gate (\prior_86_gate) -> prior_86
+Presumably equivalent wires: update_85_gold (\prior_86_gold), update_85_gate (\prior_86_gate) -> update_85
+Presumably equivalent wires: clock_85_gold (\clock_50_gold), clock_85_gate (\clock_50_gate) -> clock_85
+Presumably equivalent wires: prior_85_gold (\prior_85_gold), prior_85_gate (\prior_85_gate) -> prior_85
+Presumably equivalent wires: update_84_gold (\prior_85_gold), update_84_gate (\prior_85_gate) -> update_84
+Presumably equivalent wires: clock_84_gold (\clock_50_gold), clock_84_gate (\clock_50_gate) -> clock_84
+Presumably equivalent wires: prior_84_gold (\prior_84_gold), prior_84_gate (\prior_84_gate) -> prior_84
+Presumably equivalent wires: update_83_gold (\prior_84_gold), update_83_gate (\prior_84_gate) -> update_83
+Presumably equivalent wires: clock_83_gold (\clock_50_gold), clock_83_gate (\clock_50_gate) -> clock_83
+Presumably equivalent wires: prior_83_gold (\prior_83_gold), prior_83_gate (\prior_83_gate) -> prior_83
+Presumably equivalent wires: update_82_gold (\prior_83_gold), update_82_gate (\prior_83_gate) -> update_82
+Presumably equivalent wires: clock_82_gold (\clock_50_gold), clock_82_gate (\clock_50_gate) -> clock_82
+Presumably equivalent wires: prior_82_gold (\prior_82_gold), prior_82_gate (\prior_82_gate) -> prior_82
+Presumably equivalent wires: update_81_gold (\prior_82_gold), update_81_gate (\prior_82_gate) -> update_81
+Presumably equivalent wires: clock_81_gold (\clock_50_gold), clock_81_gate (\clock_50_gate) -> clock_81
+Presumably equivalent wires: prior_81_gold (\prior_81_gold), prior_81_gate (\prior_81_gate) -> prior_81
+Presumably equivalent wires: update_80_gold (\prior_81_gold), update_80_gate (\prior_81_gate) -> update_80
+Presumably equivalent wires: clock_80_gold (\clock_50_gold), clock_80_gate (\clock_50_gate) -> clock_80
+Presumably equivalent wires: prior_80_gold (\prior_80_gold), prior_80_gate (\prior_80_gate) -> prior_80
+Presumably equivalent wires: update_79_gold (\prior_80_gold), update_79_gate (\prior_80_gate) -> update_79
+Presumably equivalent wires: clock_79_gold (\clock_50_gold), clock_79_gate (\clock_50_gate) -> clock_79
+Presumably equivalent wires: prior_79_gold (\prior_79_gold), prior_79_gate (\prior_79_gate) -> prior_79
+Presumably equivalent wires: update_78_gold (\prior_79_gold), update_78_gate (\prior_79_gate) -> update_78
+Presumably equivalent wires: clock_78_gold (\clock_50_gold), clock_78_gate (\clock_50_gate) -> clock_78
+Presumably equivalent wires: prior_78_gold (\prior_78_gold), prior_78_gate (\prior_78_gate) -> prior_78
+Presumably equivalent wires: update_77_gold (\prior_78_gold), update_77_gate (\prior_78_gate) -> update_77
+Presumably equivalent wires: clock_77_gold (\clock_50_gold), clock_77_gate (\clock_50_gate) -> clock_77
+Presumably equivalent wires: prior_77_gold (\prior_77_gold), prior_77_gate (\prior_77_gate) -> prior_77
+Presumably equivalent wires: update_76_gold (\prior_77_gold), update_76_gate (\prior_77_gate) -> update_76
+Presumably equivalent wires: clock_76_gold (\clock_50_gold), clock_76_gate (\clock_50_gate) -> clock_76
+Presumably equivalent wires: prior_76_gold (\prior_76_gold), prior_76_gate (\prior_76_gate) -> prior_76
+Presumably equivalent wires: update_75_gold (\prior_76_gold), update_75_gate (\prior_76_gate) -> update_75
+Presumably equivalent wires: clock_75_gold (\clock_50_gold), clock_75_gate (\clock_50_gate) -> clock_75
+Presumably equivalent wires: prior_75_gold (\prior_75_gold), prior_75_gate (\prior_75_gate) -> prior_75
+Presumably equivalent wires: update_74_gold (\prior_75_gold), update_74_gate (\prior_75_gate) -> update_74
+Presumably equivalent wires: clock_74_gold (\clock_50_gold), clock_74_gate (\clock_50_gate) -> clock_74
+Presumably equivalent wires: prior_74_gold (\prior_74_gold), prior_74_gate (\prior_74_gate) -> prior_74
+Presumably equivalent wires: update_73_gold (\prior_74_gold), update_73_gate (\prior_74_gate) -> update_73
+Presumably equivalent wires: clock_73_gold (\clock_50_gold), clock_73_gate (\clock_50_gate) -> clock_73
+Presumably equivalent wires: prior_73_gold (\prior_73_gold), prior_73_gate (\prior_73_gate) -> prior_73
+Presumably equivalent wires: update_72_gold (\prior_73_gold), update_72_gate (\prior_73_gate) -> update_72
+Presumably equivalent wires: clock_72_gold (\clock_50_gold), clock_72_gate (\clock_50_gate) -> clock_72
+Presumably equivalent wires: prior_72_gold (\prior_72_gold), prior_72_gate (\prior_72_gate) -> prior_72
+Presumably equivalent wires: update_71_gold (\prior_72_gold), update_71_gate (\prior_72_gate) -> update_71
+Presumably equivalent wires: clock_71_gold (\clock_50_gold), clock_71_gate (\clock_50_gate) -> clock_71
+Presumably equivalent wires: prior_71_gold (\prior_71_gold), prior_71_gate (\prior_71_gate) -> prior_71
+Presumably equivalent wires: update_70_gold (\prior_0_gold), update_70_gate (\prior_0_gate) -> update_70
+Presumably equivalent wires: clock_70_gold (\clock_50_gold), clock_70_gate (\clock_50_gate) -> clock_70
+Presumably equivalent wires: prior_70_gold (\prior_70_gold), prior_70_gate (\prior_70_gate) -> prior_70
+Presumably equivalent wires: update_69_gold (\prior_70_gold), update_69_gate (\prior_70_gate) -> update_69
+Presumably equivalent wires: clock_69_gold (\clock_50_gold), clock_69_gate (\clock_50_gate) -> clock_69
+Presumably equivalent wires: prior_69_gold (\prior_69_gold), prior_69_gate (\prior_69_gate) -> prior_69
+Presumably equivalent wires: update_68_gold (\prior_69_gold), update_68_gate (\prior_69_gate) -> update_68
+Presumably equivalent wires: clock_68_gold (\clock_50_gold), clock_68_gate (\clock_50_gate) -> clock_68
+Presumably equivalent wires: prior_68_gold (\prior_68_gold), prior_68_gate (\prior_68_gate) -> prior_68
+Presumably equivalent wires: update_67_gold (\prior_68_gold), update_67_gate (\prior_68_gate) -> update_67
+Presumably equivalent wires: clock_67_gold (\clock_50_gold), clock_67_gate (\clock_50_gate) -> clock_67
+Presumably equivalent wires: prior_67_gold (\prior_67_gold), prior_67_gate (\prior_67_gate) -> prior_67
+Presumably equivalent wires: update_66_gold (\prior_67_gold), update_66_gate (\prior_67_gate) -> update_66
+Presumably equivalent wires: clock_66_gold (\clock_50_gold), clock_66_gate (\clock_50_gate) -> clock_66
+Presumably equivalent wires: prior_66_gold (\prior_66_gold), prior_66_gate (\prior_66_gate) -> prior_66
+Presumably equivalent wires: update_65_gold (\prior_66_gold), update_65_gate (\prior_66_gate) -> update_65
+Presumably equivalent wires: clock_65_gold (\clock_50_gold), clock_65_gate (\clock_50_gate) -> clock_65
+Presumably equivalent wires: prior_65_gold (\prior_65_gold), prior_65_gate (\prior_65_gate) -> prior_65
+Presumably equivalent wires: update_64_gold (\prior_65_gold), update_64_gate (\prior_65_gate) -> update_64
+Presumably equivalent wires: clock_64_gold (\clock_50_gold), clock_64_gate (\clock_50_gate) -> clock_64
+Presumably equivalent wires: prior_64_gold (\prior_64_gold), prior_64_gate (\prior_64_gate) -> prior_64
+Presumably equivalent wires: update_63_gold (\prior_64_gold), update_63_gate (\prior_64_gate) -> update_63
+Presumably equivalent wires: clock_63_gold (\clock_50_gold), clock_63_gate (\clock_50_gate) -> clock_63
+Presumably equivalent wires: prior_63_gold (\prior_63_gold), prior_63_gate (\prior_63_gate) -> prior_63
+Presumably equivalent wires: update_62_gold (\prior_63_gold), update_62_gate (\prior_63_gate) -> update_62
+Presumably equivalent wires: clock_62_gold (\clock_50_gold), clock_62_gate (\clock_50_gate) -> clock_62
+Presumably equivalent wires: prior_62_gold (\prior_62_gold), prior_62_gate (\prior_62_gate) -> prior_62
+Presumably equivalent wires: update_61_gold (\prior_62_gold), update_61_gate (\prior_62_gate) -> update_61
+Presumably equivalent wires: clock_61_gold (\clock_50_gold), clock_61_gate (\clock_50_gate) -> clock_61
+Presumably equivalent wires: prior_61_gold (\prior_61_gold), prior_61_gate (\prior_61_gate) -> prior_61
+Presumably equivalent wires: update_60_gold (\prior_61_gold), update_60_gate (\prior_61_gate) -> update_60
+Presumably equivalent wires: clock_60_gold (\clock_50_gold), clock_60_gate (\clock_50_gate) -> clock_60
+Presumably equivalent wires: prior_60_gold (\prior_60_gold), prior_60_gate (\prior_60_gate) -> prior_60
+Presumably equivalent wires: update_59_gold (\prior_60_gold), update_59_gate (\prior_60_gate) -> update_59
+Presumably equivalent wires: clock_59_gold (\clock_50_gold), clock_59_gate (\clock_50_gate) -> clock_59
+Presumably equivalent wires: prior_59_gold (\prior_59_gold), prior_59_gate (\prior_59_gate) -> prior_59
+Presumably equivalent wires: update_58_gold (\prior_59_gold), update_58_gate (\prior_59_gate) -> update_58
+Presumably equivalent wires: clock_58_gold (\clock_50_gold), clock_58_gate (\clock_50_gate) -> clock_58
+Presumably equivalent wires: prior_58_gold (\prior_58_gold), prior_58_gate (\prior_58_gate) -> prior_58
+Presumably equivalent wires: update_57_gold (\prior_58_gold), update_57_gate (\prior_58_gate) -> update_57
+Presumably equivalent wires: clock_57_gold (\clock_50_gold), clock_57_gate (\clock_50_gate) -> clock_57
+Presumably equivalent wires: prior_57_gold (\prior_57_gold), prior_57_gate (\prior_57_gate) -> prior_57
+Presumably equivalent wires: update_56_gold (\prior_57_gold), update_56_gate (\prior_57_gate) -> update_56
+Presumably equivalent wires: clock_56_gold (\clock_50_gold), clock_56_gate (\clock_50_gate) -> clock_56
+Presumably equivalent wires: prior_56_gold (\prior_56_gold), prior_56_gate (\prior_56_gate) -> prior_56
+Presumably equivalent wires: update_55_gold (\prior_56_gold), update_55_gate (\prior_56_gate) -> update_55
+Presumably equivalent wires: clock_55_gold (\clock_50_gold), clock_55_gate (\clock_50_gate) -> clock_55
+Presumably equivalent wires: prior_55_gold (\prior_55_gold), prior_55_gate (\prior_55_gate) -> prior_55
+Presumably equivalent wires: update_54_gold (\prior_55_gold), update_54_gate (\prior_55_gate) -> update_54
+Presumably equivalent wires: clock_54_gold (\clock_50_gold), clock_54_gate (\clock_50_gate) -> clock_54
+Presumably equivalent wires: prior_54_gold (\prior_54_gold), prior_54_gate (\prior_54_gate) -> prior_54
+Presumably equivalent wires: update_53_gold (\prior_54_gold), update_53_gate (\prior_54_gate) -> update_53
+Presumably equivalent wires: clock_53_gold (\clock_50_gold), clock_53_gate (\clock_50_gate) -> clock_53
+Presumably equivalent wires: prior_53_gold (\prior_53_gold), prior_53_gate (\prior_53_gate) -> prior_53
+Presumably equivalent wires: update_52_gold (\prior_53_gold), update_52_gate (\prior_53_gate) -> update_52
+Presumably equivalent wires: clock_52_gold (\clock_50_gold), clock_52_gate (\clock_50_gate) -> clock_52
+Presumably equivalent wires: prior_52_gold (\prior_52_gold), prior_52_gate (\prior_52_gate) -> prior_52
+Presumably equivalent wires: update_51_gold (\prior_52_gold), update_51_gate (\prior_52_gate) -> update_51
+Presumably equivalent wires: clock_51_gold (\clock_50_gold), clock_51_gate (\clock_50_gate) -> clock_51
+Presumably equivalent wires: prior_51_gold (\prior_51_gold), prior_51_gate (\prior_51_gate) -> prior_51
+Presumably equivalent wires: update_50_gold (\prior_51_gold), update_50_gate (\prior_51_gate) -> update_50
+Presumably equivalent wires: clock_50_gold (\clock_50_gold), clock_50_gate (\clock_50_gate) -> clock_50
+Presumably equivalent wires: prior_50_gold (\prior_50_gold), prior_50_gate (\prior_50_gate) -> prior_50
+Presumably equivalent wires: update_49_gold (\update_49_gold), update_49_gate (\update_49_gate) -> update_49
+Presumably equivalent wires: reset_49_gold (\prior_168_gold), reset_49_gate (\prior_168_gate) -> reset_49
+Presumably equivalent wires: clock_49_gold (\clk_gold), clock_49_gate (\clk_gate) -> clock_49
+Presumably equivalent wires: prior_49_gold (\prior_49_gold), prior_49_gate (\prior_49_gate) -> prior_49
+Presumably equivalent wires: update_48_gold (\prior_47_gold), update_48_gate (\prior_47_gate) -> update_48
+Presumably equivalent wires: reset_48_gold (\prior_168_gold), reset_48_gate (\prior_168_gate) -> reset_48
+Presumably equivalent wires: clock_48_gold (\clk_gold), clock_48_gate (\clk_gate) -> clock_48
+Presumably equivalent wires: prior_48_gold (\prior_48_gold), prior_48_gate (\prior_48_gate) -> prior_48
+Presumably equivalent wires: update_47_gold (\err_clr_gold), update_47_gate (\err_clr_gate) -> update_47
+Presumably equivalent wires: reset_47_gold (\prior_168_gold), reset_47_gate (\prior_168_gate) -> reset_47
+Presumably equivalent wires: clock_47_gold (\clk_gold), clock_47_gate (\clk_gate) -> clock_47
+Presumably equivalent wires: prior_47_gold (\prior_47_gold), prior_47_gate (\prior_47_gate) -> prior_47
+Presumably equivalent wires: update_46_gold (\update_46_gold), update_46_gate (\update_46_gate) -> update_46
+Presumably equivalent wires: reset_46_gold (\prior_168_gold), reset_46_gate (\prior_168_gate) -> reset_46
+Presumably equivalent wires: clock_46_gold (\clk_gold), clock_46_gate (\clk_gate) -> clock_46
+Presumably equivalent wires: prior_46_gold (\prior_46_gold), prior_46_gate (\prior_46_gate) -> prior_46
+Presumably equivalent wires: update_45_gold (\update_45_gold), update_45_gate (\update_45_gate) -> update_45
+Presumably equivalent wires: reset_45_gold (\prior_168_gold), reset_45_gate (\prior_168_gate) -> reset_45
+Presumably equivalent wires: clock_45_gold (\clk_gold), clock_45_gate (\clk_gate) -> clock_45
+Presumably equivalent wires: prior_45_gold (\prior_45_gold), prior_45_gate (\prior_45_gate) -> prior_45
+Presumably equivalent wires: update_44_gold (\update_44_gold), update_44_gate (\update_44_gate) -> update_44
+Presumably equivalent wires: reset_44_gold (\prior_168_gold), reset_44_gate (\prior_168_gate) -> reset_44
+Presumably equivalent wires: clock_44_gold (\clk_gold), clock_44_gate (\clk_gate) -> clock_44
+Presumably equivalent wires: prior_44_gold (\prior_44_gold), prior_44_gate (\prior_44_gate) -> prior_44
+Presumably equivalent wires: update_43_gold (\update_43_gold), update_43_gate (\update_43_gate) -> update_43
+Presumably equivalent wires: reset_43_gold (\prior_168_gold), reset_43_gate (\prior_168_gate) -> reset_43
+Presumably equivalent wires: clock_43_gold (\clk_gold), clock_43_gate (\clk_gate) -> clock_43
+Presumably equivalent wires: prior_43_gold (\prior_43_gold), prior_43_gate (\prior_43_gate) -> prior_43
+Presumably equivalent wires: update_42_gold (\update_42_gold), update_42_gate (\update_42_gate) -> update_42
+Presumably equivalent wires: reset_42_gold (\prior_46_gold), reset_42_gate (\prior_46_gate) -> reset_42
+Presumably equivalent wires: clock_42_gold (\clk_gold), clock_42_gate (\clk_gate) -> clock_42
+Presumably equivalent wires: prior_42_gold (\prior_42_gold), prior_42_gate (\prior_42_gate) -> prior_42
+Presumably equivalent wires: update_41_gold (\update_41_gold), update_41_gate (\update_41_gate) -> update_41
+Presumably equivalent wires: reset_41_gold (\prior_46_gold), reset_41_gate (\prior_46_gate) -> reset_41
+Presumably equivalent wires: clock_41_gold (\clk_gold), clock_41_gate (\clk_gate) -> clock_41
+Presumably equivalent wires: prior_41_gold (\prior_41_gold), prior_41_gate (\prior_41_gate) -> prior_41
+Presumably equivalent wires: update_40_gold (\update_40_gold), update_40_gate (\update_40_gate) -> update_40
+Presumably equivalent wires: reset_40_gold (\prior_46_gold), reset_40_gate (\prior_46_gate) -> reset_40
+Presumably equivalent wires: clock_40_gold (\clk_gold), clock_40_gate (\clk_gate) -> clock_40
+Presumably equivalent wires: prior_40_gold (\prior_40_gold), prior_40_gate (\prior_40_gate) -> prior_40
+Presumably equivalent wires: update_39_gold (\update_39_gold), update_39_gate (\update_39_gate) -> update_39
+Presumably equivalent wires: reset_39_gold (\prior_46_gold), reset_39_gate (\prior_46_gate) -> reset_39
+Presumably equivalent wires: clock_39_gold (\clk_gold), clock_39_gate (\clk_gate) -> clock_39
+Presumably equivalent wires: prior_39_gold (\prior_39_gold), prior_39_gate (\prior_39_gate) -> prior_39
+Presumably equivalent wires: update_38_gold (\update_38_gold), update_38_gate (\update_38_gate) -> update_38
+Presumably equivalent wires: reset_38_gold (\prior_46_gold), reset_38_gate (\prior_46_gate) -> reset_38
+Presumably equivalent wires: clock_38_gold (\clk_gold), clock_38_gate (\clk_gate) -> clock_38
+Presumably equivalent wires: prior_38_gold (\prior_38_gold), prior_38_gate (\prior_38_gate) -> prior_38
+Presumably equivalent wires: update_37_gold (\update_37_gold), update_37_gate (\update_37_gate) -> update_37
+Presumably equivalent wires: reset_37_gold (\prior_46_gold), reset_37_gate (\prior_46_gate) -> reset_37
+Presumably equivalent wires: clock_37_gold (\clk_gold), clock_37_gate (\clk_gate) -> clock_37
+Presumably equivalent wires: prior_37_gold (\prior_37_gold), prior_37_gate (\prior_37_gate) -> prior_37
+Presumably equivalent wires: update_36_gold (\update_36_gold), update_36_gate (\update_36_gate) -> update_36
+Presumably equivalent wires: reset_36_gold (\prior_46_gold), reset_36_gate (\prior_46_gate) -> reset_36
+Presumably equivalent wires: clock_36_gold (\clk_gold), clock_36_gate (\clk_gate) -> clock_36
+Presumably equivalent wires: prior_36_gold (\prior_36_gold), prior_36_gate (\prior_36_gate) -> prior_36
+Presumably equivalent wires: update_35_gold (\update_35_gold), update_35_gate (\update_35_gate) -> update_35
+Presumably equivalent wires: reset_35_gold (\prior_46_gold), reset_35_gate (\prior_46_gate) -> reset_35
+Presumably equivalent wires: clock_35_gold (\clk_gold), clock_35_gate (\clk_gate) -> clock_35
+Presumably equivalent wires: prior_35_gold (\prior_35_gold), prior_35_gate (\prior_35_gate) -> prior_35
+Presumably equivalent wires: update_34_gold (\update_34_gold), update_34_gate (\update_34_gate) -> update_34
+Presumably equivalent wires: reset_34_gold (\prior_46_gold), reset_34_gate (\prior_46_gate) -> reset_34
+Presumably equivalent wires: clock_34_gold (\clk_gold), clock_34_gate (\clk_gate) -> clock_34
+Presumably equivalent wires: prior_34_gold (\prior_34_gold), prior_34_gate (\prior_34_gate) -> prior_34
+Presumably equivalent wires: update_33_gold (\update_33_gold), update_33_gate (\update_33_gate) -> update_33
+Presumably equivalent wires: reset_33_gold (\prior_46_gold), reset_33_gate (\prior_46_gate) -> reset_33
+Presumably equivalent wires: clock_33_gold (\clk_gold), clock_33_gate (\clk_gate) -> clock_33
+Presumably equivalent wires: prior_33_gold (\prior_33_gold), prior_33_gate (\prior_33_gate) -> prior_33
+Presumably equivalent wires: update_32_gold (\update_32_gold), update_32_gate (\update_32_gate) -> update_32
+Presumably equivalent wires: reset_32_gold (\prior_46_gold), reset_32_gate (\prior_46_gate) -> reset_32
+Presumably equivalent wires: clock_32_gold (\clk_gold), clock_32_gate (\clk_gate) -> clock_32
+Presumably equivalent wires: prior_32_gold (\prior_32_gold), prior_32_gate (\prior_32_gate) -> prior_32
+Presumably equivalent wires: update_31_gold (\update_31_gold), update_31_gate (\update_31_gate) -> update_31
+Presumably equivalent wires: reset_31_gold (\prior_46_gold), reset_31_gate (\prior_46_gate) -> reset_31
+Presumably equivalent wires: clock_31_gold (\clk_gold), clock_31_gate (\clk_gate) -> clock_31
+Presumably equivalent wires: prior_31_gold (\prior_31_gold), prior_31_gate (\prior_31_gate) -> prior_31
+Presumably equivalent wires: update_30_gold (\update_30_gold), update_30_gate (\update_30_gate) -> update_30
+Presumably equivalent wires: reset_30_gold (\prior_46_gold), reset_30_gate (\prior_46_gate) -> reset_30
+Presumably equivalent wires: clock_30_gold (\clk_gold), clock_30_gate (\clk_gate) -> clock_30
+Presumably equivalent wires: prior_30_gold (\prior_30_gold), prior_30_gate (\prior_30_gate) -> prior_30
+Presumably equivalent wires: update_29_gold (\update_29_gold), update_29_gate (\update_29_gate) -> update_29
+Presumably equivalent wires: reset_29_gold (\prior_46_gold), reset_29_gate (\prior_46_gate) -> reset_29
+Presumably equivalent wires: clock_29_gold (\clk_gold), clock_29_gate (\clk_gate) -> clock_29
+Presumably equivalent wires: prior_29_gold (\prior_29_gold), prior_29_gate (\prior_29_gate) -> prior_29
+Presumably equivalent wires: update_28_gold (\update_28_gold), update_28_gate (\update_28_gate) -> update_28
+Presumably equivalent wires: reset_28_gold (\prior_46_gold), reset_28_gate (\prior_46_gate) -> reset_28
+Presumably equivalent wires: clock_28_gold (\clk_gold), clock_28_gate (\clk_gate) -> clock_28
+Presumably equivalent wires: prior_28_gold (\prior_28_gold), prior_28_gate (\prior_28_gate) -> prior_28
+Presumably equivalent wires: update_27_gold (\update_27_gold), update_27_gate (\update_27_gate) -> update_27
+Presumably equivalent wires: reset_27_gold (\prior_46_gold), reset_27_gate (\prior_46_gate) -> reset_27
+Presumably equivalent wires: clock_27_gold (\clk_gold), clock_27_gate (\clk_gate) -> clock_27
+Presumably equivalent wires: prior_27_gold (\prior_27_gold), prior_27_gate (\prior_27_gate) -> prior_27
+Presumably equivalent wires: update_26_gold (\update_26_gold), update_26_gate (\update_26_gate) -> update_26
+Presumably equivalent wires: reset_26_gold (\prior_46_gold), reset_26_gate (\prior_46_gate) -> reset_26
+Presumably equivalent wires: clock_26_gold (\clk_gold), clock_26_gate (\clk_gate) -> clock_26
+Presumably equivalent wires: prior_26_gold (\prior_26_gold), prior_26_gate (\prior_26_gate) -> prior_26
+Presumably equivalent wires: update_25_gold (\update_25_gold), update_25_gate (\update_25_gate) -> update_25
+Presumably equivalent wires: reset_25_gold (\prior_46_gold), reset_25_gate (\prior_46_gate) -> reset_25
+Presumably equivalent wires: clock_25_gold (\clk_gold), clock_25_gate (\clk_gate) -> clock_25
+Presumably equivalent wires: prior_25_gold (\prior_25_gold), prior_25_gate (\prior_25_gate) -> prior_25
+Presumably equivalent wires: update_24_gold (\update_24_gold), update_24_gate (\update_24_gate) -> update_24
+Presumably equivalent wires: reset_24_gold (\prior_46_gold), reset_24_gate (\prior_46_gate) -> reset_24
+Presumably equivalent wires: clock_24_gold (\clk_gold), clock_24_gate (\clk_gate) -> clock_24
+Presumably equivalent wires: prior_24_gold (\prior_24_gold), prior_24_gate (\prior_24_gate) -> prior_24
+Presumably equivalent wires: update_23_gold (\update_23_gold), update_23_gate (\update_23_gate) -> update_23
+Presumably equivalent wires: reset_23_gold (\prior_46_gold), reset_23_gate (\prior_46_gate) -> reset_23
+Presumably equivalent wires: clock_23_gold (\clk_gold), clock_23_gate (\clk_gate) -> clock_23
+Presumably equivalent wires: prior_23_gold (\prior_23_gold), prior_23_gate (\prior_23_gate) -> prior_23
+Presumably equivalent wires: update_22_gold (\update_22_gold), update_22_gate (\update_22_gate) -> update_22
+Presumably equivalent wires: reset_22_gold (\prior_46_gold), reset_22_gate (\prior_46_gate) -> reset_22
+Presumably equivalent wires: clock_22_gold (\clk_gold), clock_22_gate (\clk_gate) -> clock_22
+Presumably equivalent wires: prior_22_gold (\prior_22_gold), prior_22_gate (\prior_22_gate) -> prior_22
+Presumably equivalent wires: update_21_gold (\update_21_gold), update_21_gate (\update_21_gate) -> update_21
+Presumably equivalent wires: reset_21_gold (\prior_46_gold), reset_21_gate (\prior_46_gate) -> reset_21
+Presumably equivalent wires: clock_21_gold (\clk_gold), clock_21_gate (\clk_gate) -> clock_21
+Presumably equivalent wires: prior_21_gold (\prior_21_gold), prior_21_gate (\prior_21_gate) -> prior_21
+Presumably equivalent wires: update_20_gold (\update_20_gold), update_20_gate (\update_20_gate) -> update_20
+Presumably equivalent wires: reset_20_gold (\prior_46_gold), reset_20_gate (\prior_46_gate) -> reset_20
+Presumably equivalent wires: clock_20_gold (\clk_gold), clock_20_gate (\clk_gate) -> clock_20
+Presumably equivalent wires: prior_20_gold (\prior_20_gold), prior_20_gate (\prior_20_gate) -> prior_20
+Presumably equivalent wires: update_19_gold (\update_19_gold), update_19_gate (\update_19_gate) -> update_19
+Presumably equivalent wires: reset_19_gold (\prior_46_gold), reset_19_gate (\prior_46_gate) -> reset_19
+Presumably equivalent wires: clock_19_gold (\clk_gold), clock_19_gate (\clk_gate) -> clock_19
+Presumably equivalent wires: prior_19_gold (\prior_19_gold), prior_19_gate (\prior_19_gate) -> prior_19
+Presumably equivalent wires: update_18_gold (\update_18_gold), update_18_gate (\update_18_gate) -> update_18
+Presumably equivalent wires: reset_18_gold (\prior_46_gold), reset_18_gate (\prior_46_gate) -> reset_18
+Presumably equivalent wires: clock_18_gold (\clk_gold), clock_18_gate (\clk_gate) -> clock_18
+Presumably equivalent wires: prior_18_gold (\prior_18_gold), prior_18_gate (\prior_18_gate) -> prior_18
+Presumably equivalent wires: update_17_gold (\update_17_gold), update_17_gate (\update_17_gate) -> update_17
+Presumably equivalent wires: reset_17_gold (\prior_46_gold), reset_17_gate (\prior_46_gate) -> reset_17
+Presumably equivalent wires: clock_17_gold (\clk_gold), clock_17_gate (\clk_gate) -> clock_17
+Presumably equivalent wires: prior_17_gold (\prior_17_gold), prior_17_gate (\prior_17_gate) -> prior_17
+Presumably equivalent wires: update_16_gold (\update_16_gold), update_16_gate (\update_16_gate) -> update_16
+Presumably equivalent wires: reset_16_gold (\prior_46_gold), reset_16_gate (\prior_46_gate) -> reset_16
+Presumably equivalent wires: clock_16_gold (\clk_gold), clock_16_gate (\clk_gate) -> clock_16
+Presumably equivalent wires: prior_16_gold (\prior_16_gold), prior_16_gate (\prior_16_gate) -> prior_16
+Presumably equivalent wires: update_15_gold (\update_15_gold), update_15_gate (\update_15_gate) -> update_15
+Presumably equivalent wires: reset_15_gold (\prior_46_gold), reset_15_gate (\prior_46_gate) -> reset_15
+Presumably equivalent wires: clock_15_gold (\clk_gold), clock_15_gate (\clk_gate) -> clock_15
+Presumably equivalent wires: prior_15_gold (\prior_15_gold), prior_15_gate (\prior_15_gate) -> prior_15
+Presumably equivalent wires: update_14_gold (\update_14_gold), update_14_gate (\update_14_gate) -> update_14
+Presumably equivalent wires: reset_14_gold (\prior_46_gold), reset_14_gate (\prior_46_gate) -> reset_14
+Presumably equivalent wires: clock_14_gold (\clk_gold), clock_14_gate (\clk_gate) -> clock_14
+Presumably equivalent wires: prior_14_gold (\prior_14_gold), prior_14_gate (\prior_14_gate) -> prior_14
+Presumably equivalent wires: update_13_gold (\update_13_gold), update_13_gate (\update_13_gate) -> update_13
+Presumably equivalent wires: reset_13_gold (\prior_46_gold), reset_13_gate (\prior_46_gate) -> reset_13
+Presumably equivalent wires: clock_13_gold (\clk_gold), clock_13_gate (\clk_gate) -> clock_13
+Presumably equivalent wires: prior_13_gold (\prior_13_gold), prior_13_gate (\prior_13_gate) -> prior_13
+Presumably equivalent wires: update_12_gold (\update_12_gold), update_12_gate (\update_12_gate) -> update_12
+Presumably equivalent wires: reset_12_gold (\prior_46_gold), reset_12_gate (\prior_46_gate) -> reset_12
+Presumably equivalent wires: clock_12_gold (\clk_gold), clock_12_gate (\clk_gate) -> clock_12
+Presumably equivalent wires: prior_12_gold (\prior_12_gold), prior_12_gate (\prior_12_gate) -> prior_12
+Presumably equivalent wires: update_11_gold (\update_11_gold), update_11_gate (\update_11_gate) -> update_11
+Presumably equivalent wires: reset_11_gold (\prior_46_gold), reset_11_gate (\prior_46_gate) -> reset_11
+Presumably equivalent wires: clock_11_gold (\clk_gold), clock_11_gate (\clk_gate) -> clock_11
+Presumably equivalent wires: prior_11_gold (\prior_11_gold), prior_11_gate (\prior_11_gate) -> prior_11
+Presumably equivalent wires: update_10_gold (\update_10_gold), update_10_gate (\update_10_gate) -> update_10
+Presumably equivalent wires: reset_10_gold (\prior_46_gold), reset_10_gate (\prior_46_gate) -> reset_10
+Presumably equivalent wires: clock_10_gold (\clk_gold), clock_10_gate (\clk_gate) -> clock_10
+Presumably equivalent wires: prior_10_gold (\prior_10_gold), prior_10_gate (\prior_10_gate) -> prior_10
+Presumably equivalent wires: update_9_gold (\update_9_gold), update_9_gate (\update_9_gate) -> update_9
+Presumably equivalent wires: reset_9_gold (\prior_46_gold), reset_9_gate (\prior_46_gate) -> reset_9
+Presumably equivalent wires: clock_9_gold (\clk_gold), clock_9_gate (\clk_gate) -> clock_9
+Presumably equivalent wires: prior_9_gold (\prior_9_gold), prior_9_gate (\prior_9_gate) -> prior_9
+Presumably equivalent wires: update_8_gold (\update_8_gold), update_8_gate (\update_8_gate) -> update_8
+Presumably equivalent wires: reset_8_gold (\prior_46_gold), reset_8_gate (\prior_46_gate) -> reset_8
+Presumably equivalent wires: clock_8_gold (\clk_gold), clock_8_gate (\clk_gate) -> clock_8
+Presumably equivalent wires: prior_8_gold (\prior_8_gold), prior_8_gate (\prior_8_gate) -> prior_8
+Presumably equivalent wires: update_7_gold (\update_7_gold), update_7_gate (\update_7_gate) -> update_7
+Presumably equivalent wires: reset_7_gold (\prior_46_gold), reset_7_gate (\prior_46_gate) -> reset_7
+Presumably equivalent wires: clock_7_gold (\clk_gold), clock_7_gate (\clk_gate) -> clock_7
+Presumably equivalent wires: prior_7_gold (\prior_7_gold), prior_7_gate (\prior_7_gate) -> prior_7
+Presumably equivalent wires: update_6_gold (\update_6_gold), update_6_gate (\update_6_gate) -> update_6
+Presumably equivalent wires: reset_6_gold (\prior_46_gold), reset_6_gate (\prior_46_gate) -> reset_6
+Presumably equivalent wires: clock_6_gold (\clk_gold), clock_6_gate (\clk_gate) -> clock_6
+Presumably equivalent wires: prior_6_gold (\prior_6_gold), prior_6_gate (\prior_6_gate) -> prior_6
+Presumably equivalent wires: update_5_gold (\update_5_gold), update_5_gate (\update_5_gate) -> update_5
+Presumably equivalent wires: reset_5_gold (\prior_46_gold), reset_5_gate (\prior_46_gate) -> reset_5
+Presumably equivalent wires: clock_5_gold (\clk_gold), clock_5_gate (\clk_gate) -> clock_5
+Presumably equivalent wires: prior_5_gold (\prior_5_gold), prior_5_gate (\prior_5_gate) -> prior_5
+Presumably equivalent wires: update_4_gold (\update_4_gold), update_4_gate (\update_4_gate) -> update_4
+Presumably equivalent wires: reset_4_gold (\prior_46_gold), reset_4_gate (\prior_46_gate) -> reset_4
+Presumably equivalent wires: clock_4_gold (\clk_gold), clock_4_gate (\clk_gate) -> clock_4
+Presumably equivalent wires: prior_4_gold (\prior_4_gold), prior_4_gate (\prior_4_gate) -> prior_4
+Presumably equivalent wires: update_3_gold (\update_3_gold), update_3_gate (\update_3_gate) -> update_3
+Presumably equivalent wires: reset_3_gold (\prior_46_gold), reset_3_gate (\prior_46_gate) -> reset_3
+Presumably equivalent wires: clock_3_gold (\clk_gold), clock_3_gate (\clk_gate) -> clock_3
+Presumably equivalent wires: prior_3_gold (\prior_3_gold), prior_3_gate (\prior_3_gate) -> prior_3
+Presumably equivalent wires: update_2_gold (\update_2_gold), update_2_gate (\update_2_gate) -> update_2
+Presumably equivalent wires: reset_2_gold (\prior_46_gold), reset_2_gate (\prior_46_gate) -> reset_2
+Presumably equivalent wires: clock_2_gold (\clk_gold), clock_2_gate (\clk_gate) -> clock_2
+Presumably equivalent wires: prior_2_gold (\prior_2_gold), prior_2_gate (\prior_2_gate) -> prior_2
+Presumably equivalent wires: update_1_gold (\update_1_gold), update_1_gate (\update_1_gate) -> update_1
+Presumably equivalent wires: reset_1_gold (\prior_46_gold), reset_1_gate (\prior_46_gate) -> reset_1
+Presumably equivalent wires: clock_1_gold (\clk_gold), clock_1_gate (\clk_gate) -> clock_1
+Presumably equivalent wires: prior_1_gold (\prior_1_gold), prior_1_gate (\prior_1_gate) -> prior_1
+Presumably equivalent wires: update_0_gold (\update_0_gold), update_0_gate (\update_0_gate) -> update_0
+Presumably equivalent wires: clock_0_gold (\clock_0_gold), clock_0_gate (\clock_0_gate) -> clock_0
+Presumably equivalent wires: prior_0_gold (\prior_0_gold), prior_0_gate (\prior_0_gate) -> prior_0
+Presumably equivalent wires: sclk_gold (\prior_170_gold), sclk_gate (\prior_170_gate) -> sclk
+Presumably equivalent wires: cs_n_gold (\prior_49_gold), cs_n_gate (\prior_49_gate) -> cs_n
+Presumably equivalent wires: sdo_gold (\prior_171_gold), sdo_gate (\prior_171_gate) -> sdo
+Presumably equivalent wires: wrap_err_gold (\prior_238_gold), wrap_err_gate (\prior_238_gate) -> wrap_err
+Presumably equivalent wires: debug_gold (\debug_gold), debug_gate (\debug_gate) -> debug
+Presumably equivalent wires: dbg_mode_gold (\dbg_mode_gold), dbg_mode_gate (\dbg_mode_gate) -> dbg_mode
+Presumably equivalent wires: err_clr_gold (\err_clr_gold), err_clr_gate (\err_clr_gate) -> err_clr
+Presumably equivalent wires: osr_sel_gold (\osr_sel_gold), osr_sel_gate (\osr_sel_gate) -> osr_sel
+Presumably equivalent wires: tap_n_gold (\tap_n_gold), tap_n_gate (\tap_n_gate) -> tap_n
+Presumably equivalent wires: tap_p_gold (\tap_p_gold), tap_p_gate (\tap_p_gate) -> tap_p
+Presumably equivalent wires: rst_n_gold (\rst_n_gold), rst_n_gate (\rst_n_gate) -> rst_n
+Presumably equivalent wires: clk_gold (\clk_gold), clk_gate (\clk_gate) -> clk
+Changing input B of cell $flatten\_162_.$auto$liberty.cc:84:create_or_cell$7448_gate ($_OR_): \update_49_gate -> \update_49
+Changing input B of cell $flatten\_181_.$auto$liberty.cc:75:create_and_cell$7740_gate ($_AND_): \update_94_gate -> \update_94
+Changing input A of cell $flatten\_185_.$auto$liberty.cc:75:create_and_cell$8774_gate ($_AND_): \update_91_gate -> \update_91
+Changing input B of cell $flatten\_187_.$auto$liberty.cc:75:create_and_cell$5154_gate ($_AND_): \update_94_gate -> \update_94
+Changing input B of cell $flatten\_193_.$auto$liberty.cc:75:create_and_cell$7742_gate ($_AND_): \update_46_gate -> \update_46
+Changing input B of cell $flatten\_194_.$auto$liberty.cc:75:create_and_cell$6634_gate ($_AND_): \update_46_gate -> \update_46
+Changing input A of cell $flatten\_199_.$auto$liberty.cc:75:create_and_cell$6992_gate ($_AND_): \update_46_gate -> \update_46
+Changing input B of cell $flatten\_221_.$auto$liberty.cc:75:create_and_cell$5156_gate ($_AND_): \update_226_gate -> \update_226
+Changing input B of cell $flatten\_222_.$auto$liberty.cc:75:create_and_cell$5162_gate ($_AND_): \update_226_gate -> \update_226
+Changing input B of cell $flatten\_229_.$auto$liberty.cc:75:create_and_cell$6992_gate ($_AND_): \update_46_gate -> \update_46
+Changing input A of cell $flatten\_231_.$auto$liberty.cc:75:create_and_cell$6992_gate ($_AND_): \update_46_gate -> \update_46
+Changing input B of cell $flatten\_233_.$auto$liberty.cc:75:create_and_cell$7028_gate ($_AND_): \update_46_gate -> \update_46
+Changing input B of cell $flatten\_234_.$auto$liberty.cc:75:create_and_cell$7028_gate ($_AND_): \update_46_gate -> \update_46
+Changing input A of cell $flatten\_237_.$auto$liberty.cc:75:create_and_cell$6992_gate ($_AND_): \update_46_gate -> \update_46
+Changing input A of cell $flatten\_239_.$auto$liberty.cc:75:create_and_cell$6992_gate ($_AND_): \update_46_gate -> \update_46
+Changing input A of cell $flatten\_241_.$auto$liberty.cc:75:create_and_cell$7028_gate ($_AND_): \update_46_gate -> \update_46
+Changing input A of cell $flatten\_243_.$auto$liberty.cc:75:create_and_cell$7028_gate ($_AND_): \update_46_gate -> \update_46
+Changing input A of cell $flatten\_245_.$auto$liberty.cc:75:create_and_cell$8774_gate ($_AND_): \update_233_gate -> \update_233
+Changing input A of cell $flatten\_247_.$auto$liberty.cc:84:create_or_cell$6898_gate ($_OR_): \update_233_gate -> \update_233
+Changing input A of cell $flatten\_248_.$auto$liberty.cc:75:create_and_cell$5506_gate ($_AND_): \update_233_gate -> \update_233
+Changing input A of cell $flatten\_253_.$auto$liberty.cc:58:create_inv_cell$6578_gate ($_NOT_): \update_49_gate -> \update_49
+Changing input A of cell $flatten\_286_.$auto$liberty.cc:75:create_and_cell$8774_gate ($_AND_): \update_227_gate -> \update_227
+Changing input A of cell $flatten\_288_.$auto$liberty.cc:84:create_or_cell$6898_gate ($_OR_): \update_227_gate -> \update_227
+Changing input A of cell $flatten\_289_.$auto$liberty.cc:75:create_and_cell$5506_gate ($_AND_): \update_227_gate -> \update_227
+Changing input B of cell $auto$simplemap.cc:126:simplemap_reduce$4533_gold ($_OR_): \update_94_gold -> \update_94
+Changing input B of cell $auto$simplemap.cc:126:simplemap_reduce$4553_gold ($_OR_): \update_49_gold -> \update_49
+Changing input S of cell $auto$simplemap.cc:267:simplemap_mux$694_gold ($_MUX_): \update_94_gold -> \update_94
+Changing input S of cell $auto$simplemap.cc:267:simplemap_mux$696_gold ($_MUX_): \update_94_gold -> \update_94
+Changing input A of cell $auto$simplemap.cc:38:simplemap_not$630_gold ($_NOT_): \update_91_gold -> \update_91
+Changing input A of cell $auto$simplemap.cc:75:simplemap_bitop$600_gold ($_XOR_): \update_91_gold -> \update_91
+Changing input S of cell $step_mux_44_gold ($_MUX_): \update_95_gold -> \update_95
+Changing input S of cell $step_mux_45_gold ($_MUX_): \update_95_gold -> \update_95
+
+3. Executing HIERARCHY pass (managing design hierarchy).
+
+3.1. Analyzing design hierarchy..
+Top module:  \equivalent
+
+3.2. Analyzing design hierarchy..
+Top module:  \equivalent
+Removing unused module `\gold'.
+Removing unused module `\gate'.
+Removed 2 unused modules.
+
+4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \equivalent..
+
+5. Executing EQUIV_SIMPLE pass.
+Found 181 unproven $equiv cells (181 groups) in equivalent:
+  Trying to prove $equiv for \debug [0]: success!
+  Trying to prove $equiv for \debug [1]: success!
+  Trying to prove $equiv for \debug [2]: success!
+  Trying to prove $equiv for \debug [3]: success!
+  Trying to prove $equiv for \debug [4]: success!
+  Trying to prove $equiv for \debug [5]: success!
+  Trying to prove $equiv for \debug [6]: success!
+  Trying to prove $equiv for \debug [7]: success!
+  Trying to prove $equiv for \clock_0: success!
+  Trying to prove $equiv for \update_0: success!
+  Trying to prove $equiv for \update_1: success!
+  Trying to prove $equiv for \update_2: success!
+  Trying to prove $equiv for \update_3: success!
+  Trying to prove $equiv for \update_4: success!
+  Trying to prove $equiv for \update_5: success!
+  Trying to prove $equiv for \update_6: success!
+  Trying to prove $equiv for \update_7: success!
+  Trying to prove $equiv for \update_8: success!
+  Trying to prove $equiv for \update_9: success!
+  Trying to prove $equiv for \update_10: success!
+  Trying to prove $equiv for \update_11: success!
+  Trying to prove $equiv for \update_12: success!
+  Trying to prove $equiv for \update_13: success!
+  Trying to prove $equiv for \update_14: success!
+  Trying to prove $equiv for \update_15: success!
+  Trying to prove $equiv for \update_16: success!
+  Trying to prove $equiv for \update_17: success!
+  Trying to prove $equiv for \update_18: success!
+  Trying to prove $equiv for \update_19: success!
+  Trying to prove $equiv for \update_20: success!
+  Trying to prove $equiv for \update_21: success!
+  Trying to prove $equiv for \update_22: success!
+  Trying to prove $equiv for \update_23: success!
+  Trying to prove $equiv for \update_24: success!
+  Trying to prove $equiv for \update_25: success!
+  Trying to prove $equiv for \update_26: success!
+  Trying to prove $equiv for \update_27: success!
+  Trying to prove $equiv for \update_28: success!
+  Trying to prove $equiv for \update_29: success!
+  Trying to prove $equiv for \update_30: success!
+  Trying to prove $equiv for \update_31: success!
+  Trying to prove $equiv for \update_32: success!
+  Trying to prove $equiv for \update_33: success!
+  Trying to prove $equiv for \update_34: success!
+  Trying to prove $equiv for \update_35: success!
+  Trying to prove $equiv for \update_36: success!
+  Trying to prove $equiv for \update_37: success!
+  Trying to prove $equiv for \update_38: success!
+  Trying to prove $equiv for \update_39: success!
+  Trying to prove $equiv for \update_40: success!
+  Trying to prove $equiv for \update_41: success!
+  Trying to prove $equiv for \update_42: success!
+  Trying to prove $equiv for \update_43: success!
+  Trying to prove $equiv for \update_44: success!
+  Trying to prove $equiv for \update_45: success!
+  Trying to prove $equiv for \update_46: success!
+  Trying to prove $equiv for \update_49: success!
+  Trying to prove $equiv for \clock_50: success!
+  Trying to prove $equiv for \clock_51: success!
+  Trying to prove $equiv for \clock_52: success!
+  Trying to prove $equiv for \clock_53: success!
+  Trying to prove $equiv for \clock_54: success!
+  Trying to prove $equiv for \clock_55: success!
+  Trying to prove $equiv for \clock_56: success!
+  Trying to prove $equiv for \clock_57: success!
+  Trying to prove $equiv for \clock_58: success!
+  Trying to prove $equiv for \clock_59: success!
+  Trying to prove $equiv for \clock_60: success!
+  Trying to prove $equiv for \clock_61: success!
+  Trying to prove $equiv for \clock_62: success!
+  Trying to prove $equiv for \clock_63: success!
+  Trying to prove $equiv for \clock_64: success!
+  Trying to prove $equiv for \clock_65: success!
+  Trying to prove $equiv for \clock_66: success!
+  Trying to prove $equiv for \clock_67: success!
+  Trying to prove $equiv for \clock_68: success!
+  Trying to prove $equiv for \clock_69: success!
+  Trying to prove $equiv for \clock_70: success!
+  Trying to prove $equiv for \clock_71: success!
+  Trying to prove $equiv for \clock_72: success!
+  Trying to prove $equiv for \clock_73: success!
+  Trying to prove $equiv for \clock_74: success!
+  Trying to prove $equiv for \clock_75: success!
+  Trying to prove $equiv for \clock_76: success!
+  Trying to prove $equiv for \clock_77: success!
+  Trying to prove $equiv for \clock_78: success!
+  Trying to prove $equiv for \clock_79: success!
+  Trying to prove $equiv for \clock_80: success!
+  Trying to prove $equiv for \clock_81: success!
+  Trying to prove $equiv for \clock_82: success!
+  Trying to prove $equiv for \clock_83: success!
+  Trying to prove $equiv for \clock_84: success!
+  Trying to prove $equiv for \clock_85: success!
+  Trying to prove $equiv for \clock_86: success!
+  Trying to prove $equiv for \clock_87: success!
+  Trying to prove $equiv for \clock_88: success!
+  Trying to prove $equiv for \clock_89: success!
+  Trying to prove $equiv for \clock_90: success!
+  Trying to prove $equiv for \clock_91: success!
+  Trying to prove $equiv for \update_91: success!
+  Trying to prove $equiv for \clock_92: success!
+  Trying to prove $equiv for \update_92: success!
+  Trying to prove $equiv for \clock_93: success!
+  Trying to prove $equiv for \update_93: success!
+  Trying to prove $equiv for \update_94: success!
+  Trying to prove $equiv for \update_95: success!
+  Trying to prove $equiv for \update_96: success!
+  Trying to prove $equiv for \update_127: success!
+  Trying to prove $equiv for \update_128: success!
+  Trying to prove $equiv for \update_129: success!
+  Trying to prove $equiv for \update_130: success!
+  Trying to prove $equiv for \update_131: success!
+  Trying to prove $equiv for \update_132: success!
+  Trying to prove $equiv for \update_133: success!
+  Trying to prove $equiv for \update_164: success!
+  Trying to prove $equiv for \update_169: success!
+  Trying to prove $equiv for \update_170: success!
+  Trying to prove $equiv for \update_171: success!
+  Trying to prove $equiv for \clock_172: success!
+  Trying to prove $equiv for \update_172: success!
+  Trying to prove $equiv for \clock_173: success!
+  Trying to prove $equiv for \update_173: success!
+  Trying to prove $equiv for \clock_174: success!
+  Trying to prove $equiv for \update_174: success!
+  Trying to prove $equiv for \clock_175: success!
+  Trying to prove $equiv for \update_175: success!
+  Trying to prove $equiv for \clock_176: success!
+  Trying to prove $equiv for \update_176: success!
+  Trying to prove $equiv for \clock_177: success!
+  Trying to prove $equiv for \update_177: success!
+  Trying to prove $equiv for \clock_178: success!
+  Trying to prove $equiv for \update_178: success!
+  Trying to prove $equiv for \clock_179: success!
+  Trying to prove $equiv for \update_179: success!
+  Trying to prove $equiv for \clock_180: success!
+  Trying to prove $equiv for \update_180: success!
+  Trying to prove $equiv for \clock_181: success!
+  Trying to prove $equiv for \update_181: success!
+  Trying to prove $equiv for \clock_182: success!
+  Trying to prove $equiv for \update_182: success!
+  Trying to prove $equiv for \clock_183: success!
+  Trying to prove $equiv for \update_183: success!
+  Trying to prove $equiv for \clock_184: success!
+  Trying to prove $equiv for \update_184: success!
+  Trying to prove $equiv for \clock_185: success!
+  Trying to prove $equiv for \update_185: success!
+  Trying to prove $equiv for \clock_186: success!
+  Trying to prove $equiv for \update_186: success!
+  Trying to prove $equiv for \clock_187: success!
+  Trying to prove $equiv for \update_187: success!
+  Trying to prove $equiv for \clock_188: success!
+  Trying to prove $equiv for \update_188: success!
+  Trying to prove $equiv for \clock_189: success!
+  Trying to prove $equiv for \update_189: success!
+  Trying to prove $equiv for \clock_190: success!
+  Trying to prove $equiv for \update_190: success!
+  Trying to prove $equiv for \clock_191: success!
+  Trying to prove $equiv for \update_191: success!
+  Trying to prove $equiv for \update_226: success!
+  Trying to prove $equiv for \clock_227: success!
+  Trying to prove $equiv for \update_227: success!
+  Trying to prove $equiv for \clock_228: success!
+  Trying to prove $equiv for \update_228: success!
+  Trying to prove $equiv for \clock_229: success!
+  Trying to prove $equiv for \update_229: success!
+  Trying to prove $equiv for \clock_230: success!
+  Trying to prove $equiv for \update_230: success!
+  Trying to prove $equiv for \clock_231: success!
+  Trying to prove $equiv for \update_231: success!
+  Trying to prove $equiv for \update_232: success!
+  Trying to prove $equiv for \clock_233: success!
+  Trying to prove $equiv for \update_233: success!
+  Trying to prove $equiv for \clock_234: success!
+  Trying to prove $equiv for \update_234: success!
+  Trying to prove $equiv for \clock_235: success!
+  Trying to prove $equiv for \update_235: success!
+  Trying to prove $equiv for \clock_236: success!
+  Trying to prove $equiv for \update_236: success!
+  Trying to prove $equiv for \clock_237: success!
+  Trying to prove $equiv for \update_237: success!
+  Trying to prove $equiv for \update_238: success!
+Proved 181 previously unproven $equiv cells.
+
+6. Executing EQUIV_STATUS pass.
+Found 572 $equiv cells in equivalent:
+  Of those cells 572 are proven and 0 are unproven.
+  Equivalence successfully proven!
+
+End of script. Logfile hash: 9a90a300ae, CPU: user 1.93s system 0.01s, MEM: 28.23 MB peak
+Yosys 0.33 (git sha1 2584903a060)
+Time spent: 96% 1x equiv_simple (1 sec), 1% 2x read_json (0 sec), ...

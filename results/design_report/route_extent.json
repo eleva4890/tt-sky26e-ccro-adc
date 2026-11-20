@@ -1,0 +1,26 @@
+{
+  "clk": {
+    "min_y_um": 169.535,
+    "cluster_id": 1435
+  },
+  "uio_out[0]": {
+    "min_y_um": 200.005,
+    "cluster_id": 2680
+  },
+  "uio_out[1]": {
+    "min_y_um": 200.755,
+    "cluster_id": 2678
+  },
+  "uio_out[2]": {
+    "min_y_um": 201.55,
+    "cluster_id": 2725
+  },
+  "VDPWR": {
+    "stripe_x_um": 0.6,
+    "cluster_id": 9
+  },
+  "VGND": {
+    "stripe_x_um": 92.8,
+    "cluster_id": 38
+  }
+}

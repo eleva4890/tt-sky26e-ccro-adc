@@ -1,0 +1,27 @@
+The routed digital macro incorporates cells from the SKY130 high-density
+standard-cell library, sky130_fd_sc_hd. Copyright 2020 The SkyWater PDK Authors.
+The library is distributed under the Apache License, Version 2.0.
+https://github.com/google/skywater-pdk-libs-sky130_fd_sc_hd
+
+The 1x2 analog DEF template comes from Tiny Tapeout tt-support-tools,
+distributed under the Apache License, Version 2.0.
+https://github.com/TinyTapeout/tt-support-tools/tree/main/tech/sky130A/def/analog
+
+The Apache 2.0 terms for these third-party materials are in LICENSE.third-party.
+The input specification and reference model are attributed to the supplied v3 design package.
+
+Bench guide images (also embedded in the PDF)
+
+bench_etr32.png: "Tiny Tapeout Demo Board", ETR v3.2 rendering, Tiny Tapeout /
+Psychogenic Technologies. Documentation dedicated to the public domain under CC0 1.0.
+Source: https://github.com/TinyTapeout/tt-demo-pcb/blob/bbf3dd1f771d5aed249b07ddf130b3ddc8261d60/doc/img/tt-etr-dbv3p2-render.png
+Terms: https://github.com/TinyTapeout/tt-demo-pcb/blob/bbf3dd1f771d5aed249b07ddf130b3ddc8261d60/README.md#license
+CC0: https://creativecommons.org/publicdomain/zero/1.0/
+Displayed with numbered connector callouts in the evaluation guide.
+
+bench_ad2.png: "Digilent Analog Discovery 2", SparkFun Electronics, 2016.
+Licensed under Creative Commons Attribution 2.0 Generic.
+Original: https://www.flickr.com/photos/41898857@N04/28784064755/
+License record: https://commons.wikimedia.org/wiki/File:Digilent_Analog_Discovery_2_(28784064755).jpg
+License: https://creativecommons.org/licenses/by/2.0/
+Re-encoded as PNG and displayed with a numbered connector callout.

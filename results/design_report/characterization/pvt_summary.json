@@ -1,0 +1,75 @@
+{
+  "tt": [
+    {
+      "temp_C": 27,
+      "vdd_V": 1.8,
+      "gain_MHz_V": 6.899959331166752,
+      "f0_MHz": 3.7686886635996353,
+      "gain_change_percent": 0.0
+    },
+    {
+      "temp_C": -20,
+      "vdd_V": 1.8,
+      "gain_MHz_V": 6.752870374160285,
+      "f0_MHz": 3.1422978227798755,
+      "gain_change_percent": -2.131736579113941
+    },
+    {
+      "temp_C": 85,
+      "vdd_V": 1.8,
+      "gain_MHz_V": 6.785844717528757,
+      "f0_MHz": 4.209115315709718,
+      "gain_change_percent": -1.6538447280775248
+    },
+    {
+      "temp_C": 27,
+      "vdd_V": 1.62,
+      "gain_MHz_V": 7.03373565345504,
+      "f0_MHz": 3.8195707976908384,
+      "gain_change_percent": 1.9387987068855361
+    },
+    {
+      "temp_C": 27,
+      "vdd_V": 1.98,
+      "gain_MHz_V": 6.758696759027487,
+      "f0_MHz": 3.660243170384575,
+      "gain_change_percent": -2.047295721022435
+    }
+  ],
+  "temperature_pct_per_C": 0.004551350962251581,
+  "supply_pct_per_V": -11.072484521966587,
+  "clock_points": [
+    {
+      "bias": 0,
+      "abs_diff_V": 0.2,
+      "max_tap_MHz": 4.645319944516389,
+      "strict_2f_MHz": 9.290639889032779,
+      "guard_2p5f_MHz": 11.613299861290972,
+      "active_at_both_ends": true
+    },
+    {
+      "bias": 1,
+      "abs_diff_V": 0.035,
+      "max_tap_MHz": 0.32640194656970506,
+      "strict_2f_MHz": 0.6528038931394101,
+      "guard_2p5f_MHz": 0.8160048664242626,
+      "active_at_both_ends": true
+    },
+    {
+      "bias": 2,
+      "abs_diff_V": 0.095,
+      "max_tap_MHz": 1.4435511161782406,
+      "strict_2f_MHz": 2.8871022323564812,
+      "guard_2p5f_MHz": 3.6088777904456015,
+      "active_at_both_ends": true
+    },
+    {
+      "bias": 3,
+      "abs_diff_V": 0.2,
+      "max_tap_MHz": 7.77677394917293,
+      "strict_2f_MHz": 15.55354789834586,
+      "guard_2p5f_MHz": 19.441934872932325,
+      "active_at_both_ends": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+99ea0b138ca29e901c7b90f03a7e7ebcae2ff22461448c5a385148b60a98b36d  SKY26e_CCRO_ADC_1x2_Submission_T1-T6.zip
+3d8a8502549ad4229debe27ae7c428059759af6e9657fcf2ff3c616e27a74d25  ZIP:gds/tt_um_eleva_ccro_adc.gds
+b1418b0b61d0ef552494750aec4aab5b4694e36e27459f979032dba41443bdca  ZIP + project: rtl/adc_readout.v
+00f9194a0004968ae724813db5cb73541577bddbc4da2393e9bad508d7f8f6ca  ZIP + project: layout/readout/adc_readout.nl.v
+a6f8e16d824724e6f77f8cec8fb3b62ed9925eac5d664cd30e2414827c681f5a  ZIP + project: analog/adc_analog_physical_lvs.spice
+98105efece3bf5d72da41e402c6c0ff11549c2538c78b7b8b60d50546c690134  ZIP + project: analog/top.spice
+726b65c609df9f9f7b4a53a91b079b2c19ee757c85e3430411612d7fc792a296  ZIP + project: layout/integration/top_floorplan.def
+e5d1c568a50bede5e3723d2986b5569f214075c948c94c73efc75d1265769f1c  ZIP + project: layout/readout/adc_readout.lef
+a26e5d6a947e5e6e53afb1c7b67e3e290c2b68452b9b646cb119f1f10efd01a9  ZIP + project: layout/analog_cells/eleva_adc_analog.lef
+cd01c4de7f1e1de528e114ca04f48e786e57fa22d085e65e8ad987eaed59b0c4  ZIP + project: verification/check_io.py
+b1f781a980adb8879a01143bc47440591d08ca1a2aa97b45271ab4e599f0c5aa  ZIP + project: verification/top_extract.tcl
+7a33f3f54fab57a9d9b0887ac7b7b64ce6c454110e8b7f01f3cfb90a1282dc94  /tmp/sky26e-bgr-integration-pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/libs.tech/netgen/sky130A_setup.tcl
+PDK /tmp/sky26e-bgr-integration-pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A

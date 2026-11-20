@@ -1,0 +1,27 @@
+{
+  "front": {
+    "percent": 17.48307789714522,
+    "input_uVrms": 41.032347873355555
+  },
+  "jitter": {
+    "percent": 28.840299301909752,
+    "input_uVrms": 52.70081158051507
+  },
+  "quant": {
+    "percent": 16.11465448447683,
+    "input_uVrms": 39.39380409482202
+  },
+  "transfer": {
+    "percent": 38.55808704850086,
+    "input_uVrms": 60.936171021186304
+  },
+  "total": {
+    "percent": 100.0,
+    "input_uVrms": 98.13353009653014
+  },
+  "cross": {
+    "percent": -0.9961187320326714,
+    "input_uVrms": null
+  },
+  "sndr_db": 62.17395152201359
+}

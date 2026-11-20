@@ -1,0 +1,9 @@
+Checked stimulus contains 70 completed decimation windows
+PASS: 13800 checked clocks, 70 complete frames, +30720 x14, -30720 x16
+verification/readout_tb.v:37: $finish called at 276000000 (1ps)
+PASS: /64 phase retention, independent P/N edges, QUIET gating, high-phase mode changes
+verification/divider_tb.v:35: $finish called at 7881000 (1ps)
+PASS: 13800 checked clocks, 70 complete frames, +30720 x14, -30720 x16
+verification/readout_tb.v:37: $finish called at 276000000 (1ps)
+PASS: /64 phase retention, independent P/N edges, QUIET gating, high-phase mode changes
+verification/divider_tb.v:35: $finish called at 7881000 (1ps)

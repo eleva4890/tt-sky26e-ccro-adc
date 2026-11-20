@@ -1,0 +1,7 @@
+Negative control: stage XmainA_Xp W=8.4 -> 12.6 um
+There were property errors.
+w circuit1: 8.4   circuit2: 12.6   (delta=40%, cutoff=1%)
+w circuit1: 8.4   circuit2: 12.6   (delta=40%, cutoff=1%)
+w circuit1: 8.4   circuit2: 12.6   (delta=40%, cutoff=1%)
+w circuit1: 8.4   circuit2: 12.6   (delta=40%, cutoff=1%)
+PASS: Netgen reported a property mismatch.

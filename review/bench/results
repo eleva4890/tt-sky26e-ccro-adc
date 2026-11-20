@@ -1,0 +1,22 @@
+Completed: sh -c {cd /tmp/ccro-adc.eJykSutU; python3 "/mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/bench/simulate.py" "/tmp/ccro-adc.eJykSutU/tb_ccro.spice"}
+data:
+******
+** ngspice-42 : Circuit level simulation program
+** Compiled with KLU Direct Linear Solver
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2023, The ngspice team.
+** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+** Creation Date: Sun Mar 31 20:15:14 UTC 2024
+******
+
+Batch mode
+
+Comments and warnings go to log-file: tb_ccro.log
+
+fp_mhz = 5.690820e+00
+fn_mhz = 4.745090e+00
+delta_mhz = 9.457298e-01
+idd_ua = 4.196717e+01
+Simulation log: /tmp/ccro-adc.eJykSutU/tb_ccro.log

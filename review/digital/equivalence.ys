@@ -1,0 +1,7 @@
+read_json review/digital/step.json
+equiv_make gold gate equivalent
+hierarchy -check -top equivalent
+opt_clean
+equiv_simple -nogroup
+equiv_status -assert
+

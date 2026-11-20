@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "banks": {
+    "p": {
+      "off_nA": 0.05686627953272925,
+      "on_nA": 465.54160926017954,
+      "off_percent_actual": 0.012215079898679499,
+      "mean_absolute_nA": {
+        "off": 0.06025707486482572,
+        "on": 465.54160926017954
+      },
+      "complete_cycles": 5,
+      "units_off": 39
+    },
+    "n": {
+      "off_nA": 0.05689125970951563,
+      "on_nA": 465.5415567140083,
+      "off_percent_actual": 0.012220447109185807,
+      "mean_absolute_nA": {
+        "off": 0.05846378964741111,
+        "on": 465.5415567140083
+      },
+      "complete_cycles": 5,
+      "units_off": 39
+    }
+  },
+  "case": "T2_leak",
+  "deck_sha256": "269af7b4028c29100fc4b80d9aed81fdc8796492465d9360f17e2639707ea968",
+  "pex_sha256": "ed36d6c519af4741a31c725f25a2e5b1c137f011aae624b7b618540125e7fe63",
+  "raw_sha256": "abda86d9156273c79aa12665bda06492fe4cc3f47ebb0fc50c205300d21330e5",
+  "stored_points": 8526,
+  "actual_stop_us": 24.999999999999996
+}

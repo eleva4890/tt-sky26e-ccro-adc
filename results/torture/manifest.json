@@ -1,0 +1,39 @@
+{
+  "release_sha256": "eda8de0f78de6de2f11f341491d1ad6799b081cef817115cc4ef22c2271ccfa9",
+  "input_sha256": {
+    "gds/tt_um_eleva_ccro_adc.gds": "3d8a8502549ad4229debe27ae7c428059759af6e9657fcf2ff3c616e27a74d25",
+    "layout/integration/final_analog_c.spice": "ed36d6c519af4741a31c725f25a2e5b1c137f011aae624b7b618540125e7fe63",
+    "results/audited/interface_caps.spice": "1341734ce9ddc2db660b447e5797754ad7d6a35229089390a422a7b1f8cdc1a8",
+    "rtl/adc_readout.v": "b1418b0b61d0ef552494750aec4aab5b4694e36e27459f979032dba41443bdca",
+    "layout/readout/adc_readout.nl.v": "00f9194a0004968ae724813db5cb73541577bddbc4da2393e9bad508d7f8f6ca",
+    "verification/dynamic.py": "9f6624c78ea1ede121b448010db98b6a60d87dedadd53850bc22b4ad0650257e",
+    "verification/a0.py": "69f90a7f52f7163d0883b8e0106f7d83e44025c8860fc6505597cc07d42a87ff",
+    "tools/analyze_sndr.py": "a9ab1f9e42652cf5c910cf3b1c300940492b799a8d5ea7ab22d161be4c0ceea7",
+    "tools/vco_adc_model.py": "529260f9a6b19d5d0e243ad822902be484989447b9afc0e3136fc1e89d1ee117",
+    "results/release_gate.json": "8b1497dd70ad975b480aa5833888fbc8363b2c87edb99271fac792811e64f23e"
+  },
+  "simulation_inputs": {
+    "pdk_release": "8afc8346a57fe1ab7934ba5a6056ea8b43078e71",
+    "files": {
+      "libs.tech/ngspice/sky130.lib.spice": "17c208a699228f5acb87bf59c09c22a4c4d3937b6766b4957737d34e8e075f64",
+      "libs.tech/ngspice/spinit": "43acb97e33cfabda40f05e2ed015a6d572c0e4f82614e78ce93968ba2160d3af",
+      "libs.tech/ngspice/r+c/res_typical__cap_typical__lin.spice": "4deedaa4be27f2e1f083567a945cbaed02027e018fcd09431e57a02c08a117b1",
+      "libs.ref/sky130_fd_pr/spice/sky130_fd_pr__cap_mim_m3_1.model.spice": "5cb086313d55341351305d30500ca39571d689b692d2be525c4b3b8b4db86e6f",
+      "libs.ref/sky130_fd_sc_hd/verilog/sky130_fd_sc_hd.v": "12d5d6448ccf265c544d88402d5c10ab6de9bee8b8cde48eee1f31ea8c3c3e45",
+      "libs.ref/sky130_fd_sc_hd/verilog/primitives.v": "7d4b1441d06b0f2b9662befa675a0484d77149e04eb42a5f1fa2d4cfded7b2ce",
+      "ngspice": "820658317b0b54035208da41936fd6871ce924036e5ea4113a4168b821b7fc45",
+      "iverilog": "a6071e4b4a68feafca0c8ee0e6aa275eee9a43a108c62801cfd1eca6eab6d8a3",
+      "vvp": "a10bd7d4a0850308ac8c2c98115b6a3084f9be978307610f2a521190c28f4023"
+    }
+  },
+  "results": {
+    "T1": "合格",
+    "T2": "合格",
+    "T3": "条件付き（54 dB基準合格、対照比3 dB超）",
+    "T4": "合格",
+    "T5": "未達",
+    "T6": "未達"
+  },
+  "case_count": 38,
+  "additional_gate_replays": 1
+}
