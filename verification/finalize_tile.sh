@@ -11,7 +11,8 @@ else
 fi
 ADC_SOURCE_GDS="$raw" ADC_OUTPUT_GDS="$work/sized.gds" klayout -b -r layout/finalize_routes.py
 ADC_SOURCE_GDS="$work/sized.gds" ADC_OUTPUT_GDS="$work/protected.gds" klayout -b -r layout/bias_antenna.py
-ADC_SOURCE_GDS="$work/protected.gds" ADC_OUTPUT_GDS="$work/tile.gds" ADC_ANALOG_GDS="$work/analog.gds" klayout -b -r layout/space_mim_feeds.py
+ADC_SOURCE_GDS="$work/protected.gds" ADC_OUTPUT_GDS="$work/feeds.gds" klayout -b -r layout/space_mim_feeds.py
+ADC_SOURCE_GDS="$work/feeds.gds" ADC_OUTPUT_GDS="$work/tile.gds" ADC_ANALOG_GDS="$work/analog.gds" klayout -b -r layout/enclose_lvtn.py
 cp "$work/tile.gds" "$top"
 cp "$work/analog.gds" "$analog"
 mkdir -p gds

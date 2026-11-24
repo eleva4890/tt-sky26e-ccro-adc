@@ -1,6 +1,6 @@
-open_pdks installation: using /tmp/sky26e-bgr-integration-pdk
-SKYWATER_MODELS: /tmp/sky26e-bgr-integration-pdk/sky130A/libs.tech/combined
-SKYWATER_STDCELLS: /tmp/sky26e-bgr-integration-pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice
+open_pdks installation: using /tmp/ccro-issue1/pdk
+SKYWATER_MODELS: /tmp/ccro-issue1/pdk/sky130A/libs.tech/combined
+SKYWATER_STDCELLS: /tmp/ccro-issue1/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice
 setup_tcp_bespice: success : listening to TCP port: 2022
 OPEN adc_analog.sch 80 objects
 OPEN analog_review.sch 73 objects

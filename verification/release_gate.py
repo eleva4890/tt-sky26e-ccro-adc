@@ -31,7 +31,7 @@ def audit():
     for p in (tile,lef):need(sha(p)==sha(ROOT/"layout/integration"/p.name),p)
     need(mask==text("top_precheck.sha256").strip()==text("top_signoff.sha256").strip(),"signoff mask digest")
     checks=re.findall(r"^\| ([^|]+) \| ✅ \|$",text("top_precheck.md"),re.M)
-    need(len(set(checks))==15 and "❌" not in text("top_precheck.md"),"official precheck")
+    need(len(set(checks))==17 and {"lvtn/nwell check", "hvtp/nwell check"} <= set(checks) and "❌" not in text("top_precheck.md"),"official precheck")
     need(text("top_drc.txt").strip()=="FULL_DRC_TYPES 0","tile Magic DRC")
     need(text("top_beol.txt").strip()=="TOTAL 0","BEOL")
     lvs=text("top_lvs.txt")

@@ -18,11 +18,11 @@ jobs:
           lef_path: lef/tt_um_eleva_ccro_adc.lef
           verilog_path: src/project.v
           pdk: sky130A
-          tools-ref: 8f7b5060d7f6df73bfd2e0b8d8fa0fd1dca0a0b1
+          tools-ref: 7d2d2ef5261eb1df16d0bc342834d48a8a276881
   precheck:
     needs: gds
     runs-on: ubuntu-24.04
     steps:
       - uses: TinyTapeout/tt-gds-action/precheck@ttsky26e
         with:
-          tools-ref: 8f7b5060d7f6df73bfd2e0b8d8fa0fd1dca0a0b1
+          tools-ref: 7d2d2ef5261eb1df16d0bc342834d48a8a276881

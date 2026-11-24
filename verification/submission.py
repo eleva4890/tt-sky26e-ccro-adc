@@ -18,12 +18,12 @@ def build(dst):
                   "layout/integration/final_analog.gds","layout/integration/final_analog_c.spice",
                   "layout/integration/"+TOP+".gds","layout/integration/"+TOP+".lef",
                   "layout/analog_cells/eleva_adc_analog.lef","layout/analog_cells/eleva_frontend_c.spice","layout/timing.sdc",
-                  "results/final_analog_drc.txt","results/final_analog_lvs.txt","results/final_analog_matrix.csv",
+                  "results/audited/issue1_startup.csv","results/final_analog_drc.txt","results/final_analog_lvs.txt","results/final_analog_matrix.csv",
                   "results/release_gate.json","results/tile_loads.csv","results/tile_loads.tcl",
                   "results/readout/final_functional.txt","results/readout/area.txt","results/readout/lvs.txt",
                   "results/readout/antenna.txt","results/readout/drc.txt"])
     files.update("analog/"+n+".spice" for n in ("top","adc_analog_physical_lvs","osc_extracted","ccro_lowrail","frontend_lowrail","ccro","frontend"))
-    files.update("layout/"+n+".py" for n in ("route_io","finalize_routes","space_mim_feeds","bias_antenna"))
+    files.update("layout/"+n+".py" for n in ("route_io","finalize_routes","space_mim_feeds","bias_antenna","enclose_lvtn"))
     files.update("verification/"+n for n in (
         "finalize_tile.sh","route_diagnostics.py","check_io.py","top_abstract.py","top_signoff.sh","top_extract.tcl",
         "primitive_syntax.py","precheck.sh","drc_summary.py","io_drc.sh","channel.tcl","final_analog.sh",

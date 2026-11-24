@@ -16,6 +16,6 @@ export ADC_IO_GDS="$PWD/gds/tt_um_eleva_ccro_adc.gds" ADC_REPORT_DIR="$work/chec
 bash verification/precheck.sh
 cmp "$work/checks/top_precheck.sha256" results/top_signoff.sha256
 cmp "$work/checks/top_beol.txt" results/top_beol.txt
-test "$(grep -c '✅' "$work/checks/top_precheck.md")" -eq 15
+test "$(grep -c '✅' "$work/checks/top_precheck.md")" -eq 17
 sha256sum "$zip"
-echo "ZIP manifest, release criteria, documentation and 15/15 official prechecks verified from a clean extraction."
+echo "ZIP manifest, release criteria, documentation and 17/17 official prechecks verified from a clean extraction."

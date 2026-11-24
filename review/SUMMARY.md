@@ -1,6 +1,6 @@
 # Final-mask review
 
-**Both LVS comparisons matched uniquely. All 572 RTL-to-routed equivalence checks passed.** The input was `gds/tt_um_eleva_ccro_adc.gds` from the frozen submission. Its SHA-256 is `3d8a8502549ad4229debe27ae7c428059759af6e9657fcf2ff3c616e27a74d25`. [Verdict](logs/verdict.txt) · [Input hashes](logs/input_hashes.txt)
+**Both LVS comparisons matched uniquely. All 572 RTL-to-routed equivalence checks passed.** The input was `gds/tt_um_eleva_ccro_adc.gds` from the Issue #1 submission revision. Its SHA-256 is `cbd199e4c27bd935dadd77fba74fee3222b007abc97d0b8967c3100e1abd0286`. [Verdict](logs/verdict.txt) · [Input hashes](logs/input_hashes.txt)
 
 ## Open the review
 

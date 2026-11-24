@@ -22,7 +22,7 @@ The released SKY130A 1×2 tile is `tt_um_eleva_ccro_adc`, 161.00 × 225.76 µm w
 
 | Check | Result and evidence |
 |---|---|
-| Precheck and full DRC | 15/15 passed. Magic DRC and KLayout BEOL DRC each reported zero violations. All 53 terminals matched the template. No met5 was used. [Precheck](../results/top_precheck.md) · [Full DRC](../results/top_drc.txt) |
+| Precheck and full DRC | 17/17 passed. Magic DRC and KLayout BEOL DRC each reported zero violations. All 53 terminals matched the template. No met5 was used. [Precheck](../results/top_precheck.md) · [Full DRC](../results/top_drc.txt) |
 | Top LVS and antenna | Netgen uniquely matched {d['devices']:,} devices and {d['nets']:,} nets. Zero antenna violations. [Top LVS](../results/top_lvs.txt) · [Antenna](../results/top_antenna.txt) |
 | Connectivity | All 34 external signals and 30 phase taps connected, with zero shorted external-port groups. [Connectivity](../results/top_connectivity.txt) |
 | Routed timing | Three corners at 32 MHz with digital SPEF, tile lumped loads and opposite switching on adjacent nets. Worst setup +{d['setup_ns']:.2f} ns and hold +{d['hold_ns']:.2f} ns. [Tile loads](../results/tile_loads.csv) · [Setup](../results/readout/tile_sta_max.log) · [Hold](../results/readout/tile_sta_min.log) |

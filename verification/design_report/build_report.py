@@ -202,7 +202,7 @@ def trace(d):
       ("SHA256SUMS","全収録メンバーのSHA-256。提出ZIPは別途、設計ソース・デッキ・各試験の実行手順を収録。")],[172,CW-172],9)
     y=d.sub(y+22,"再現条件")
     d.p(LEFT,y,"アナログはngspice 42とSKY130Aの素子・容量抽出モデル、デジタルはIcarus Verilog 12.0と標準セル機能モデルで評価した。各タップに5 fFの受信負荷と、タイルから抽出した配線容量行列を加えた。回路内の配線は等電位とし、T3でのみ外部電源・接地の直列インピーダンスを明示した。",size=9.7,leading=18)
-    y+=109;d.txt(LEFT,y,"最終GDS  SHA-256",9,"JB",TEAL);d.txt(LEFT,y+20,"3d8a8502549ad4229debe27ae7c428059759af6e9657fcf2ff3c616e27a74d25",8.3)
+    y+=109;d.txt(LEFT,y,"最終GDS  SHA-256",9,"JB",TEAL);d.txt(LEFT,y+20,"cbd199e4c27bd935dadd77fba74fee3222b007abc97d0b8967c3100e1abd0286",8.3)
     d.txt(LEFT,y+52,"アナログ抽出SPICE  SHA-256",9,"JB",TEAL);d.txt(LEFT,y+72,"ed36d6c519af4741a31c725f25a2e5b1c137f011aae624b7b618540125e7fe63",8.3)
 def summary(d):
     manifest=obj("manifest")

@@ -5,7 +5,7 @@ $ErrorActionPreference = 'Stop'
 Push-Location -LiteralPath $PSScriptRoot
 try {
     $gds = Join-Path $PSScriptRoot 'inputs/tt_um_eleva_ccro_adc.gds'
-    $expected = '3d8a8502549ad4229debe27ae7c428059759af6e9657fcf2ff3c616e27a74d25'
+    $expected = 'cbd199e4c27bd935dadd77fba74fee3222b007abc97d0b8967c3100e1abd0286'
     if ((Get-FileHash -LiteralPath $gds -Algorithm SHA256).Hash -ne $expected) {
         throw 'GDS hash mismatch.'
     }

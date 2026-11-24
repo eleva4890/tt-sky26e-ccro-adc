@@ -14,12 +14,12 @@ Class adc_analog:  Merged 78 devices.
 Subcircuit summary:
 Circuit 1: eleva_adc_analog                |Circuit 2: adc_analog                      
 -------------------------------------------|-------------------------------------------
+sky130_fd_pr__res_high_po_0p69 (2)         |sky130_fd_pr__res_high_po_0p69 (2)         
 sky130_fd_pr__nfet_01v8_lvt (61)           |sky130_fd_pr__nfet_01v8_lvt (61)           
+sky130_fd_pr__cap_mim_m3_1 (66)            |sky130_fd_pr__cap_mim_m3_1 (66)            
+sky130_fd_pr__pfet_01v8_lvt (130)          |sky130_fd_pr__pfet_01v8_lvt (130)          
 sky130_fd_pr__pfet_01v8 (150)              |sky130_fd_pr__pfet_01v8 (150)              
 sky130_fd_pr__nfet_01v8 (207)              |sky130_fd_pr__nfet_01v8 (207)              
-sky130_fd_pr__pfet_01v8_lvt (130)          |sky130_fd_pr__pfet_01v8_lvt (130)          
-sky130_fd_pr__cap_mim_m3_1 (66)            |sky130_fd_pr__cap_mim_m3_1 (66)            
-sky130_fd_pr__res_high_po_0p69 (2)         |sky130_fd_pr__res_high_po_0p69 (2)         
 Number of devices: 616                     |Number of devices: 616                     
 Number of nets: 214                        |Number of nets: 214                        
 ---------------------------------------------------------------------------------------
@@ -33,7 +33,6 @@ b1                                         |b1
 vinn                                       |vinn                                       
 vinp                                       |vinp                                       
 b0                                         |b0                                         
-v                                          |v                                          
 p9                                         |p9                                         
 n7                                         |n7                                         
 n12                                        |n12                                        
@@ -64,6 +63,7 @@ p7                                         |p7
 n5                                         |n5                                         
 p3                                         |p3                                         
 p8                                         |p8                                         
+v                                          |v                                          
 g                                          |g                                          
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.

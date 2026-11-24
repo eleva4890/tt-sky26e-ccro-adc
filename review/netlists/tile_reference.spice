@@ -3229,7 +3229,7 @@ XFILLER_0_33_309 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
 XFILLER_0_33_312 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
 XFILLER_0_33_315 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
 .ends
-** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/tt_um_eleva_ccro_adc.sch
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/tt_um_eleva_ccro_adc.sch
 .subckt tt_um_eleva_ccro_adc VDPWR VGND clk ena rst_n ui_in[0] ui_in[1] ui_in[2] ui_in[3] ui_in[4]
 + ui_in[5] ui_in[6] ui_in[7] uo_out[0] uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7]
 + uio_in[0] uio_in[1] uio_in[2] uio_in[3] uio_in[4] uio_in[5] uio_in[6] uio_in[7] uio_out[0] uio_out[1]
@@ -3259,8 +3259,8 @@ XDprotect_b1 VGND ui_in[4] sky130_fd_pr__diode_pw2nd_05v5 area=4.347e+11 perim=2
 .ends
 
 * expanding   symbol:  adc_analog.sym # of pins=36
-** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/adc_analog.sym
-** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/adc_analog.sch
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/adc_analog.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/adc_analog.sch
 .subckt adc_analog vinp vinn b0 b1 v g p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 n0 n1 n2 n3
 + n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14
 *.PININFO vinp:B vinn:B b0:B b1:B v:B g:B p0:B p1:B p2:B p3:B p4:B p5:B p6:B p7:B p8:B p9:B p10:B
@@ -3272,8 +3272,8 @@ Xd rp rn v g p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 n0 n1 n2 n3 n4 n5
 
 
 * expanding   symbol:  front.sym # of pins=8
-** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/front.sym
-** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/front.sch
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/front.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/front.sch
 .subckt front vinp vinn b0 b1 rp rn v g
 *.PININFO vinp:B vinn:B b0:B b1:B rp:B rn:B v:B g:B
 Xbias b0 b1 vb g4 g15 g20 v g bias
@@ -3311,8 +3311,8 @@ XCcapN rn g sky130_fd_pr__cap_mim_m3_1 W=21.8 L=21.8 MF=1 m=1
 
 
 * expanding   symbol:  dual.sym # of pins=34
-** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/dual.sym
-** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/dual.sch
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/dual.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/dual.sch
 .subckt dual rp rn v g p0 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 n0 n1 n2 n3 n4 n5 n6 n7 n8
 + n9 n10 n11 n12 n13 n14
 *.PININFO rp:B rn:B v:B g:B p0:B p1:B p2:B p3:B p4:B p5:B p6:B p7:B p8:B p9:B p10:B p11:B p12:B
@@ -3323,8 +3323,8 @@ Xn rn v g n0 n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14 ring
 
 
 * expanding   symbol:  bias.sym # of pins=8
-** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/bias.sym
-** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/bias.sch
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/bias.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/bias.sch
 .subckt bias b0 b1 vb g4 g15 g20 v g
 *.PININFO b0:B b1:B vb:B g4:B g15:B g20:B v:B g:B
 Xreference vb v g beta_ref
@@ -3369,8 +3369,8 @@ Xsw20 en20 off20 vb g20 v g tailgate
 
 
 * expanding   symbol:  tail.sym # of pins=6
-** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/tail.sym
-** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/tail.sch
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/tail.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/tail.sch
 .subckt tail s vb g4 g15 g20 v
 *.PININFO s:B vb:B g4:B g15:B g20:B v:B
 XMone s vb v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29') as=expr('int((@nf + 2)/2) * @W / @nf * 0.29')
@@ -3383,8 +3383,8 @@ Xunits20 s g20 v units20
 
 
 * expanding   symbol:  ring.sym # of pins=18
-** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/ring.sym
-** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/ring.sch
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/ring.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/ring.sch
 .subckt ring rail v g t0 t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11 t12 t13 t14
 *.PININFO rail:B v:B g:B t0:B t1:B t2:B t3:B t4:B t5:B t6:B t7:B t8:B t9:B t10:B t11:B t12:B t13:B
 *+ t14:B
@@ -3409,8 +3409,8 @@ Xl14 oa14 ob14 t14 v g cvsl
 
 
 * expanding   symbol:  beta_ref.sym # of pins=3
-** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/beta_ref.sym
-** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/beta_ref.sch
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/beta_ref.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/beta_ref.sch
 .subckt beta_ref vb v g
 *.PININFO vb:B v:B g:B
 XMp0 vb vb v v sky130_fd_pr__pfet_01v8 L=2 W=2 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29') as=expr('int((@nf + 2)/2) * @W / @nf * 0.29')
@@ -3440,8 +3440,8 @@ XMkick vb kick g g sky130_fd_pr__nfet_01v8 L=1 W=.5 nf=1 ad=expr('int((@nf + 1)/
 
 
 * expanding   symbol:  nor2.sym # of pins=5
-** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/nor2.sym
-** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/nor2.sch
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/nor2.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/nor2.sch
 .subckt nor2 a b y v g
 *.PININFO a:B b:B y:B v:B g:B
 XMp0 mid a v v sky130_fd_pr__pfet_01v8 L=.15 W=.84 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
@@ -3460,8 +3460,8 @@ XMn1 y b g g sky130_fd_pr__nfet_01v8 L=.15 W=.42 nf=1 ad=expr('int((@nf + 1)/2) 
 
 
 * expanding   symbol:  tailgate.sym # of pins=6
-** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/tailgate.sym
-** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/tailgate.sch
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/tailgate.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/tailgate.sch
 .subckt tailgate en enb vb out v g
 *.PININFO en:B enb:B vb:B out:B v:B g:B
 XMonp out enb vb v sky130_fd_pr__pfet_01v8 L=.15 W=.84 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
@@ -3477,8 +3477,8 @@ XMoff out en v v sky130_fd_pr__pfet_01v8 L=.15 W=.84 nf=1 ad=expr('int((@nf + 1)
 
 
 * expanding   symbol:  units4.sym # of pins=3
-** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/units4.sym
-** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/units4.sch
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/units4.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/units4.sch
 .subckt units4 s control v
 *.PININFO s:B control:B v:B
 XMg4_1 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
@@ -3497,8 +3497,8 @@ XMg4_4 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)
 
 
 * expanding   symbol:  units15.sym # of pins=3
-** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/units15.sym
-** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/units15.sch
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/units15.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/units15.sch
 .subckt units15 s control v
 *.PININFO s:B control:B v:B
 XMg15_1 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
@@ -3550,8 +3550,8 @@ XMg15_15 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 
 
 
 * expanding   symbol:  units20.sym # of pins=3
-** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/units20.sym
-** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/units20.sch
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/units20.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/units20.sch
 .subckt units20 s control v
 *.PININFO s:B control:B v:B
 XMg20_1 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 1)/2) * @W / @nf * 0.29')
@@ -3618,8 +3618,8 @@ XMg20_20 s control v v sky130_fd_pr__pfet_01v8 L=2 W=1 nf=1 ad=expr('int((@nf + 
 
 
 * expanding   symbol:  bank.sym # of pins=33
-** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/bank.sym
-** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/bank.sch
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/bank.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/bank.sch
 .subckt bank rail well g oa0 ob0 oa1 ob1 oa2 ob2 oa3 ob3 oa4 ob4 oa5 ob5 oa6 ob6 oa7 ob7 oa8 ob8 oa9
 + ob9 oa10 ob10 oa11 ob11 oa12 ob12 oa13 ob13 oa14 ob14
 *.PININFO rail:B well:B g:B oa0:B ob0:B oa1:B ob1:B oa2:B ob2:B oa3:B ob3:B oa4:B ob4:B oa5:B ob5:B
@@ -3645,8 +3645,8 @@ Xdummy well well dy dz g g well stage
 
 
 * expanding   symbol:  cvsl.sym # of pins=5
-** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/cvsl.sym
-** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/cvsl.sch
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/cvsl.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/cvsl.sch
 .subckt cvsl a b out v g
 *.PININFO a:B b:B out:B v:B g:B
 XMn0 l a g g sky130_fd_pr__nfet_01v8_lvt L=.15 W=4 nf=1 ad=1.16 as=1.16 pd=8.58 ps=8.58 nrd=expr('0.29 / @W ')
@@ -3673,8 +3673,8 @@ XMdummy_n dummy r g g sky130_fd_pr__nfet_01v8 L=.15 W=.42 nf=1 ad=expr('int((@nf
 
 
 * expanding   symbol:  stage.sym # of pins=7
-** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/stage.sym
-** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/vco_adc_ccro_tt26e/review/xschem/stage.sch
+** sym_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/stage.sym
+** sch_path: /mnt/c/Users/eleva/Documents/ChatGPT/Tiny Tapeout/tt-sky26e-ccro-adc/review/xschem/stage.sch
 .subckt stage a b y z rail g well
 *.PININFO a:B b:B y:B z:B rail:B g:B well:B
 XCca g y sky130_fd_pr__cap_mim_m3_1 W=4.5 L=4.5 MF=1 m=1

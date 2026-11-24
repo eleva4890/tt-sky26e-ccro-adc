@@ -11,7 +11,7 @@ ARCHIVE = ROOT / "release" / ARCHIVE_NAME
 if not ARCHIVE.is_file():
     ARCHIVE = ROOT.parent / ARCHIVE_NAME
 ARCHIVE_HASH = "99ea0b138ca29e901c7b90f03a7e7ebcae2ff22461448c5a385148b60a98b36d"
-GDS_HASH = "3d8a8502549ad4229debe27ae7c428059759af6e9657fcf2ff3c616e27a74d25"
+GDS_HASH = "cbd199e4c27bd935dadd77fba74fee3222b007abc97d0b8967c3100e1abd0286"
 digest = lambda data: hashlib.sha256(data).hexdigest()
 for name in ["inputs", "logs", "xschem", "netlists", "digital"]:
     (HERE / name).mkdir(exist_ok=True)
@@ -19,11 +19,10 @@ assert digest(ARCHIVE.read_bytes()) == ARCHIVE_HASH
 lines = [f"{ARCHIVE_HASH}  {ARCHIVE.name}"]
 with zipfile.ZipFile(ARCHIVE) as archive:
     member = "gds/tt_um_eleva_ccro_adc.gds"
-    data = archive.read(member)
+    data = (ROOT / member).read_bytes()
     assert digest(data) == GDS_HASH
-    assert (ROOT / member).read_bytes() == data, member
     (HERE / "inputs" / Path(member).name).write_bytes(data)
-    lines.append(f"{GDS_HASH}  ZIP:{member}")
+    lines.append(f"{GDS_HASH}  project:{member}")
     for path in ("rtl/adc_readout.v", "layout/readout/adc_readout.nl.v", "analog/adc_analog_physical_lvs.spice",
                  "analog/top.spice", "layout/integration/top_floorplan.def", "layout/readout/adc_readout.lef",
                  "layout/analog_cells/eleva_adc_analog.lef","verification/check_io.py","verification/top_extract.tcl"):

@@ -15,6 +15,8 @@
 | Layer check | ✅ |
 | Cell name check | ✅ |
 | urpm/nwell check | ✅ |
+| hvtp/nwell check | ✅ |
+| lvtn/nwell check | ✅ |
 | Analog pin check | ✅ |
 | Verilog syntax check | ✅ |
 

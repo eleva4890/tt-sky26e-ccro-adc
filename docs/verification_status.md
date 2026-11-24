@@ -1,12 +1,12 @@
 # First-prototype signoff
 
-The released SKY130A 1×2 tile is `tt_um_eleva_ccro_adc`, 161.00 × 225.76 µm with two analog inputs. Its GDS SHA-256 is `3d8a8502549ad4229debe27ae7c428059759af6e9657fcf2ff3c616e27a74d25`. The local physical signoff passed. Silicon characterization and shuttle acceptance are separate milestones.
+The released SKY130A 1×2 tile is `tt_um_eleva_ccro_adc`, 161.00 × 225.76 µm with two analog inputs. Its GDS SHA-256 is `cbd199e4c27bd935dadd77fba74fee3222b007abc97d0b8967c3100e1abd0286`. The updated mask passed the full local precheck. [Issue #1 revision and scope of regression](../verification/RELEASE.md#issue-1-mask-revision) Silicon characterization and shuttle acceptance are separate milestones.
 
 ## Physical and digital checks
 
 | Check | Result and evidence |
 |---|---|
-| Precheck and full DRC | 15/15 passed. Magic DRC and KLayout BEOL DRC each reported zero violations. All 53 terminals matched the template. No met5 was used. [Precheck](../results/top_precheck.md) · [Full DRC](../results/top_drc.txt) |
+| Precheck and full DRC | 17/17 passed. Magic DRC and KLayout BEOL DRC each reported zero violations. All 53 terminals matched the template. No met5 was used. [Precheck](../results/top_precheck.md) · [Full DRC](../results/top_drc.txt) |
 | Top LVS and antenna | Netgen uniquely matched 10,390 devices and 5,137 nets. Zero antenna violations. [Top LVS](../results/top_lvs.txt) · [Antenna](../results/top_antenna.txt) |
 | Connectivity | All 34 external signals and 30 phase taps connected, with zero shorted external-port groups. [Connectivity](../results/top_connectivity.txt) |
 | Routed timing | Three corners at 32 MHz with digital SPEF, tile lumped loads and opposite switching on adjacent nets. Worst setup +6.11 ns and hold +0.07 ns. [Tile loads](../results/tile_loads.csv) · [Setup](../results/readout/tile_sta_max.log) · [Hold](../results/readout/tile_sta_min.log) |
@@ -22,9 +22,9 @@ Nominal bias, Vcm = 0.63 V, ±0.20 V differential, 27 °C. The DC estimate uses 
 | TT, 1.80 V, DC sweep | -78.46 dBc | -63.73 dBc |
 | SS, 1.62 V, DC sweep | -75.06 dBc | -82.60 dBc |
 | TT, 1.80 V, 50 kHz | -91.18 dBc | -62.97 dBc |
-| Same sine with top-level tap coupling | -90.51 dBc | -62.64 dBc |
+| Same sine with top-level tap coupling | -89.90 dBc | -63.40 dBc |
 
-The first three conditions include a 5 fF receiver load per tap. At TT the HD3 static/dynamic difference is 0.76 dB against a 1 dB bound. The HD2 difference is 12.72 dB. A seventh-order fit to the same samples gives -93.19 dBc. First-lot HD2 acceptance uses the two amplitude limits. The last row adds 3.09–8.11 fF per tap with neighbors stationary and leaves 0.64 dB HD3 margin. [TT](../results/audited/final_tt.csv) · [SS](../results/audited/final_ss.csv) · [Loaded transient](../results/audited/final_loaded_dynamic.csv)
+The first three conditions include a 5 fF receiver load per tap. At TT the HD3 static/dynamic difference is 0.76 dB against a 1 dB bound. The HD2 difference is 12.72 dB. A seventh-order fit to the same samples gives -93.19 dBc. First-lot HD2 acceptance uses the two amplitude limits. The last row adds 3.09–8.11 fF per tap with neighbors stationary and leaves 1.40 dB HD3 margin. [TT](../results/audited/final_tt.csv) · [SS](../results/audited/final_ss.csv) · [Loaded transient](../results/audited/final_loaded_dynamic.csv)
 
 ## Characterization limits
 
